@@ -1,0 +1,208 @@
+V1	V2	V3	V4	V5	V6	V7	V8	V9	V10	V11	V12	V13	V14	V15	V16	V17	V18	V19	V20	V21	V22	V23	V24	V25	V26	V27
+admin.batchnumber	247.3.0	284.1.0	195.3.0	195.3.0	195.3.0	210.4.0	195.3.0	195.3.0	195.3.0	195.3.0	195.3.0	210.4.0	210.4.0	210.4.0	210.4.0	247.3.0	247.3.0	247.3.0	247.3.0	247.3.0	247.3.0	284.1.0	284.1.0	284.1.0	284.1.0	284.1.0
+admin.bcr	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital
+admin.dayofdccupload	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28
+admin.diseasecode	paad	paad	paad	paad	paad	paad	paad	paad	paad	paad	paad	paad	paad	paad	paad	paad	paad	paad	paad	paad	paad	paad	paad	paad	paad	paad
+admin.monthofdccupload	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4
+admin.patientwithdrawal.withdrawn	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false
+admin.yearofdccupload	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013
+patient.adenocarcinomainvasion	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes
+patient.ageatinitialpathologicdiagnosis	56	88	77	72	52	71	61	65	60	66	57	69	61	65	81	54	69	73	58	76	84	58	68	77	75	72
+patient.alcoholhistorydocumented	yes	yes	no	no	no	no	no	NA	no	no	no	NA	NA	NA	NA	NA	no	no	no	no	no	no	no	no	no	no
+patient.alcoholicexposurecategory	occasional drinker	daily drinker	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.amtalcoholconsumptionperday	NA	1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.anatomicneoplasmsubdivision	head of pancreas	tail of pancreas	head of pancreas	head of pancreas	head of pancreas	head of pancreas	head of pancreas	head of pancreas	head of pancreas	head of pancreas	head of pancreas	head of pancreas	head of pancreas	head of pancreas	other (please specify)	head of pancreas	head of pancreas	head of pancreas	tail of pancreas	head of pancreas	head of pancreas	head of pancreas	head of pancreas	head of pancreas	head of pancreas	head of pancreas
+patient.anatomicneoplasmsubdivisionother	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	head & body of pancreas	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.bcrpatientbarcode	tcga-h6-8124	tcga-h6-a45n	tcga-hz-7289	tcga-hz-7918	tcga-hz-7919	tcga-hz-7920	tcga-hz-7922	tcga-hz-7923	tcga-hz-7924	tcga-hz-7925	tcga-hz-7926	tcga-hz-8001	tcga-hz-8002	tcga-hz-8003	tcga-hz-8005	tcga-hz-8315	tcga-hz-8317	tcga-hz-8519	tcga-hz-8636	tcga-hz-8637	tcga-hz-8638	tcga-hz-a49g	tcga-hz-a49h	tcga-hz-a49i	tcga-hz-a4bh	tcga-hz-a4bk
+patient.bcrpatientuuid	7e4e5633-6f83-4b46-b6eb-64b3f2866ba3	758b70f6-8064-4f43-aabe-e5f968fe2955	1521ac6d-31f7-4240-9d54-4f7600e78e16	620e0648-ec20-4a12-a6cb-5546fe829c77	2faea98a-edf7-4e92-bfb7-f91a36259872	1fe937f7-b4e5-4cf6-be9b-215a012533c6	6f777943-ffcb-46d9-872d-514559dee00d	565ee830-5236-4414-aeaa-48ea7eb3b753	ad220f0d-06b7-4dad-a87d-36dff31c8623	f91eb33d-76f0-418c-9962-11a5b31ca1dc	2be42cc2-9b97-4821-afc2-d1e42eb3932d	55cee1dd-15a0-4717-a281-63e08e2cfdf9	4b37b026-1d41-4bad-8996-7cb1f0e569af	68c0bc1b-3195-4ed6-8345-3ca53dfc54fc	21814c02-6aa5-4b98-8fd8-41ca0b04ccd2	02dbd5fa-e31f-4486-8df8-5b851f2e92bd	a2fd0991-cfbd-4162-8ca9-2ed096f54a14	70c2c861-01de-47bc-abfd-b7d14d68e1a1	02ef2e1a-5afe-4c00-a3ea-7f4a153f1da4	459028fd-0cd8-4e6d-a668-71fd60bd0a37	5f9a5aba-8db8-45cc-8784-c5058445bd6f	47cb93bc-8f6b-4b2a-804c-bb4fc78df9e1	17142718-742e-464a-8e0f-a6b9ac8fad75	27286a38-1035-4a22-9ebc-874df8c49026	2c636fb4-c341-4c55-b920-27bc2d40c815	514d12b0-6f60-406e-bde9-a090e918ebff
+patient.clinicalcqcf.anatomicneoplasmsubdivision	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.clinicalcqcf.consentordeathstatus	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented
+patient.clinicalcqcf.country	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states
+patient.clinicalcqcf.daystoconsent	0	36	48	28	14	-1	3	-79	33	31	8	19	0	0	4	28	15	3	5	0	90	23	0	0	182	46
+patient.clinicalcqcf.diagnosissubtype	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.clinicalcqcf.histologicaltype	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma-other subtype	pancreas-adenocarcinoma-other subtype	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma-other subtype	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-colloid (mucinous non-cystic) carcinoma	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma-other subtype
+patient.clinicalcqcf.historyofneoadjuvanttreatment	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no
+patient.clinicalcqcf.historyofpriormalignancy	no	NA	NA	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	NA
+patient.clinicalcqcf.normaltissueanatomicsite	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.clinicalcqcf.normaltissueproximity	distal (>2cm)	distal (>2cm)	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	distal (>2cm)	NA	NA
+patient.clinicalcqcf.otheranatomicsite	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	pancreas	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.clinicalcqcf.otheranatomicsitenormaltissue	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.clinicalcqcf.priordx	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.clinicalcqcf.tumortype	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary
+patient.dayofformcompletion	5	14	2	2	2	3	2	2	2	2	2	2	2	2	8	28	17	11	25	11	11	21	21	21	25	25
+patient.daystobirth	-20741	-32475	-28185	-26570	-19054	-26176	-22401	-23771	-22089	-24136	-21030	-25233	-22433	-23863	-29677	-19846	-25202	-26947	-21489	-27928	-30821	-21491	-24898	-28454	-27637	-26502
+patient.daystodeath	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	119	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.daystodiabetesonset	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.daystoinitialpathologicdiagnosis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+patient.daystolastfollowup	180	232	239	28	20	0	4	8	369	366	8	19	30	21	NA	28	15	3	5	0	90	23	31	0	182	46
+patient.daystopancreatitisonset	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.bcrdrugbarcode	tcga-h6-8124-d34032	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.bcrdruguuid	508eeb59-7b5c-48f2-9ba5-ac26611e312b	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.clinicaltraildrugclassification	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.dayofformcompletion	26	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.daystodrugtherapyend	204	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.daystodrugtherapystart	165	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.drugname	xeloda	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.measureofresponse	complete response	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.monthofformcompletion	7	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.numbercycles	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.prescribeddose	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.prescribeddoseunits	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.regimenindication	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.regimenindicationnotes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.regimennumber	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.routeofadministrations.routeofadministration	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.therapyongoing	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.therapytypes.therapytype	chemotherapy	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.therapytypes.therapytypenotes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.totaldose	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.totaldoseunits	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.txonclinicaltrial	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.yearofformcompletion	2012	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.bcrdrugbarcode	tcga-h6-8124-d32650	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.bcrdruguuid	260e8a93-9947-41d3-a841-d8e11658c41d	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.clinicaltraildrugclassification	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.dayofformcompletion	5	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.daystodrugtherapyend	140	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.daystodrugtherapystart	43	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.drugname	gemzar	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.measureofresponse	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.monthofformcompletion	6	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.numbercycles	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.prescribeddose	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.prescribeddoseunits	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.regimenindication	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.regimenindicationnotes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.regimennumber	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.routeofadministrations.routeofadministration	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.therapyongoing	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.therapytypes.therapytype	chemotherapy	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.therapytypes.therapytypenotes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.totaldose	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.totaldoseunits	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.txonclinicaltrial	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.yearofformcompletion	2012	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.ethnicity	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	NA	not hispanic or latino
+patient.familyhistoryofcancer	yes	yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.bcrfollowupbarcode	tcga-h6-8124-f38913	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.bcrfollowupuuid	b752c84c-40ab-42ef-b079-cc8afd0e1fcf	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.dayofformcompletion	3	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.daystodeath	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.daystolastfollowup	392	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.followupcasereportformsubmissionreason	scheduled follow-up submission	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.followuptreatmentsuccess	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.lostfollowup	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.monthofformcompletion	1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.newtumorevents.newtumorevent.additionalpharmaceuticaltherapy	yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.newtumorevents.newtumorevent.additionalradiationtherapy	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.newtumorevents.newtumorevent.daystonewtumoreventadditionalsurgeryprocedure	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.newtumorevents.newtumorevent.daystonewtumoreventafterinitialtreatment	258	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.newtumorevents.newtumorevent.newneoplasmeventoccurrenceanatomicsite	liver	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.newtumorevents.newtumorevent.newneoplasmeventtypes.newneoplasmeventtype	distant metastasis	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.newtumorevents.newtumorevent.newneoplasmoccurrenceanatomicsitetext	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.newtumorevents.newtumorevent.newtumoreventadditionalsurgeryprocedure	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.newtumorevents.newtumorevent.progressiondeterminedbylist.progressiondeterminedby	convincing imaging	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.newtumorevents.newtumorevent.residualdiseasepostnewtumoreventmarginstatus	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.newtumorevents.newtumoreventafterinitialtreatment	yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.patientdeathreason	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.personneoplasmcancerstatus	with tumor	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.primarytherapyoutcomesuccess	complete remission/response	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.radiationtherapy	yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.targetedmoleculartherapy	yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.vitalstatus	living	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.yearofformcompletion	2013	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.frequencyofalcoholconsumption	NA	7	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.gender	female	female	male	male	female	male	female	male	female	male	male	male	male	female	male	female	female	male	female	female	female	female	female	male	male	male
+patient.histologicaltype	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma-other subtype	pancreas-adenocarcinoma-other subtype	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma-other subtype	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-colloid (mucinous non-cystic) carcinoma	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma ductal type	pancreas-adenocarcinoma-other subtype
+patient.histologicaltypeother	NA	poorly differentiated pancreatic adenocarcinoma	adenocarcinoma, nos	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	adenocarcinoma, nos	NA	NA	NA	NA	NA	NA	NA	adenocarcinoma, nos
+patient.histologicgradingtiercategory	three tier	NA	NA	NA	four tier	NA	four tier	NA	NA	NA	NA	NA	NA	NA	NA	four tier	NA	four tier	four tier	four tier	NA	four tier	four tier	four tier	four tier	four tier
+patient.historyofchronicpancreatitis	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.historyofdiabetes	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.historyofneoadjuvanttreatment	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no
+patient.icd10	c25.0	NA	NA	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0	c25.2	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0
+patient.icdo3histology	8140/3	8140/3	NA	8500/3	8500/3	8500/3	8500/3	8500/3	8500/3	8500/3	8500/3	8500/3	8500/3	8500/3	8500/3	8500/3	8500/3	8140/3	8500/3	8500/3	8480/3	8500/3	8500/3	8500/3	8500/3	8140/3
+patient.icdo3site	c25.0	c25.9	NA	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0	c25.9	c25.0	c25.0	c25.0	c25.2	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0	c25.0
+patient.informedconsentverified	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes
+patient.initialpathologicdiagnosismethod	tumor resection	other method, specify:	tissue biopsy	cytology (e.g. peritoneal or pleural fluid)	cytology (e.g. peritoneal or pleural fluid)	tumor resection	tumor resection	tumor resection	tissue biopsy	NA	cytology (e.g. peritoneal or pleural fluid)	NA	NA	NA	tumor resection	other method, specify:	other method, specify:	tumor resection	tumor resection	tumor resection	tissue biopsy	cytology (e.g. peritoneal or pleural fluid)	cytology (e.g. peritoneal or pleural fluid)	tumor resection	cytology (e.g. peritoneal or pleural fluid)	cytology (e.g. peritoneal or pleural fluid)
+patient.initpathologydxmethodother	NA	fine needle aspiration	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	fine needle aspiration biopsy	fine needle aspiration biopsy	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.lymphnodeexaminedcount	9	12	9	22	10	12	15	17	17	19	13	16	33	12	24	21	13	9	2	18	12	18	44	9	10	4
+patient.maximumtumordimension	3	9	4.5	5.5	4.0	3.2	3.0	3.0	5.0	4.7	3.5	3.0	3.1	2.8	4.5	6.0	3.1	1.8	9.0	3.4	0.3	3.0	2.8	5.0	2.5	4.7
+patient.monthofformcompletion	6	12	12	12	12	12	12	10	12	12	12	10	10	10	10	9	10	1	1	1	1	2	2	2	1	1
+patient.neoplasmhistologicgrade	g3	g3	g1	g3	g2	g2	g1	g2	g2	g2	g1	g2	g2	g2	g3	g2	g1	g3	g3	g3	gx	g2	g2	g2	g3	g3
+patient.newtumorevents.newtumorevent.additionalpharmaceuticaltherapy	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.newtumorevents.newtumorevent.additionalradiationtherapy	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.newtumorevents.newtumorevent.daystonewtumoreventadditionalsurgeryprocedure	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.newtumorevents.newtumorevent.daystonewtumoreventafterinitialtreatment	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.newtumorevents.newtumorevent.newneoplasmeventoccurrenceanatomicsite	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.newtumorevents.newtumorevent.newneoplasmeventtypes.newneoplasmeventtype	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.newtumorevents.newtumorevent.newneoplasmoccurrenceanatomicsitetext	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.newtumorevents.newtumorevent.newtumoreventadditionalsurgeryprocedure	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.newtumorevents.newtumorevent.progressiondeterminedbylist.progressiondeterminedby	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.newtumorevents.newtumorevent.residualdiseasepostnewtumoreventmarginstatus	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.newtumorevents.newtumoreventafterinitialtreatment	no	NA	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no
+patient.numberoflymphnodespositivebyhe	2	1	1	11	2	0	3	0	0	2	2	0	4	1	8	0	4	0	0	1	0	3	1	3	4	2
+patient.numberoflymphnodespositivebyihc	0	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.numberpackyearssmoked	3.5	1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.patientdeathreason	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	pancreatic cancer	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.patientid	8124	a45n	7289	7918	7919	7920	7922	7923	7924	7925	7926	8001	8002	8003	8005	8315	8317	8519	8636	8637	8638	a49g	a49h	a49i	a4bh	a4bk
+patient.personneoplasmcancerstatus	NA	NA	NA	NA	NA	tumor free	NA	NA	NA	NA	NA	tumor free	NA	NA	with tumor	with tumor	with tumor	tumor free	with tumor	NA	tumor free	with tumor	NA	with tumor	NA	NA
+patient.primarylymphnodepresentationassessment	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes
+patient.primarytherapyoutcomesuccess	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	progressive disease	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.priordx	no	yes, history of prior malignancy	yes, history of prior malignancy	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	yes, history of prior malignancy
+patient.race	white	white	white	white	white	white	white	white	white	white	black or african american	white	white	white	white	white	white	white	white	white	white	white	white	white	white	white
+patient.radiations	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiations.radiation.anatomictreatmentsite	primary tumor field	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiations.radiation.bcrradiationbarcode	tcga-h6-8124-r34030	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiations.radiation.bcrradiationuuid	fe03bc98-e1f8-459b-910a-bd74cc784861	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiations.radiation.coursenumber	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiations.radiation.dayofformcompletion	26	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiations.radiation.daystoradiationtherapyend	204	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiations.radiation.daystoradiationtherapystart	165	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiations.radiation.measureofresponse	complete response	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiations.radiation.monthofformcompletion	7	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiations.radiation.numfractions	28	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiations.radiation.radiationdosage	5040	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiations.radiation.radiationtreatmentongoing	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiations.radiation.radiationtype	external	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiations.radiation.radiationtypenotes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiations.radiation.regimenindication	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiations.radiation.regimenindicationnotes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiations.radiation.units	cgy	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiations.radiation.yearofformcompletion	2012	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiationtherapy	yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.relativecancertypes.relativecancertype	other	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.residualtumor	r0	NA	rx	r0	r1	r0	r0	r0	r0	r0	rx	r0	r0	r0	r1	r1	r1	r0	r1	r0	r0	r1	r0	r1	r1	r1
+patient.sourceofpatientdeathreason	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.annarbor.bsymptoms	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.annarbor.extranodalinvolvement	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.clinicalstage	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.gleasongrading.gleasonscore	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.gleasongrading.primarypattern	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.gleasongrading.secondarypattern	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.gleasongrading.tertiarypattern	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.pathologicstage	stage iib	stage iib	stage iib	stage iib	stage iib	stage ib	stage iib	stage iia	stage iia	stage iib	stage iib	stage iii	stage iib	stage iib	stage iib	stage iia	stage iib	stage ia	stage iv	stage iib	stage ia	stage iib	stage iib	stage iib	stage iib	stage iib
+patient.stageevent.psa.daystopsa	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.psa.psavalue	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.systemversion	7th	7th	7th	7th	7th	7th	7th	7th	7th	7th	7th	7th	7th	7th	7th	7th	7th	7th	7th	7th	7th	7th	7th	7th	7th	7th
+patient.stageevent.tnmcategories.clinicalcategories.clinicalm	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.tnmcategories.clinicalcategories.clinicaln	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.tnmcategories.clinicalcategories.clinicalt	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.tnmcategories.pathologiccategories.pathologicm	m0	mx	mx	m0	m0	mx	mx	mx	mx	mx	mx	mx	mx	mx	mx	mx	mx	mx	m1	mx	mx	mx	mx	mx	mx	mx
+patient.stageevent.tnmcategories.pathologiccategories.pathologicn	n1	n1	n1	n1	n1	n0	n1	n0	n0	n1	n1	n0	n1	n1	n1	n0	n1	n0	n0	n1	n0	n1	n1	n1	n1b	n1
+patient.stageevent.tnmcategories.pathologiccategories.pathologict	t3	t3	t3	t3	t3	t2	t3	t3	t3	t3	t3	t4	t3	t3	t3	t3	t3	t1	t3	t3	t1	t2	t3	t3	t3	t3
+patient.stoppedsmokingyear	1976	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.surgeryperformedtype	whipple	distal pancreatectomy	whipple	whipple	whipple	whipple	whipple	whipple	whipple	whipple	whipple	whipple	whipple	whipple	whipple	whipple	whipple	whipple	other method (please specify)	whipple	whipple	whipple	whipple	whipple	whipple	whipple
+patient.surgeryperformedtypeother	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	pancreaticoduodenectomy	NA	NA	NA	NA	NA	NA	NA
+patient.targetedmoleculartherapy	yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.tissueprospectivecollectionindicator	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes
+patient.tissueretrospectivecollectionindicator	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no
+patient.tissuesourcesite	h6	h6	hz	hz	hz	hz	hz	hz	hz	hz	hz	hz	hz	hz	hz	hz	hz	hz	hz	hz	hz	hz	hz	hz	hz	hz
+patient.tobaccosmokinghistory	current reformed smoker for > 15 years	current reformed smoker for > 15 years	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.tumortissuesite	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas	pancreas
+patient.tumortype	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary
+patient.vitalstatus	living	living	living	living	living	living	living	living	living	living	living	living	living	living	deceased	living	living	living	living	living	living	living	living	living	living	living
+patient.yearofformcompletion	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2013	2013	2013	2013	2013	2013	2013	2013	2013
+patient.yearofinitialpathologicdiagnosis	2011	2012	2010	2011	2011	2011	2011	2011	2011	2011	2011	2011	2011	2011	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2011	2012
+patient.yearoftobaccosmokingonset	1969	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
