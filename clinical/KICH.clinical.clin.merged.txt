@@ -1,0 +1,248 @@
+V1	V2	V3	V4	V5	V6	V7	V8	V9	V10	V11	V12	V13	V14	V15	V16	V17	V18	V19	V20	V21	V22	V23	V24	V25	V26
+admin.batchnumber	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0	226.4.0
+admin.bcr	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital	nationwide children's hospital
+admin.dayofdccupload	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28	28
+admin.diseasecode	kich	kich	kich	kich	kich	kich	kich	kich	kich	kich	kich	kich	kich	kich	kich	kich	kich	kich	kich	kich	kich	kich	kich	kich	kich
+admin.monthofdccupload	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4
+admin.patientwithdrawal.withdrawn	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false	false
+admin.yearofdccupload	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013	2013
+patient.ageatinitialpathologicdiagnosis	60	67	45	30	56	41	43	47	28	44	42	53	50	54	71	38	75	35	86	46	65	59	62	42	69
+patient.bcrpatientbarcode	tcga-kl-8328	tcga-kl-8339	tcga-km-8438	tcga-km-8439	tcga-km-8477	tcga-kn-8418	tcga-kn-8419	tcga-kn-8421	tcga-kn-8422	tcga-kn-8423	tcga-kn-8424	tcga-kn-8425	tcga-kn-8426	tcga-kn-8427	tcga-kn-8428	tcga-kn-8429	tcga-kn-8430	tcga-kn-8431	tcga-kn-8432	tcga-kn-8433	tcga-kn-8434	tcga-kn-8435	tcga-kn-8436	tcga-kn-8437	tcga-ko-8409
+patient.bcrpatientuuid	452135f2-6de6-4593-a091-ddf6344ee431	e0e38071-877f-4ebf-955f-483eb4865351	23656226-2d99-4548-959f-5c2eed803e33	739deed4-d1dc-458f-bd0f-1e24d2bfd305	9680b5ff-1882-434f-9981-e8ac33764b93	f3ba1cf8-ac67-4da8-96f3-8680dc55f247	dc04b82c-e1e8-4917-ba19-c2fea4a1b69a	2fc175d1-9d95-44fd-a53e-820f6f404551	4a88bc85-4c6e-4fac-8dbb-d3fc5f36b35e	222a2e5b-9d55-4477-8a54-7776bd44f8a7	8c9e1f60-1838-4aa4-a667-c1cef7dddbdf	cc316faf-dcb1-4dea-b8b0-a17d000ff40f	b08dfba8-6afb-4217-9259-72be6f1f3363	955d428c-8fe8-456b-b86d-65ea6c2a1b18	455fd7d4-5ff4-423f-83ce-4630aef89bb7	366219b9-fde3-4d2d-82d3-15fe6245aa98	9f8aa332-e625-46f7-b77b-1fcb3ca99ee2	04e9a63a-d742-488c-8564-bf9d79aa2091	af1111af-9384-4e37-9b16-227d38007ebd	e8c2a8c6-5c2b-460b-b536-60bc537e6be3	e1e15226-9f8e-4035-8f08-eb1fed57080e	f2b58595-dec0-4194-ab33-7c7dc6c058a6	edcbbfd8-9fc9-4774-bfbd-d1a30dc2f46a	f1c1502e-1bd6-425a-b651-454363809668	08a96dec-e658-493a-9308-83f7ace3b3b6
+patient.clinicalcqcf.anatomicneoplasmsubdivision	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.clinicalcqcf.consentordeathstatus	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented	consented
+patient.clinicalcqcf.country	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states	united states
+patient.clinicalcqcf.daystoconsent	0	-28	-1	-42	-1	-5	-3	-14	-2	-3	-17	-6	-4	2	-8	-4	-3	-2	-15	-12	-23	-7	-16	-12	-4
+patient.clinicalcqcf.diagnosissubtype	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.clinicalcqcf.histologicaltype	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe
+patient.clinicalcqcf.historyofneoadjuvanttreatment	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no
+patient.clinicalcqcf.historyofpriormalignancy	NA	NA	no	NA	no	no	no	no	no	no	no	no	no	no	no	no	NA	no	no	no	no	no	no	no	no
+patient.clinicalcqcf.normaltissueanatomicsite	kidney	kidney	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.clinicalcqcf.normaltissueproximity	distal (>2cm)	distal (>2cm)	NA	NA	NA	distal (>2cm)	distal (>2cm)	distal (>2cm)	distal (>2cm)	distal (>2cm)	distal (>2cm)	distal (>2cm)	distal (>2cm)	distal (>2cm)	distal (>2cm)	distal (>2cm)	distal (>2cm)	distal (>2cm)	distal (>2cm)	distal (>2cm)	distal (>2cm)	distal (>2cm)	distal (>2cm)	distal (>2cm)	distal (>2cm)
+patient.clinicalcqcf.otheranatomicsite	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.clinicalcqcf.otheranatomicsitenormaltissue	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.clinicalcqcf.priordx	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.clinicalcqcf.tumortype	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary	primary
+patient.dayofformcompletion	7	7	14	13	13	8	8	8	8	8	8	8	10	13	13	13	13	14	15	15	14	8	15	8	31
+patient.daysfromdateofinitialpathologicdiagnosistodateofbirth	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.daystobirth	-21976	-24545	-16683	-11266	-20491	-15086	-15769	-17524	-10303	-16335	-15384	-19691	-18345	-19854	-26251	-13903	-27466	-13042	-31590	-17107	-23934	-21891	-22997	-15475	-25418
+patient.daystodeath	NA	854	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	1590	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.daystoinitialpathologicdiagnosis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+patient.daystolastfollowup	3126	NA	4335	247	1552	3473	714	2674	775	788	1983	2211	107	17	NA	2063	NA	712	76	341	1124	2727	636	2303	2445
+patient.drugs	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.bcrdrugbarcode	NA	NA	tcga-km-8438-d32860	NA	NA	NA	NA	NA	NA	NA	NA	NA	tcga-kn-8426-d39303	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.bcrdruguuid	NA	NA	2d6c5401-74d1-4080-b9fd-8c94d19c5a99	NA	NA	NA	NA	NA	NA	NA	NA	NA	6330f707-ea10-4f3c-916c-3c0292cd7e85	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.clinicaltraildrugclassification	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.dayofformcompletion	NA	NA	14	NA	NA	NA	NA	NA	NA	NA	NA	NA	16	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.daystodrugtherapyend	NA	NA	4442	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.daystodrugtherapystart	NA	NA	2737	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.drugname	NA	NA	temsirolimus	NA	NA	NA	NA	NA	NA	NA	NA	NA	sorafenib	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.measureofresponse	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.monthofformcompletion	NA	NA	6	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.numbercycles	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.prescribeddose	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.prescribeddoseunits	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.regimenindication	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.regimenindicationnotes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.regimennumber	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.routeofadministrations.routeofadministration	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.therapyongoing	NA	NA	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.therapytypes.therapytype	NA	NA	targeted molecular therapy	NA	NA	NA	NA	NA	NA	NA	NA	NA	targeted molecular therapy	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.therapytypes.therapytypenotes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.totaldose	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.totaldoseunits	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.txonclinicaltrial	NA	NA	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-2.yearofformcompletion	NA	NA	2012	NA	NA	NA	NA	NA	NA	NA	NA	NA	2013	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.bcrdrugbarcode	NA	NA	tcga-km-8438-d32861	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.bcrdruguuid	NA	NA	6442c5a4-a38c-487d-95a2-9bd3eb249787	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.clinicaltraildrugclassification	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.dayofformcompletion	NA	NA	14	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.daystodrugtherapyend	NA	NA	3864	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.daystodrugtherapystart	NA	NA	3560	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.drugname	NA	NA	bevacizumab	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.measureofresponse	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.monthofformcompletion	NA	NA	6	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.numbercycles	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.prescribeddose	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.prescribeddoseunits	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.regimenindication	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.regimenindicationnotes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.regimennumber	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.routeofadministrations.routeofadministration	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.therapyongoing	NA	NA	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.therapytypes.therapytype	NA	NA	targeted molecular therapy	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.therapytypes.therapytypenotes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.totaldose	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.totaldoseunits	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.txonclinicaltrial	NA	NA	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug-3.yearofformcompletion	NA	NA	2012	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.bcrdrugbarcode	NA	tcga-kl-8339-d32704	tcga-km-8438-d32859	NA	NA	NA	NA	NA	NA	NA	NA	NA	tcga-kn-8426-d34188	NA	tcga-kn-8428-d34187	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.bcrdruguuid	NA	c00d326b-2d48-4084-9f21-5c04d5e27bc9	1574d627-cf11-42ba-94c3-3f5854a4c649	NA	NA	NA	NA	NA	NA	NA	NA	NA	36e267f1-1dc3-404e-830b-b58767c04aa0	NA	fd53289f-bfb3-419c-a907-26053e04b068	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.clinicaltraildrugclassification	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.dayofformcompletion	NA	7	14	NA	NA	NA	NA	NA	NA	NA	NA	NA	10	NA	17	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.daystodrugtherapyend	NA	245	2737	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	638	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.daystodrugtherapystart	NA	110	2341	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	510	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.drugname	NA	sunitinib	sutent	NA	NA	NA	NA	NA	NA	NA	NA	NA	avastin	NA	sorafenib	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.measureofresponse	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	clinical progressive disease	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.monthofformcompletion	NA	6	6	NA	NA	NA	NA	NA	NA	NA	NA	NA	8	NA	8	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.numbercycles	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.prescribeddose	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.prescribeddoseunits	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.regimenindication	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.regimenindicationnotes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.regimennumber	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.routeofadministrations.routeofadministration	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.therapyongoing	NA	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	no	NA	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.therapytypes.therapytype	NA	targeted molecular therapy	targeted molecular therapy	NA	NA	NA	NA	NA	NA	NA	NA	NA	targeted molecular therapy	NA	targeted molecular therapy	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.therapytypes.therapytypenotes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.totaldose	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.totaldoseunits	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.txonclinicaltrial	NA	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	no	NA	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.drugs.drug.yearofformcompletion	NA	2012	2012	NA	NA	NA	NA	NA	NA	NA	NA	NA	2012	NA	2012	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.easterncanceroncologygroup	NA	NA	1	1	1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	0	0	0	NA	NA
+patient.erythrocytesedimentationrateresult	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.ethnicity	NA	NA	not hispanic or latino	not hispanic or latino	not hispanic or latino	NA	not hispanic or latino	not hispanic or latino	NA	not hispanic or latino	NA	NA	NA	NA	not hispanic or latino	NA	not hispanic or latino	NA	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino	not hispanic or latino
+patient.followups	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.bcrfollowupbarcode	NA	tcga-kl-8339-f32702	tcga-km-8438-f32863	NA	tcga-km-8477-f39548	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.bcrfollowupuuid	NA	be67d1f0-c41f-4cc3-8872-a18e750ef389	db0c4e97-3d70-4c92-bcf9-042565786e23	NA	a85674e0-9a3c-4616-943d-1cb1775892e4	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.dayofformcompletion	NA	7	14	NA	24	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.daystodeath	NA	854	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.daystolastfollowup	NA	NA	4335	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.easterncanceroncologygroup	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.followupcasereportformsubmissionreason	NA	additional new tumor event	scheduled follow-up submission	NA	scheduled follow-up submission	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.followuptreatmentsuccess	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.karnofskyperformancescore	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.lostfollowup	NA	no	no	NA	yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.monthofformcompletion	NA	6	6	NA	1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.newtumorevents.newtumorevent.additionalpharmaceuticaltherapy	NA	no	yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.newtumorevents.newtumorevent.additionalradiationtherapy	NA	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.newtumorevents.newtumorevent.additionalsurgerylocoregionalprocedure	NA	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.newtumorevents.newtumorevent.additionalsurgerymetastaticprocedure	NA	NA	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.newtumorevents.newtumorevent.daystoadditionalsurgerylocoregionalprocedure	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.newtumorevents.newtumorevent.daystoadditionalsurgerymetastaticprocedure	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.newtumorevents.newtumorevent.daystonewtumoreventafterinitialtreatment	NA	158	4335	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.newtumorevents.newtumoreventafterinitialtreatment	NA	yes	yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.performancestatusscaletiming	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.personneoplasmcancerstatus	NA	with tumor	with tumor	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.primarytherapyoutcomesuccess	NA	NA	complete remission/response	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.radiationtherapy	NA	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.targetedmoleculartherapy	NA	yes	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.vitalstatus	NA	deceased	living	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-2.yearofformcompletion	NA	2012	2012	NA	2013	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.bcrfollowupbarcode	NA	tcga-kl-8339-f32703	tcga-km-8438-f39554	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.bcrfollowupuuid	NA	c252e27d-26a8-42ee-a31c-f2f9021a3880	b458a1b8-bf34-4450-9d6b-85d219690c8a	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.dayofformcompletion	NA	7	30	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.daystodeath	NA	854	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.daystolastfollowup	NA	NA	4621	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.easterncanceroncologygroup	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.followupcasereportformsubmissionreason	NA	additional new tumor event	scheduled follow-up submission	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.followuptreatmentsuccess	NA	NA	stable disease	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.karnofskyperformancescore	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.lostfollowup	NA	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.monthofformcompletion	NA	6	1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.newtumorevents.newtumorevent.additionalpharmaceuticaltherapy	NA	no	yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.newtumorevents.newtumorevent.additionalradiationtherapy	NA	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.newtumorevents.newtumorevent.additionalsurgerylocoregionalprocedure	NA	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.newtumorevents.newtumorevent.additionalsurgerymetastaticprocedure	NA	NA	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.newtumorevents.newtumorevent.daystoadditionalsurgerylocoregionalprocedure	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.newtumorevents.newtumorevent.daystoadditionalsurgerymetastaticprocedure	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.newtumorevents.newtumorevent.daystonewtumoreventafterinitialtreatment	NA	363	2316	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.newtumorevents.newtumoreventafterinitialtreatment	NA	yes	yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.performancestatusscaletiming	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.personneoplasmcancerstatus	NA	with tumor	with tumor	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.primarytherapyoutcomesuccess	NA	NA	complete remission/response	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.radiationtherapy	NA	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.targetedmoleculartherapy	NA	yes	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.vitalstatus	NA	deceased	living	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup-3.yearofformcompletion	NA	2012	2013	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.bcrfollowupbarcode	tcga-kl-8328-f32696	tcga-kl-8339-f32701	tcga-km-8438-f32862	tcga-km-8439-f32834	tcga-km-8477-f32750	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.bcrfollowupuuid	3c7fdd77-4e5e-47c5-bbc1-5e9bc738f70f	bab27d9c-3031-49c5-9306-cd9b556a848b	6ea43f41-ffb8-4969-bf90-35f4bacce30c	d3970808-bfc7-4a2c-a6c0-edccf5e910f4	ffd437d2-a9f3-463e-bd0f-fccc6330aa72	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.dayofformcompletion	7	7	14	13	13	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.daystodeath	NA	854	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.daystolastfollowup	3126	NA	2316	247	1552	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.easterncanceroncologygroup	NA	NA	0	1	1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.followupcasereportformsubmissionreason	scheduled follow-up submission	additional new tumor event	additional new tumor event	scheduled follow-up submission	scheduled follow-up submission	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.followuptreatmentsuccess	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.karnofskyperformancescore	NA	NA	100	90	90	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.lostfollowup	no	no	no	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.monthofformcompletion	6	6	6	6	6	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.newtumorevents.newtumorevent.additionalpharmaceuticaltherapy	NA	yes	yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.newtumorevents.newtumorevent.additionalradiationtherapy	NA	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.newtumorevents.newtumorevent.additionalsurgerylocoregionalprocedure	NA	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.newtumorevents.newtumorevent.additionalsurgerymetastaticprocedure	NA	NA	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.newtumorevents.newtumorevent.daystoadditionalsurgerylocoregionalprocedure	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.newtumorevents.newtumorevent.daystoadditionalsurgerymetastaticprocedure	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.newtumorevents.newtumorevent.daystonewtumoreventafterinitialtreatment	NA	63	2316	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.newtumorevents.newtumoreventafterinitialtreatment	no	yes	yes	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.performancestatusscaletiming	NA	NA	at recurrence/progression of disease	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.personneoplasmcancerstatus	tumor free	with tumor	with tumor	with tumor	tumor free	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.primarytherapyoutcomesuccess	NA	NA	NA	partial remission/response	complete remission/response	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.radiationtherapy	no	no	no	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.targetedmoleculartherapy	no	yes	no	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.vitalstatus	living	deceased	living	living	living	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.followups.followup.yearofformcompletion	2012	2012	2012	2012	2012	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.gender	male	male	female	male	male	female	male	female	female	male	female	male	male	male	male	female	male	female	female	female	female	male	male	female	male
+patient.hemoglobinresult	low	low	NA	normal	normal	normal	low	low	normal	low	normal	low	low	low	low	low	low	normal	normal	normal	normal	low	low	low	NA
+patient.histologicaltype	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe	kidney chromophobe
+patient.historyofneoadjuvanttreatment	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no
+patient.icd10	c64.1	c64.1	c64.1	c64.1	c64.1	NA	NA	NA	NA	NA	NA	NA	NA	NA	c64.1	c64.1	c64.1	c64.1	c64.1	c64.1	c64.1	c64.1	c64.1	c64.1	c64.1
+patient.icdo3histology	8317/3	8317/3	8317/3	8317/3	8317/3	NA	NA	NA	NA	NA	NA	NA	NA	NA	8317/3	8317/3	8317/3	8317/3	8317/3	8317/3	8317/3	8317/3	8317/3	8317/3	8317/3
+patient.icdo3site	c64.9	c64.9	c64.9	c64.9	c64.9	NA	NA	NA	NA	NA	NA	NA	NA	NA	c64.9	c64.9	c64.9	c64.9	c64.9	c64.9	c64.9	c64.9	c64.9	c64.9	c64.9
+patient.informedconsentverified	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes
+patient.karnofskyperformancescore	NA	NA	80	80	90	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.lactatedehydrogenaseresult	NA	NA	NA	normal	normal	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	normal	NA
+patient.laterality	left	left	left	left	right	right	left	left	right	left	right	left	left	left	left	right	left	right	right	left	right	right	right	right	left
+patient.lymphnodeexaminedcount	4	33	5	NA	NA	3	NA	2	1	6	NA	NA	NA	4	1	NA	NA	NA	NA	NA	NA	NA	NA	NA	1
+patient.monthofformcompletion	6	6	6	6	6	8	8	8	8	8	8	8	8	8	8	8	8	8	8	8	8	8	8	8	1
+patient.newtumorevents.newtumorevent.additionalpharmaceuticaltherapy	NA	yes	yes	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	yes	no	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.newtumorevents.newtumorevent.additionalradiationtherapy	NA	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.newtumorevents.newtumorevent.additionalsurgerylocoregionalprocedure	NA	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.newtumorevents.newtumorevent.additionalsurgerymetastaticprocedure	NA	NA	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	no	yes	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.newtumorevents.newtumorevent.daystoadditionalsurgerylocoregionalprocedure	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.newtumorevents.newtumorevent.daystoadditionalsurgerymetastaticprocedure	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	2019	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.newtumorevents.newtumorevent.daystonewtumoreventafterinitialtreatment	NA	63	2316	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	478	1988	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.newtumorevents.newtumoreventafterinitialtreatment	no	yes	yes	no	no	NA	NA	NA	NA	NA	NA	NA	NA	NA	yes	yes	NA	NA	NA	NA	NA	NA	NA	NA	no
+patient.numberoflymphnodespositive	0	1	0	NA	NA	0	NA	0	0	0	NA	NA	NA	1	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	0
+patient.numberpackyearssmoked	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	48	NA	NA	NA	NA	24	NA	NA	NA	NA	NA
+patient.patientid	8328	8339	8438	8439	8477	8418	8419	8421	8422	8423	8424	8425	8426	8427	8428	8429	8430	8431	8432	8433	8434	8435	8436	8437	8409
+patient.percenttumorsarcomatoid	NA	NA	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.performancestatusscaletiming	NA	NA	other	other	other	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	other	NA	other	other	other	NA	NA
+patient.personneoplasmcancerstatus	tumor free	with tumor	with tumor	with tumor	tumor free	tumor free	tumor free	tumor free	tumor free	tumor free	tumor free	tumor free	with tumor	tumor free	with tumor	with tumor	with tumor	tumor free	NA	tumor free	tumor free	tumor free	tumor free	tumor free	tumor free
+patient.plateletqualitativeresult	normal	normal	NA	normal	normal	normal	low	normal	normal	normal	normal	normal	normal	normal	normal	normal	normal	normal	normal	normal	normal	normal	normal	normal	NA
+patient.presenceofsarcomatoidfeatures	NA	NA	yes	no	no	NA	NA	NA	NA	NA	NA	NA	NA	yes	NA	NA	NA	NA	no	NA	NA	NA	NA	NA	no
+patient.primarylymphnodepresentationassessment	yes	yes	yes	no	no	yes	no	yes	yes	yes	no	no	no	yes	yes	no	no	no	no	no	no	no	no	no	yes
+patient.primarytherapyoutcomesuccess	NA	NA	complete remission/response	partial remission/response	complete remission/response	NA	complete remission/response	NA	complete remission/response	complete remission/response	complete remission/response	complete remission/response	progressive disease	NA	stable disease	complete remission/response	NA	NA	complete remission/response	complete remission/response	complete remission/response	complete remission/response	complete remission/response	complete remission/response	NA
+patient.priordx	yes, history of prior malignancy	yes, history of prior malignancy	no	yes, history of synchronous and or bilateral malignancy	no	no	no	no	no	no	no	no	no	no	no	no	yes, history of prior malignancy	no	no	no	no	no	no	no	no
+patient.race	white	white	white	white	white	white	black or african american	white	white	white	white	white	white	white	white	white	white	NA	white	white	white	white	white	white	white
+patient.radiations	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.radiationtherapy	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no
+patient.serumcalciumresult	low	low	NA	normal	normal	low	low	low	low	low	low	low	low	low	low	low	low	low	NA	NA	NA	normal	NA	low	NA
+patient.stageevent.annarbor.bsymptoms	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.annarbor.extranodalinvolvement	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.clinicalstage	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.gleasongrading.gleasonscore	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.gleasongrading.primarypattern	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.gleasongrading.secondarypattern	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.gleasongrading.tertiarypattern	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.pathologicstage	stage ii	stage iv	stage ii	stage i	stage i	stage ii	stage ii	stage ii	stage i	stage i	stage i	stage i	stage iv	stage iv	stage ii	stage iii	stage i	stage ii	stage ii	stage iii	stage ii	stage ii	stage ii	stage i	stage ii
+patient.stageevent.psa.daystopsa	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.psa.psavalue	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.systemversion	6th	6th	5th	7th	6th	5th	6th	6th	6th	6th	6th	6th	6th	6th	6th	6th	6th	6th	7th	6th	6th	6th	6th	6th	7th
+patient.stageevent.tnmcategories.clinicalcategories.clinicalm	NA	NA	mx	mx	mx	m0	m0	m0	m0	m0	m0	m0	NA	m0	m0	m0	m0	mx	mx	mx	m0	mx	m0	m0	m0
+patient.stageevent.tnmcategories.clinicalcategories.clinicaln	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.tnmcategories.clinicalcategories.clinicalt	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+patient.stageevent.tnmcategories.pathologiccategories.pathologicm	m0	m1	mx	mx	mx	NA	NA	NA	NA	NA	NA	NA	m1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	m0
+patient.stageevent.tnmcategories.pathologiccategories.pathologicn	n0	n1	n0	nx	nx	n0	n0	n0	n0	n0	n0	n0	nx	n1	n0	n0	n0	nx	nx	nx	nx	nx	nx	nx	n0
+patient.stageevent.tnmcategories.pathologiccategories.pathologict	t2b	t3a	t2b	t1b	t1a	t2	t2	t2	t1a	t1b	t1b	t1b	t3a	t4	t2	t3a	t1b	t2	t2b	t3a	t2	t2	t2	t1a	t2b
+patient.stoppedsmokingyear	NA	NA	NA	NA	NA	NA	NA	NA	2005	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	2003
+patient.targetedmoleculartherapy	no	yes	no	no	no	no	no	no	no	no	no	no	yes	no	no	no	no	no	no	no	no	no	no	no	no
+patient.tissueprospectivecollectionindicator	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no	no
+patient.tissueretrospectivecollectionindicator	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes	yes
+patient.tissuesourcesite	kl	kl	km	km	km	kn	kn	kn	kn	kn	kn	kn	kn	kn	kn	kn	kn	kn	kn	kn	kn	kn	kn	kn	ko
+patient.tobaccosmokinghistory	lifelong non-smoker	current reformed smoker, duration not specified	lifelong non-smoker	lifelong non-smoker	lifelong non-smoker	lifelong non-smoker	NA	NA	current reformed smoker for < or = 15 years	NA	lifelong non-smoker	lifelong non-smoker	lifelong non-smoker	lifelong non-smoker	current reformed smoker for > 15 years	NA	lifelong non-smoker	lifelong non-smoker	lifelong non-smoker	current smoker	lifelong non-smoker	lifelong non-smoker	lifelong non-smoker	NA	current reformed smoker for < or = 15 years
+patient.tumortissuesite	kidney	kidney	kidney	kidney	kidney	kidney	kidney	kidney	kidney	kidney	kidney	kidney	kidney	kidney	kidney	kidney	kidney	kidney	kidney	kidney	kidney	kidney	kidney	kidney	kidney
+patient.vitalstatus	living	deceased	living	living	living	living	living	living	living	living	living	living	living	living	deceased	living	deceased	living	living	living	living	living	living	living	living
+patient.whitecellcountresult	normal	elevated	NA	normal	elevated	elevated	elevated	normal	elevated	elevated	elevated	elevated	elevated	elevated	elevated	elevated	normal	elevated	normal	normal	normal	elevated	normal	normal	NA
+patient.yearofformcompletion	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2012	2013
+patient.yearofinitialpathologicdiagnosis	2003	2006	2000	2011	2005	2002	2004	2004	2005	2005	2005	2005	2006	2006	2006	2006	2007	2007	2010	2008	2009	2004	2009	2006	2004
+patient.yearoftobaccosmokingonset	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	1984	NA	NA	NA	NA	1997
