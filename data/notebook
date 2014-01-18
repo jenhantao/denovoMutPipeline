@@ -1,0 +1,55 @@
+# De Novo Project
+
+
+Notes:
+
+TCGA barcodes identify individuals
+Example:
+    TCGA-44-2665-01A-01D-1040-01
+    
+    - TCGA-44-2665 serves as a unique identifier of the individual
+    - 01A specifies that this sample comes from a primary tumor
+    - The rest has to do with sample handling and can be ignored
+    - More info at: https://wiki.nci.nih.gov/display/TCGA/TCGA+Barcode
+
+
+Each TCGA barcode in TCGA_samples_with_three_types.summary should be associated with at least 3 tissue samples
+1) 01 Primary tumor
+2) 10 Blood
+3) 11 Normal tissue
+
+Some TCGA barcodes have more than 3 associated samples (see samplesByBarcode.txt)
+=> Different blood samples are expected to share the same variants (differences from the reference genome)
+=> Different tumor samples for the same individual are not expected to share the same somatic mutations (differences from the blood) due to heterogeneity within the tumor
+** We should think about how we can take advantage of individuals like this. Offhand, I would expect a denovo mutation to show up in all the tumor and normal tissue samples and none of the blood samples. One caveat is that they may have taken multiple samples because of data quality issues as well.
+
+
+# Data preprocessing
+1) Created data/denovo/meta.txt from data/denovo/TCGA_samples_with_three_types.summary
+$ awk -F $'\t' 'BEGIN {OFS = FS} {print $2,$2,"https://cghub.ucsc.edu/cghub/data/analysis/download/"$17,$11,$8}' TCGA_samples_with_three_types.summary > meta.txt
+-> Edited column 2 to retain only tissue code
+01 - Primary solid tumor (TP)
+10 - Blood derived normal (NB)
+11 - Solid tissue normal (NT)
+
+
+2) Created pipeline calls
+$ cd ~/projects/pipeline
+$ tasks/callPipe -f data/denovo/meta.txt -d ~/mnt -p denovo > denovo.run
+
+3) Check pipeline configuration
+-> Make sure that variants are being called for the whole exome
+
+
+# MuTect
+Notes:
+
+For each triangle (TP,NB,NT) run MuTect three times:
+TP vs NB -> catalogue of differences between tumor and blood
+TP vs NT -> catalogue of differences between tumor and normal tissue
+NT vs NB -> catalogue of differences between blood and normal tissue
+
+Limitation: MuTect does not give germline variation, just somatic mutations
+=> There will be no variants falling into the "= = =" category
+
+
