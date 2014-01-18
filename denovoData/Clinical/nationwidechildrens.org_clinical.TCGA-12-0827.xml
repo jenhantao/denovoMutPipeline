@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?><gbm:tcga_bcr xmlns:gbm="http://tcga.nci/bcr/xml/clinical/gbm/2.6" xmlns:admin="http://tcga.nci/bcr/xml/administration/2.6" xmlns:follow_up_v1.0="http://tcga.nci/bcr/xml/clinical/gbm/followup/2.6/1.0" xmlns:nte="http://tcga.nci/bcr/xml/clinical/shared/new_tumor_event/2.6" xmlns:rad="http://tcga.nci/bcr/xml/clinical/radiation/2.6" xmlns:rx="http://tcga.nci/bcr/xml/clinical/pharmaceutical/2.6" xmlns:shared="http://tcga.nci/bcr/xml/clinical/shared/2.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="2.6" xsi:schemaLocation="http://tcga.nci/bcr/xml/clinical/gbm/2.6 http://tcga-data.nci.nih.gov/docs/xsd/BCR/tcga.nci/bcr/xml/clinical/gbm/2.6/TCGA_BCR.GBM_Clinical.xsd">
+    <admin:admin>
+        <admin:bcr xsd_ver="1.17">Nationwide Children's Hospital</admin:bcr>
+        <admin:batch_number xsd_ver="1.17">10.45.0</admin:batch_number>
+        <admin:disease_code xsd_ver="2.6">GBM</admin:disease_code>
+        <admin:day_of_dcc_upload xsd_ver="1.17">2</admin:day_of_dcc_upload>
+        <admin:month_of_dcc_upload xsd_ver="1.17">1</admin:month_of_dcc_upload>
+        <admin:year_of_dcc_upload xsd_ver="1.17">2014</admin:year_of_dcc_upload>
+        <admin:patient_withdrawal>
+            <admin:withdrawn>false</admin:withdrawn>
+        </admin:patient_withdrawal>
+    </admin:admin>
+    <gbm:patient>
+        <shared:tumor_tissue_site cde="3427536" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" source_system_identifier="1627776" tier="2" xsd_ver="2.6">Brain</shared:tumor_tissue_site>
+        <shared:histological_type cde="3081934" display_order="8" owner="TSS" preferred_name="histologic_diagnosis" procurement_status="Completed" restricted="false" source_system_identifier="1627778" tier="2" xsd_ver="2.5">Untreated primary (de novo) GBM</shared:histological_type>
+        <gbm:prior_glioma cde="2786111" display_order="6" owner="TSS" preferred_name="history_lgg_dx_of_brain_tissue" procurement_status="Completed" restricted="false" source_system_identifier="1627763" tier="1" xsd_ver="1.9">NO</gbm:prior_glioma>
+        <shared:gender cde="2200604" display_order="9" owner="TSS" preferred_name="gender" procurement_status="Completed" restricted="false" source_system_identifier="1627767" tier="1" xsd_ver="1.8">FEMALE</shared:gender>
+        <shared:vital_status cde="5" display_order="23" owner="TSS" preferred_name="vital_status" procurement_status="Completed" restricted="false" source_system_identifier="1627773" tier="2" xsd_ver="2.6">Dead</shared:vital_status>
+        <shared:days_to_birth cde="" owner="TSS" precision="day" procurement_status="Completed" tier="1" xsd_ver="1.16">-14092</shared:days_to_birth>
+        <shared:days_to_death cde="" owner="TSS" precision="day" procurement_status="Completed" tier="1" xsd_ver="1.16">1179</shared:days_to_death>
+        <shared:days_to_last_followup cde="" owner="TSS" precision="day" procurement_status="Completed" tier="1" xsd_ver="1.16">1179</shared:days_to_last_followup>
+        <shared:race cde="2192199" display_order="14" owner="TSS" preferred_name="race" procurement_status="Completed" restricted="false" source_system_identifier="1627779" tier="2" xsd_ver="1.8">WHITE</shared:race>
+        <shared:bcr_patient_barcode cde="2673794" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" xsd_ver="1.8">TCGA-12-0827</shared:bcr_patient_barcode>
+        <shared:tissue_source_site cde="" owner="TSS" procurement_status="Completed" restricted="false" xsd_ver="2.4">12</shared:tissue_source_site>
+        <shared:patient_id cde="" owner="TSS" procurement_status="Completed" restricted="false" xsd_ver="2.4">0827</shared:patient_id>
+        <shared:bcr_patient_uuid cde="" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" xsd_ver="2.3">b75845ed-a19a-4caa-b362-e62b1e538152</shared:bcr_patient_uuid>
+        <shared:informed_consent_verified cde="2714689" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" tier="2" xsd_ver="2.4">YES</shared:informed_consent_verified>
+        <shared:icd_o_3_site cde="3226281" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" tier="2" xsd_ver="2.4">C71.9</shared:icd_o_3_site>
+        <shared:icd_o_3_histology cde="3226275" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" tier="2" xsd_ver="2.4">9440/3</shared:icd_o_3_histology>
+        <shared:icd_10 cde="3226287" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" tier="2" xsd_ver="2.4">C71.9</shared:icd_10>
+        <shared:days_to_initial_pathologic_diagnosis cde="" owner="TSS" precision="day" procurement_status="Completed" tier="1" xsd_ver="1.16">0</shared:days_to_initial_pathologic_diagnosis>
+        <shared:age_at_initial_pathologic_diagnosis cde="" owner="TSS" procurement_status="Completed" tier="1" xsd_ver="1.16">38</shared:age_at_initial_pathologic_diagnosis>
+        <shared:year_of_initial_pathologic_diagnosis cde="2896960" display_order="20" owner="TSS" preferred_name="initial_pathologic_dx_year" procurement_status="Completed" restricted="true" source_system_identifier="1627788" tier="1" xsd_ver="1.12">1999</shared:year_of_initial_pathologic_diagnosis>
+        <shared:person_neoplasm_cancer_status cde="2759550" display_order="32" owner="TSS" preferred_name="tumor_status" procurement_status="Completed" restricted="false" source_system_identifier="1627765" tier="2" xsd_ver="1.9">WITH TUMOR</shared:person_neoplasm_cancer_status>
+        <shared:day_of_form_completion cde="2975716" display_order="999" owner="TSS" preferred_name="form_completion_day" procurement_status="Completed" restricted="true" source_system_identifier="1627770" tier="2" xsd_ver="2.2">27</shared:day_of_form_completion>
+        <shared:month_of_form_completion cde="2975718" display_order="999" owner="TSS" preferred_name="form_completion_month" procurement_status="Completed" restricted="true" source_system_identifier="1627762" tier="2" xsd_ver="2.2">5</shared:month_of_form_completion>
+        <shared:year_of_form_completion cde="2975720" display_order="999" owner="TSS" preferred_name="form_completion_year" procurement_status="Completed" restricted="true" source_system_identifier="1627787" tier="2" xsd_ver="2.2">2009</shared:year_of_form_completion>
+        <shared:ethnicity cde="2192217" display_order="15" owner="TSS" preferred_name="ethnicity" procurement_status="Completed" restricted="false" source_system_identifier="1627786" tier="2" xsd_ver="1.9">NOT HISPANIC OR LATINO</shared:ethnicity>
+        <shared:history_of_neoadjuvant_treatment cde="3382737" display_order="17" owner="TSS" preferred_name="history_neoadjuvant_treatment" procurement_status="Completed" restricted="false" source_system_identifier="1627783" tier="1" xsd_ver="2.4">No</shared:history_of_neoadjuvant_treatment>
+        <shared:initial_pathologic_diagnosis_method cde="2757941" display_order="21" owner="TSS" preferred_name="method_initial_path_dx" procurement_status="Completed" restricted="false" source_system_identifier="1627777" tier="2" xsd_ver="2.5">Excisional Biopsy</shared:initial_pathologic_diagnosis_method>
+        <shared:anatomic_neoplasm_subdivision cde="3108203" display_order="9999" owner="TSS" preferred_name="" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.6"/>
+        <shared:karnofsky_performance_score cde="2003853" display_order="33" owner="TSS" preferred_name="karnofsky_score" procurement_status="Completed" restricted="false" source_system_identifier="1627769" tier="2" xsd_ver="1.8">100</shared:karnofsky_performance_score>
+        <shared:eastern_cancer_oncology_group cde="88" display_order="34" owner="TSS" preferred_name="ecog_score" procurement_status="Not Available" restricted="false" source_system_identifier="1627766" tier="2" xsd_ver="1.9"/>
+        <shared:performance_status_scale_timing cde="2792763" display_order="35" owner="TSS" preferred_name="performance_status_timing" procurement_status="Completed" restricted="false" source_system_identifier="1627772" tier="2" xsd_ver="1.9">Post-Adjuvant Therapy</shared:performance_status_scale_timing>
+        <rx:drugs>
+            <rx:drug>
+                <rx:tx_on_clinical_trial cde="2503808" display_order="4" owner="TSS" preferred_name="clinical_trial_indicator" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <rx:regimen_number cde="2673845" display_order="999" owner="TSS" preferred_name="regimen_number" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                <rx:bcr_drug_barcode owner="TSS" procurement_status="Completed" restricted="false" xsd_ver="1.15">TCGA-12-0827-D23715</rx:bcr_drug_barcode>
+                <rx:bcr_drug_uuid cde="" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" xsd_ver="2.3">11b7e332-e568-4ec4-b0e5-a13a16dafd6d</rx:bcr_drug_uuid>
+                <rx:total_dose cde="1515" display_order="999" owner="TSS" preferred_name="total_dose" procurement_status="Completed" restricted="false" source_system_identifier="1627851" tier="2" xsd_ver="2.1">110</rx:total_dose>
+                <rx:total_dose_units cde="3088785" display_order="999" owner="TSS" preferred_name="pharmaceutical_tx_total_dose_units" procurement_status="Completed" restricted="false" source_system_identifier="1627839" tier="2" xsd_ver="2.1">mg/m2</rx:total_dose_units>
+                <rx:prescribed_dose cde="2184728" display_order="999" owner="TSS" preferred_name="prescribed_dose" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                <rx:prescribed_dose_units cde="3065815" display_order="999" owner="TSS" preferred_name="pharmaceutical_tx_dose_units" procurement_status="Completed" restricted="false" source_system_identifier="1627845" tier="2" xsd_ver="2.1">mg/m2</rx:prescribed_dose_units>
+                <rx:number_cycles cde="62590" display_order="999" owner="TSS" preferred_name="pharma_adjuvant_cycles_count" procurement_status="Completed" restricted="false" source_system_identifier="1627834" tier="2" xsd_ver="1.8">01</rx:number_cycles>
+                <rx:days_to_drug_therapy_start cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">137</rx:days_to_drug_therapy_start>
+                <rx:days_to_drug_therapy_end cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">181</rx:days_to_drug_therapy_end>
+                <rx:therapy_types>
+                    <rx:therapy_type cde="2793530" display_order="7" owner="TSS" preferred_name="pharmaceutical_therapy_type" procurement_status="Completed" restricted="false" source_system_identifier="1627836" tier="2" xsd_ver="2.1">Chemotherapy</rx:therapy_type>
+                    <rx:therapy_type_notes cde="2001762" display_order="999" owner="TSS" preferred_name="pharma_type_other" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                </rx:therapy_types>
+                <rx:drug_name cde="2975232" display_order="22" owner="TSS" preferred_name="pharmaceutical_therapy_drug_name" procurement_status="Completed" restricted="false" source_system_identifier="1627831" tier="1" xsd_ver="1.10">CCNU</rx:drug_name>
+                <rx:clinical_trail_drug_classification cde="3378323" display_order="6" owner="TSS" preferred_name="clinical_trial_drug_classification" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:regimen_indication cde="2793511" display_order="999" owner="TSS" preferred_name="therapy_regimen" procurement_status="Completed" restricted="false" source_system_identifier="1627846" tier="2" xsd_ver="1.12">ADJUVANT</shared:regimen_indication>
+                <shared:regimen_indication_notes cde="2793516" display_order="999" owner="TSS" preferred_name="therapy_regimen_other" procurement_status="Not Applicable" restricted="false" source_system_identifier="1627848" tier="2" xsd_ver="1.12"/>
+                <rx:route_of_administrations>
+                    <rx:route_of_administration cde="2003586" display_order="999" owner="TSS" preferred_name="route_of_administration" procurement_status="Completed" restricted="false" source_system_identifier="1627832" tier="2" xsd_ver="2.3">Oral</rx:route_of_administration>
+                </rx:route_of_administrations>
+                <rx:therapy_ongoing cde="3103479" display_order="12" owner="TSS" preferred_name="pharmaceutical_tx_ongoing_indicator" procurement_status="Completed" restricted="false" source_system_identifier="1627844" tier="2" xsd_ver="2.2">NO</rx:therapy_ongoing>
+                <shared:measure_of_response cde="2857291" display_order="17" owner="TSS" preferred_name="treatment_best_response" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:day_of_form_completion cde="2975716" display_order="999" owner="TSS" preferred_name="form_completion_day" procurement_status="Completed" restricted="true" source_system_identifier="1627841" tier="2" xsd_ver="2.2">27</shared:day_of_form_completion>
+                <shared:month_of_form_completion cde="2975718" display_order="999" owner="TSS" preferred_name="form_completion_month" procurement_status="Completed" restricted="true" source_system_identifier="1627840" tier="2" xsd_ver="2.2">5</shared:month_of_form_completion>
+                <shared:year_of_form_completion cde="2975720" display_order="999" owner="TSS" preferred_name="form_completion_year" procurement_status="Completed" restricted="true" source_system_identifier="1627835" tier="2" xsd_ver="2.2">2009</shared:year_of_form_completion>
+            </rx:drug>
+            <rx:drug>
+                <rx:tx_on_clinical_trial cde="2503808" display_order="4" owner="TSS" preferred_name="clinical_trial_indicator" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <rx:regimen_number cde="2673845" display_order="999" owner="TSS" preferred_name="regimen_number" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                <rx:bcr_drug_barcode owner="TSS" procurement_status="Completed" restricted="false" xsd_ver="1.15">TCGA-12-0827-D23716</rx:bcr_drug_barcode>
+                <rx:bcr_drug_uuid cde="" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" xsd_ver="2.3">c80a6406-d9c3-403d-baac-8611c098f830</rx:bcr_drug_uuid>
+                <rx:total_dose cde="1515" display_order="999" owner="TSS" preferred_name="total_dose" procurement_status="Completed" restricted="false" source_system_identifier="1627861" tier="2" xsd_ver="2.1">82.5</rx:total_dose>
+                <rx:total_dose_units cde="3088785" display_order="999" owner="TSS" preferred_name="pharmaceutical_tx_total_dose_units" procurement_status="Completed" restricted="false" source_system_identifier="1627859" tier="2" xsd_ver="2.1">mg/m2</rx:total_dose_units>
+                <rx:prescribed_dose cde="2184728" display_order="999" owner="TSS" preferred_name="prescribed_dose" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                <rx:prescribed_dose_units cde="3065815" display_order="999" owner="TSS" preferred_name="pharmaceutical_tx_dose_units" procurement_status="Completed" restricted="false" source_system_identifier="1627854" tier="2" xsd_ver="2.1">mg/m2</rx:prescribed_dose_units>
+                <rx:number_cycles cde="62590" display_order="999" owner="TSS" preferred_name="pharma_adjuvant_cycles_count" procurement_status="Completed" restricted="false" source_system_identifier="1627872" tier="2" xsd_ver="1.8">01</rx:number_cycles>
+                <rx:days_to_drug_therapy_start cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">181</rx:days_to_drug_therapy_start>
+                <rx:days_to_drug_therapy_end cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">258</rx:days_to_drug_therapy_end>
+                <rx:therapy_types>
+                    <rx:therapy_type cde="2793530" display_order="7" owner="TSS" preferred_name="pharmaceutical_therapy_type" procurement_status="Completed" restricted="false" source_system_identifier="1627871" tier="2" xsd_ver="2.1">Chemotherapy</rx:therapy_type>
+                    <rx:therapy_type_notes cde="2001762" display_order="999" owner="TSS" preferred_name="pharma_type_other" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                </rx:therapy_types>
+                <rx:drug_name cde="2975232" display_order="22" owner="TSS" preferred_name="pharmaceutical_therapy_drug_name" procurement_status="Completed" restricted="false" source_system_identifier="1627862" tier="1" xsd_ver="1.10">CCNU</rx:drug_name>
+                <rx:clinical_trail_drug_classification cde="3378323" display_order="6" owner="TSS" preferred_name="clinical_trial_drug_classification" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:regimen_indication cde="2793511" display_order="999" owner="TSS" preferred_name="therapy_regimen" procurement_status="Completed" restricted="false" source_system_identifier="1627856" tier="2" xsd_ver="1.12">ADJUVANT</shared:regimen_indication>
+                <shared:regimen_indication_notes cde="2793516" display_order="999" owner="TSS" preferred_name="therapy_regimen_other" procurement_status="Not Applicable" restricted="false" source_system_identifier="1627865" tier="2" xsd_ver="1.12"/>
+                <rx:route_of_administrations>
+                    <rx:route_of_administration cde="2003586" display_order="999" owner="TSS" preferred_name="route_of_administration" procurement_status="Completed" restricted="false" source_system_identifier="1627867" tier="2" xsd_ver="2.3">Oral</rx:route_of_administration>
+                </rx:route_of_administrations>
+                <rx:therapy_ongoing cde="3103479" display_order="12" owner="TSS" preferred_name="pharmaceutical_tx_ongoing_indicator" procurement_status="Completed" restricted="false" source_system_identifier="1627866" tier="2" xsd_ver="2.2">NO</rx:therapy_ongoing>
+                <shared:measure_of_response cde="2857291" display_order="17" owner="TSS" preferred_name="treatment_best_response" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:day_of_form_completion cde="2975716" display_order="999" owner="TSS" preferred_name="form_completion_day" procurement_status="Completed" restricted="true" source_system_identifier="1627855" tier="2" xsd_ver="2.2">27</shared:day_of_form_completion>
+                <shared:month_of_form_completion cde="2975718" display_order="999" owner="TSS" preferred_name="form_completion_month" procurement_status="Completed" restricted="true" source_system_identifier="1627860" tier="2" xsd_ver="2.2">5</shared:month_of_form_completion>
+                <shared:year_of_form_completion cde="2975720" display_order="999" owner="TSS" preferred_name="form_completion_year" procurement_status="Completed" restricted="true" source_system_identifier="1627852" tier="2" xsd_ver="2.2">2009</shared:year_of_form_completion>
+            </rx:drug>
+            <rx:drug>
+                <rx:tx_on_clinical_trial cde="2503808" display_order="4" owner="TSS" preferred_name="clinical_trial_indicator" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <rx:regimen_number cde="2673845" display_order="999" owner="TSS" preferred_name="regimen_number" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                <rx:bcr_drug_barcode owner="TSS" procurement_status="Completed" restricted="false" xsd_ver="1.15">TCGA-12-0827-D23717</rx:bcr_drug_barcode>
+                <rx:bcr_drug_uuid cde="" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" xsd_ver="2.3">de863c10-3632-407e-8b88-8cce9a41b3d1</rx:bcr_drug_uuid>
+                <rx:total_dose cde="1515" display_order="999" owner="TSS" preferred_name="total_dose" procurement_status="Completed" restricted="false" source_system_identifier="1627893" tier="2" xsd_ver="2.1">150</rx:total_dose>
+                <rx:total_dose_units cde="3088785" display_order="999" owner="TSS" preferred_name="pharmaceutical_tx_total_dose_units" procurement_status="Completed" restricted="false" source_system_identifier="1627881" tier="2" xsd_ver="2.1">mg/m2</rx:total_dose_units>
+                <rx:prescribed_dose cde="2184728" display_order="999" owner="TSS" preferred_name="prescribed_dose" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                <rx:prescribed_dose_units cde="3065815" display_order="999" owner="TSS" preferred_name="pharmaceutical_tx_dose_units" procurement_status="Completed" restricted="false" source_system_identifier="1627892" tier="2" xsd_ver="2.1">mg/m2</rx:prescribed_dose_units>
+                <rx:number_cycles cde="62590" display_order="999" owner="TSS" preferred_name="pharma_adjuvant_cycles_count" procurement_status="Completed" restricted="false" source_system_identifier="1627877" tier="2" xsd_ver="1.8">01</rx:number_cycles>
+                <rx:days_to_drug_therapy_start cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">258</rx:days_to_drug_therapy_start>
+                <rx:days_to_drug_therapy_end cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">350</rx:days_to_drug_therapy_end>
+                <rx:therapy_types>
+                    <rx:therapy_type cde="2793530" display_order="7" owner="TSS" preferred_name="pharmaceutical_therapy_type" procurement_status="Completed" restricted="false" source_system_identifier="1627885" tier="2" xsd_ver="2.1">Chemotherapy</rx:therapy_type>
+                    <rx:therapy_type_notes cde="2001762" display_order="999" owner="TSS" preferred_name="pharma_type_other" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                </rx:therapy_types>
+                <rx:drug_name cde="2975232" display_order="22" owner="TSS" preferred_name="pharmaceutical_therapy_drug_name" procurement_status="Completed" restricted="false" source_system_identifier="1627884" tier="1" xsd_ver="1.10">Temozolomide</rx:drug_name>
+                <rx:clinical_trail_drug_classification cde="3378323" display_order="6" owner="TSS" preferred_name="clinical_trial_drug_classification" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:regimen_indication cde="2793511" display_order="999" owner="TSS" preferred_name="therapy_regimen" procurement_status="Completed" restricted="false" source_system_identifier="1627889" tier="2" xsd_ver="1.12">ADJUVANT</shared:regimen_indication>
+                <shared:regimen_indication_notes cde="2793516" display_order="999" owner="TSS" preferred_name="therapy_regimen_other" procurement_status="Not Applicable" restricted="false" source_system_identifier="1627880" tier="2" xsd_ver="1.12"/>
+                <rx:route_of_administrations>
+                    <rx:route_of_administration cde="2003586" display_order="999" owner="TSS" preferred_name="route_of_administration" procurement_status="Completed" restricted="false" source_system_identifier="1627873" tier="2" xsd_ver="2.3">Oral</rx:route_of_administration>
+                </rx:route_of_administrations>
+                <rx:therapy_ongoing cde="3103479" display_order="12" owner="TSS" preferred_name="pharmaceutical_tx_ongoing_indicator" procurement_status="Completed" restricted="false" source_system_identifier="1627874" tier="2" xsd_ver="2.2">NO</rx:therapy_ongoing>
+                <shared:measure_of_response cde="2857291" display_order="17" owner="TSS" preferred_name="treatment_best_response" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:day_of_form_completion cde="2975716" display_order="999" owner="TSS" preferred_name="form_completion_day" procurement_status="Completed" restricted="true" source_system_identifier="1627886" tier="2" xsd_ver="2.2">27</shared:day_of_form_completion>
+                <shared:month_of_form_completion cde="2975718" display_order="999" owner="TSS" preferred_name="form_completion_month" procurement_status="Completed" restricted="true" source_system_identifier="1627879" tier="2" xsd_ver="2.2">5</shared:month_of_form_completion>
+                <shared:year_of_form_completion cde="2975720" display_order="999" owner="TSS" preferred_name="form_completion_year" procurement_status="Completed" restricted="true" source_system_identifier="1627891" tier="2" xsd_ver="2.2">2009</shared:year_of_form_completion>
+            </rx:drug>
+            <rx:drug>
+                <rx:tx_on_clinical_trial cde="2503808" display_order="4" owner="TSS" preferred_name="clinical_trial_indicator" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <rx:regimen_number cde="2673845" display_order="999" owner="TSS" preferred_name="regimen_number" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                <rx:bcr_drug_barcode owner="TSS" procurement_status="Completed" restricted="false" xsd_ver="1.15">TCGA-12-0827-D23718</rx:bcr_drug_barcode>
+                <rx:bcr_drug_uuid cde="" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" xsd_ver="2.3">08005bb6-0486-4067-89da-81958cad3071</rx:bcr_drug_uuid>
+                <rx:total_dose cde="1515" display_order="999" owner="TSS" preferred_name="total_dose" procurement_status="Completed" restricted="false" source_system_identifier="1627910" tier="2" xsd_ver="2.1">200</rx:total_dose>
+                <rx:total_dose_units cde="3088785" display_order="999" owner="TSS" preferred_name="pharmaceutical_tx_total_dose_units" procurement_status="Completed" restricted="false" source_system_identifier="1627905" tier="2" xsd_ver="2.1">mg/m2</rx:total_dose_units>
+                <rx:prescribed_dose cde="2184728" display_order="999" owner="TSS" preferred_name="prescribed_dose" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                <rx:prescribed_dose_units cde="3065815" display_order="999" owner="TSS" preferred_name="pharmaceutical_tx_dose_units" procurement_status="Completed" restricted="false" source_system_identifier="1627907" tier="2" xsd_ver="2.1">mg/m2</rx:prescribed_dose_units>
+                <rx:number_cycles cde="62590" display_order="999" owner="TSS" preferred_name="pharma_adjuvant_cycles_count" procurement_status="Completed" restricted="false" source_system_identifier="1627908" tier="2" xsd_ver="1.8">01</rx:number_cycles>
+                <rx:days_to_drug_therapy_start cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">350</rx:days_to_drug_therapy_start>
+                <rx:days_to_drug_therapy_end cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">390</rx:days_to_drug_therapy_end>
+                <rx:therapy_types>
+                    <rx:therapy_type cde="2793530" display_order="7" owner="TSS" preferred_name="pharmaceutical_therapy_type" procurement_status="Completed" restricted="false" source_system_identifier="1627906" tier="2" xsd_ver="2.1">Chemotherapy</rx:therapy_type>
+                    <rx:therapy_type_notes cde="2001762" display_order="999" owner="TSS" preferred_name="pharma_type_other" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                </rx:therapy_types>
+                <rx:drug_name cde="2975232" display_order="22" owner="TSS" preferred_name="pharmaceutical_therapy_drug_name" procurement_status="Completed" restricted="false" source_system_identifier="1627900" tier="1" xsd_ver="1.10">Temozolomide</rx:drug_name>
+                <rx:clinical_trail_drug_classification cde="3378323" display_order="6" owner="TSS" preferred_name="clinical_trial_drug_classification" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:regimen_indication cde="2793511" display_order="999" owner="TSS" preferred_name="therapy_regimen" procurement_status="Completed" restricted="false" source_system_identifier="1627914" tier="2" xsd_ver="1.12">ADJUVANT</shared:regimen_indication>
+                <shared:regimen_indication_notes cde="2793516" display_order="999" owner="TSS" preferred_name="therapy_regimen_other" procurement_status="Not Applicable" restricted="false" source_system_identifier="1627912" tier="2" xsd_ver="1.12"/>
+                <rx:route_of_administrations>
+                    <rx:route_of_administration cde="2003586" display_order="999" owner="TSS" preferred_name="route_of_administration" procurement_status="Completed" restricted="false" source_system_identifier="1627894" tier="2" xsd_ver="2.3">Oral</rx:route_of_administration>
+                </rx:route_of_administrations>
+                <rx:therapy_ongoing cde="3103479" display_order="12" owner="TSS" preferred_name="pharmaceutical_tx_ongoing_indicator" procurement_status="Completed" restricted="false" source_system_identifier="1627902" tier="2" xsd_ver="2.2">NO</rx:therapy_ongoing>
+                <shared:measure_of_response cde="2857291" display_order="17" owner="TSS" preferred_name="treatment_best_response" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:day_of_form_completion cde="2975716" display_order="999" owner="TSS" preferred_name="form_completion_day" procurement_status="Completed" restricted="true" source_system_identifier="1627904" tier="2" xsd_ver="2.2">27</shared:day_of_form_completion>
+                <shared:month_of_form_completion cde="2975718" display_order="999" owner="TSS" preferred_name="form_completion_month" procurement_status="Completed" restricted="true" source_system_identifier="1627899" tier="2" xsd_ver="2.2">5</shared:month_of_form_completion>
+                <shared:year_of_form_completion cde="2975720" display_order="999" owner="TSS" preferred_name="form_completion_year" procurement_status="Completed" restricted="true" source_system_identifier="1627903" tier="2" xsd_ver="2.2">2009</shared:year_of_form_completion>
+            </rx:drug>
+            <rx:drug>
+                <rx:tx_on_clinical_trial cde="2503808" display_order="4" owner="TSS" preferred_name="clinical_trial_indicator" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <rx:regimen_number cde="2673845" display_order="999" owner="TSS" preferred_name="regimen_number" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                <rx:bcr_drug_barcode owner="TSS" procurement_status="Completed" restricted="false" xsd_ver="1.15">TCGA-12-0827-D23719</rx:bcr_drug_barcode>
+                <rx:bcr_drug_uuid cde="" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" xsd_ver="2.3">2bf02d6c-6b80-4a79-891d-a9a77a6e75f0</rx:bcr_drug_uuid>
+                <rx:total_dose cde="1515" display_order="999" owner="TSS" preferred_name="total_dose" procurement_status="Completed" restricted="false" source_system_identifier="1627933" tier="2" xsd_ver="2.1">410</rx:total_dose>
+                <rx:total_dose_units cde="3088785" display_order="999" owner="TSS" preferred_name="pharmaceutical_tx_total_dose_units" procurement_status="Completed" restricted="false" source_system_identifier="1627930" tier="2" xsd_ver="2.1">mg/m2</rx:total_dose_units>
+                <rx:prescribed_dose cde="2184728" display_order="999" owner="TSS" preferred_name="prescribed_dose" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                <rx:prescribed_dose_units cde="3065815" display_order="999" owner="TSS" preferred_name="pharmaceutical_tx_dose_units" procurement_status="Completed" restricted="false" source_system_identifier="1627921" tier="2" xsd_ver="2.1">mg/m2</rx:prescribed_dose_units>
+                <rx:number_cycles cde="62590" display_order="999" owner="TSS" preferred_name="pharma_adjuvant_cycles_count" procurement_status="Completed" restricted="false" source_system_identifier="1627931" tier="2" xsd_ver="1.8">01</rx:number_cycles>
+                <rx:days_to_drug_therapy_start cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">390</rx:days_to_drug_therapy_start>
+                <rx:days_to_drug_therapy_end cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">434</rx:days_to_drug_therapy_end>
+                <rx:therapy_types>
+                    <rx:therapy_type cde="2793530" display_order="7" owner="TSS" preferred_name="pharmaceutical_therapy_type" procurement_status="Completed" restricted="false" source_system_identifier="1627922" tier="2" xsd_ver="2.1">Chemotherapy</rx:therapy_type>
+                    <rx:therapy_type_notes cde="2001762" display_order="999" owner="TSS" preferred_name="pharma_type_other" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                </rx:therapy_types>
+                <rx:drug_name cde="2975232" display_order="22" owner="TSS" preferred_name="pharmaceutical_therapy_drug_name" procurement_status="Completed" restricted="false" source_system_identifier="1627926" tier="1" xsd_ver="1.10">CPT-11</rx:drug_name>
+                <rx:clinical_trail_drug_classification cde="3378323" display_order="6" owner="TSS" preferred_name="clinical_trial_drug_classification" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:regimen_indication cde="2793511" display_order="999" owner="TSS" preferred_name="therapy_regimen" procurement_status="Completed" restricted="false" source_system_identifier="1627935" tier="2" xsd_ver="1.12">ADJUVANT</shared:regimen_indication>
+                <shared:regimen_indication_notes cde="2793516" display_order="999" owner="TSS" preferred_name="therapy_regimen_other" procurement_status="Not Applicable" restricted="false" source_system_identifier="1627919" tier="2" xsd_ver="1.12"/>
+                <rx:route_of_administrations>
+                    <rx:route_of_administration cde="2003586" display_order="999" owner="TSS" preferred_name="route_of_administration" procurement_status="Completed" restricted="false" source_system_identifier="1627928" tier="2" xsd_ver="2.3">Intravenous (IV)</rx:route_of_administration>
+                </rx:route_of_administrations>
+                <rx:therapy_ongoing cde="3103479" display_order="12" owner="TSS" preferred_name="pharmaceutical_tx_ongoing_indicator" procurement_status="Completed" restricted="false" source_system_identifier="1627916" tier="2" xsd_ver="2.2">NO</rx:therapy_ongoing>
+                <shared:measure_of_response cde="2857291" display_order="17" owner="TSS" preferred_name="treatment_best_response" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:day_of_form_completion cde="2975716" display_order="999" owner="TSS" preferred_name="form_completion_day" procurement_status="Completed" restricted="true" source_system_identifier="1627929" tier="2" xsd_ver="2.2">27</shared:day_of_form_completion>
+                <shared:month_of_form_completion cde="2975718" display_order="999" owner="TSS" preferred_name="form_completion_month" procurement_status="Completed" restricted="true" source_system_identifier="1627925" tier="2" xsd_ver="2.2">5</shared:month_of_form_completion>
+                <shared:year_of_form_completion cde="2975720" display_order="999" owner="TSS" preferred_name="form_completion_year" procurement_status="Completed" restricted="true" source_system_identifier="1627920" tier="2" xsd_ver="2.2">2009</shared:year_of_form_completion>
+            </rx:drug>
+            <rx:drug>
+                <rx:tx_on_clinical_trial cde="2503808" display_order="4" owner="TSS" preferred_name="clinical_trial_indicator" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <rx:regimen_number cde="2673845" display_order="999" owner="TSS" preferred_name="regimen_number" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                <rx:bcr_drug_barcode owner="TSS" procurement_status="Completed" restricted="false" xsd_ver="1.15">TCGA-12-0827-D23720</rx:bcr_drug_barcode>
+                <rx:bcr_drug_uuid cde="" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" xsd_ver="2.3">bdba77a2-bcee-4ce0-b6e3-b4610745bee2</rx:bcr_drug_uuid>
+                <rx:total_dose cde="1515" display_order="999" owner="TSS" preferred_name="total_dose" procurement_status="Completed" restricted="false" source_system_identifier="1627941" tier="2" xsd_ver="2.1">200</rx:total_dose>
+                <rx:total_dose_units cde="3088785" display_order="999" owner="TSS" preferred_name="pharmaceutical_tx_total_dose_units" procurement_status="Completed" restricted="false" source_system_identifier="1627956" tier="2" xsd_ver="2.1">mg/m2</rx:total_dose_units>
+                <rx:prescribed_dose cde="2184728" display_order="999" owner="TSS" preferred_name="prescribed_dose" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                <rx:prescribed_dose_units cde="3065815" display_order="999" owner="TSS" preferred_name="pharmaceutical_tx_dose_units" procurement_status="Completed" restricted="false" source_system_identifier="1627937" tier="2" xsd_ver="2.1">mg/m2</rx:prescribed_dose_units>
+                <rx:number_cycles cde="62590" display_order="999" owner="TSS" preferred_name="pharma_adjuvant_cycles_count" procurement_status="Completed" restricted="false" source_system_identifier="1627949" tier="2" xsd_ver="1.8">04</rx:number_cycles>
+                <rx:days_to_drug_therapy_start cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">466</rx:days_to_drug_therapy_start>
+                <rx:days_to_drug_therapy_end cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">615</rx:days_to_drug_therapy_end>
+                <rx:therapy_types>
+                    <rx:therapy_type cde="2793530" display_order="7" owner="TSS" preferred_name="pharmaceutical_therapy_type" procurement_status="Completed" restricted="false" source_system_identifier="1627944" tier="2" xsd_ver="2.1">Chemotherapy</rx:therapy_type>
+                    <rx:therapy_type_notes cde="2001762" display_order="999" owner="TSS" preferred_name="pharma_type_other" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                </rx:therapy_types>
+                <rx:drug_name cde="2975232" display_order="22" owner="TSS" preferred_name="pharmaceutical_therapy_drug_name" procurement_status="Completed" restricted="false" source_system_identifier="1627946" tier="1" xsd_ver="1.10">Temozolomide</rx:drug_name>
+                <rx:clinical_trail_drug_classification cde="3378323" display_order="6" owner="TSS" preferred_name="clinical_trial_drug_classification" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:regimen_indication cde="2793511" display_order="999" owner="TSS" preferred_name="therapy_regimen" procurement_status="Completed" restricted="false" source_system_identifier="1627951" tier="2" xsd_ver="1.12">ADJUVANT</shared:regimen_indication>
+                <shared:regimen_indication_notes cde="2793516" display_order="999" owner="TSS" preferred_name="therapy_regimen_other" procurement_status="Not Applicable" restricted="false" source_system_identifier="1627952" tier="2" xsd_ver="1.12"/>
+                <rx:route_of_administrations>
+                    <rx:route_of_administration cde="2003586" display_order="999" owner="TSS" preferred_name="route_of_administration" procurement_status="Completed" restricted="false" source_system_identifier="1627950" tier="2" xsd_ver="2.3">Oral</rx:route_of_administration>
+                </rx:route_of_administrations>
+                <rx:therapy_ongoing cde="3103479" display_order="12" owner="TSS" preferred_name="pharmaceutical_tx_ongoing_indicator" procurement_status="Completed" restricted="false" source_system_identifier="1627938" tier="2" xsd_ver="2.2">NO</rx:therapy_ongoing>
+                <shared:measure_of_response cde="2857291" display_order="17" owner="TSS" preferred_name="treatment_best_response" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:day_of_form_completion cde="2975716" display_order="999" owner="TSS" preferred_name="form_completion_day" procurement_status="Completed" restricted="true" source_system_identifier="1627942" tier="2" xsd_ver="2.2">27</shared:day_of_form_completion>
+                <shared:month_of_form_completion cde="2975718" display_order="999" owner="TSS" preferred_name="form_completion_month" procurement_status="Completed" restricted="true" source_system_identifier="1627940" tier="2" xsd_ver="2.2">5</shared:month_of_form_completion>
+                <shared:year_of_form_completion cde="2975720" display_order="999" owner="TSS" preferred_name="form_completion_year" procurement_status="Completed" restricted="true" source_system_identifier="1627954" tier="2" xsd_ver="2.2">2009</shared:year_of_form_completion>
+            </rx:drug>
+            <rx:drug>
+                <rx:tx_on_clinical_trial cde="2503808" display_order="4" owner="TSS" preferred_name="clinical_trial_indicator" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <rx:regimen_number cde="2673845" display_order="999" owner="TSS" preferred_name="regimen_number" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                <rx:bcr_drug_barcode owner="TSS" procurement_status="Completed" restricted="false" xsd_ver="1.15">TCGA-12-0827-D23721</rx:bcr_drug_barcode>
+                <rx:bcr_drug_uuid cde="" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" xsd_ver="2.3">d5057fae-9fdd-4f4e-91a5-33c225666d64</rx:bcr_drug_uuid>
+                <rx:total_dose cde="1515" display_order="999" owner="TSS" preferred_name="total_dose" procurement_status="Completed" restricted="false" source_system_identifier="1627975" tier="2" xsd_ver="2.1">160</rx:total_dose>
+                <rx:total_dose_units cde="3088785" display_order="999" owner="TSS" preferred_name="pharmaceutical_tx_total_dose_units" procurement_status="Completed" restricted="false" source_system_identifier="1627960" tier="2" xsd_ver="2.1">mg</rx:total_dose_units>
+                <rx:prescribed_dose cde="2184728" display_order="999" owner="TSS" preferred_name="prescribed_dose" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                <rx:prescribed_dose_units cde="3065815" display_order="999" owner="TSS" preferred_name="pharmaceutical_tx_dose_units" procurement_status="Completed" restricted="false" source_system_identifier="1627962" tier="2" xsd_ver="2.1">mg</rx:prescribed_dose_units>
+                <rx:number_cycles cde="62590" display_order="999" owner="TSS" preferred_name="pharma_adjuvant_cycles_count" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="1.8"/>
+                <rx:days_to_drug_therapy_start cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">615</rx:days_to_drug_therapy_start>
+                <rx:days_to_drug_therapy_end cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">746</rx:days_to_drug_therapy_end>
+                <rx:therapy_types>
+                    <rx:therapy_type cde="2793530" display_order="7" owner="TSS" preferred_name="pharmaceutical_therapy_type" procurement_status="Completed" restricted="false" source_system_identifier="1627967" tier="2" xsd_ver="2.1">Hormone Therapy</rx:therapy_type>
+                    <rx:therapy_type_notes cde="2001762" display_order="999" owner="TSS" preferred_name="pharma_type_other" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                </rx:therapy_types>
+                <rx:drug_name cde="2975232" display_order="22" owner="TSS" preferred_name="pharmaceutical_therapy_drug_name" procurement_status="Completed" restricted="false" source_system_identifier="1627976" tier="1" xsd_ver="1.10">Tamoxifen</rx:drug_name>
+                <rx:clinical_trail_drug_classification cde="3378323" display_order="6" owner="TSS" preferred_name="clinical_trial_drug_classification" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:regimen_indication cde="2793511" display_order="999" owner="TSS" preferred_name="therapy_regimen" procurement_status="Completed" restricted="false" source_system_identifier="1627970" tier="2" xsd_ver="1.12">ADJUVANT</shared:regimen_indication>
+                <shared:regimen_indication_notes cde="2793516" display_order="999" owner="TSS" preferred_name="therapy_regimen_other" procurement_status="Not Applicable" restricted="false" source_system_identifier="1627959" tier="2" xsd_ver="1.12"/>
+                <rx:route_of_administrations>
+                    <rx:route_of_administration cde="2003586" display_order="999" owner="TSS" preferred_name="route_of_administration" procurement_status="Completed" restricted="false" source_system_identifier="1627973" tier="2" xsd_ver="2.3">Oral</rx:route_of_administration>
+                </rx:route_of_administrations>
+                <rx:therapy_ongoing cde="3103479" display_order="12" owner="TSS" preferred_name="pharmaceutical_tx_ongoing_indicator" procurement_status="Completed" restricted="false" source_system_identifier="1627971" tier="2" xsd_ver="2.2">NO</rx:therapy_ongoing>
+                <shared:measure_of_response cde="2857291" display_order="17" owner="TSS" preferred_name="treatment_best_response" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:day_of_form_completion cde="2975716" display_order="999" owner="TSS" preferred_name="form_completion_day" procurement_status="Completed" restricted="true" source_system_identifier="1627964" tier="2" xsd_ver="2.2">27</shared:day_of_form_completion>
+                <shared:month_of_form_completion cde="2975718" display_order="999" owner="TSS" preferred_name="form_completion_month" procurement_status="Completed" restricted="true" source_system_identifier="1627966" tier="2" xsd_ver="2.2">5</shared:month_of_form_completion>
+                <shared:year_of_form_completion cde="2975720" display_order="999" owner="TSS" preferred_name="form_completion_year" procurement_status="Completed" restricted="true" source_system_identifier="1627972" tier="2" xsd_ver="2.2">2009</shared:year_of_form_completion>
+            </rx:drug>
+            <rx:drug>
+                <rx:tx_on_clinical_trial cde="2503808" display_order="4" owner="TSS" preferred_name="clinical_trial_indicator" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <rx:regimen_number cde="2673845" display_order="999" owner="TSS" preferred_name="regimen_number" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                <rx:bcr_drug_barcode owner="TSS" procurement_status="Completed" restricted="false" xsd_ver="1.15">TCGA-12-0827-D23722</rx:bcr_drug_barcode>
+                <rx:bcr_drug_uuid cde="" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" xsd_ver="2.3">eb968fc1-4f4f-4429-8c4f-cac388b1b48e</rx:bcr_drug_uuid>
+                <rx:total_dose cde="1515" display_order="999" owner="TSS" preferred_name="total_dose" procurement_status="Completed" restricted="false" source_system_identifier="1627989" tier="2" xsd_ver="2.1">120</rx:total_dose>
+                <rx:total_dose_units cde="3088785" display_order="999" owner="TSS" preferred_name="pharmaceutical_tx_total_dose_units" procurement_status="Completed" restricted="false" source_system_identifier="1627993" tier="2" xsd_ver="2.1">mCi</rx:total_dose_units>
+                <rx:prescribed_dose cde="2184728" display_order="999" owner="TSS" preferred_name="prescribed_dose" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                <rx:prescribed_dose_units cde="3065815" display_order="999" owner="TSS" preferred_name="pharmaceutical_tx_dose_units" procurement_status="Completed" restricted="false" source_system_identifier="1627987" tier="2" xsd_ver="2.1">mCi</rx:prescribed_dose_units>
+                <rx:number_cycles cde="62590" display_order="999" owner="TSS" preferred_name="pharma_adjuvant_cycles_count" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="1.8"/>
+                <rx:days_to_drug_therapy_start cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">34</rx:days_to_drug_therapy_start>
+                <rx:days_to_drug_therapy_end cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">76</rx:days_to_drug_therapy_end>
+                <rx:therapy_types>
+                    <rx:therapy_type cde="2793530" display_order="7" owner="TSS" preferred_name="pharmaceutical_therapy_type" procurement_status="Completed" restricted="false" source_system_identifier="1627994" tier="2" xsd_ver="2.1">Targeted Molecular therapy</rx:therapy_type>
+                    <rx:therapy_type_notes cde="2001762" display_order="999" owner="TSS" preferred_name="pharma_type_other" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                </rx:therapy_types>
+                <rx:drug_name cde="2975232" display_order="22" owner="TSS" preferred_name="pharmaceutical_therapy_drug_name" procurement_status="Completed" restricted="false" source_system_identifier="1627996" tier="1" xsd_ver="1.10">MABI131</rx:drug_name>
+                <rx:clinical_trail_drug_classification cde="3378323" display_order="6" owner="TSS" preferred_name="clinical_trial_drug_classification" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:regimen_indication cde="2793511" display_order="999" owner="TSS" preferred_name="therapy_regimen" procurement_status="Completed" restricted="false" source_system_identifier="1627988" tier="2" xsd_ver="1.12">ADJUVANT</shared:regimen_indication>
+                <shared:regimen_indication_notes cde="2793516" display_order="999" owner="TSS" preferred_name="therapy_regimen_other" procurement_status="Not Applicable" restricted="false" source_system_identifier="1627985" tier="2" xsd_ver="1.12"/>
+                <rx:route_of_administrations>
+                    <rx:route_of_administration cde="2003586" display_order="999" owner="TSS" preferred_name="route_of_administration" procurement_status="Not Available" restricted="false" source_system_identifier="1627980" tier="2" xsd_ver="2.3"/>
+                </rx:route_of_administrations>
+                <rx:therapy_ongoing cde="3103479" display_order="12" owner="TSS" preferred_name="pharmaceutical_tx_ongoing_indicator" procurement_status="Completed" restricted="false" source_system_identifier="1627979" tier="2" xsd_ver="2.2">NO</rx:therapy_ongoing>
+                <shared:measure_of_response cde="2857291" display_order="17" owner="TSS" preferred_name="treatment_best_response" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:day_of_form_completion cde="2975716" display_order="999" owner="TSS" preferred_name="form_completion_day" procurement_status="Completed" restricted="true" source_system_identifier="1627983" tier="2" xsd_ver="2.2">27</shared:day_of_form_completion>
+                <shared:month_of_form_completion cde="2975718" display_order="999" owner="TSS" preferred_name="form_completion_month" procurement_status="Completed" restricted="true" source_system_identifier="1627986" tier="2" xsd_ver="2.2">5</shared:month_of_form_completion>
+                <shared:year_of_form_completion cde="2975720" display_order="999" owner="TSS" preferred_name="form_completion_year" procurement_status="Completed" restricted="true" source_system_identifier="1627991" tier="2" xsd_ver="2.2">2009</shared:year_of_form_completion>
+            </rx:drug>
+            <rx:drug>
+                <rx:tx_on_clinical_trial cde="2503808" display_order="4" owner="TSS" preferred_name="clinical_trial_indicator" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <rx:regimen_number cde="2673845" display_order="999" owner="TSS" preferred_name="regimen_number" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                <rx:bcr_drug_barcode owner="TSS" procurement_status="Completed" restricted="false" xsd_ver="1.15">TCGA-12-0827-D23723</rx:bcr_drug_barcode>
+                <rx:bcr_drug_uuid cde="" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" xsd_ver="2.3">926845c9-026a-497a-a4d4-2a0111b6575d</rx:bcr_drug_uuid>
+                <rx:total_dose cde="1515" display_order="999" owner="TSS" preferred_name="total_dose" procurement_status="Completed" restricted="false" source_system_identifier="1628001" tier="2" xsd_ver="2.1">20</rx:total_dose>
+                <rx:total_dose_units cde="3088785" display_order="999" owner="TSS" preferred_name="pharmaceutical_tx_total_dose_units" procurement_status="Completed" restricted="false" source_system_identifier="1628000" tier="2" xsd_ver="2.1">mg</rx:total_dose_units>
+                <rx:prescribed_dose cde="2184728" display_order="999" owner="TSS" preferred_name="prescribed_dose" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                <rx:prescribed_dose_units cde="3065815" display_order="999" owner="TSS" preferred_name="pharmaceutical_tx_dose_units" procurement_status="Completed" restricted="false" source_system_identifier="1627999" tier="2" xsd_ver="2.1">mg</rx:prescribed_dose_units>
+                <rx:number_cycles cde="62590" display_order="999" owner="TSS" preferred_name="pharma_adjuvant_cycles_count" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="1.8"/>
+                <rx:days_to_drug_therapy_start cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">34</rx:days_to_drug_therapy_start>
+                <rx:days_to_drug_therapy_end cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">76</rx:days_to_drug_therapy_end>
+                <rx:therapy_types>
+                    <rx:therapy_type cde="2793530" display_order="7" owner="TSS" preferred_name="pharmaceutical_therapy_type" procurement_status="Completed" restricted="false" source_system_identifier="1628009" tier="2" xsd_ver="2.1">Targeted Molecular therapy</rx:therapy_type>
+                    <rx:therapy_type_notes cde="2001762" display_order="999" owner="TSS" preferred_name="pharma_type_other" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.1"/>
+                </rx:therapy_types>
+                <rx:drug_name cde="2975232" display_order="22" owner="TSS" preferred_name="pharmaceutical_therapy_drug_name" procurement_status="Completed" restricted="false" source_system_identifier="1628016" tier="1" xsd_ver="1.10">81C6</rx:drug_name>
+                <rx:clinical_trail_drug_classification cde="3378323" display_order="6" owner="TSS" preferred_name="clinical_trial_drug_classification" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:regimen_indication cde="2793511" display_order="999" owner="TSS" preferred_name="therapy_regimen" procurement_status="Completed" restricted="false" source_system_identifier="1628008" tier="2" xsd_ver="1.12">ADJUVANT</shared:regimen_indication>
+                <shared:regimen_indication_notes cde="2793516" display_order="999" owner="TSS" preferred_name="therapy_regimen_other" procurement_status="Not Applicable" restricted="false" source_system_identifier="1628011" tier="2" xsd_ver="1.12"/>
+                <rx:route_of_administrations>
+                    <rx:route_of_administration cde="2003586" display_order="999" owner="TSS" preferred_name="route_of_administration" procurement_status="Not Available" restricted="false" source_system_identifier="1627998" tier="2" xsd_ver="2.3"/>
+                </rx:route_of_administrations>
+                <rx:therapy_ongoing cde="3103479" display_order="12" owner="TSS" preferred_name="pharmaceutical_tx_ongoing_indicator" procurement_status="Completed" restricted="false" source_system_identifier="1628013" tier="2" xsd_ver="2.2">NO</rx:therapy_ongoing>
+                <shared:measure_of_response cde="2857291" display_order="17" owner="TSS" preferred_name="treatment_best_response" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:day_of_form_completion cde="2975716" display_order="999" owner="TSS" preferred_name="form_completion_day" procurement_status="Completed" restricted="true" source_system_identifier="1628002" tier="2" xsd_ver="2.2">27</shared:day_of_form_completion>
+                <shared:month_of_form_completion cde="2975718" display_order="999" owner="TSS" preferred_name="form_completion_month" procurement_status="Completed" restricted="true" source_system_identifier="1628014" tier="2" xsd_ver="2.2">5</shared:month_of_form_completion>
+                <shared:year_of_form_completion cde="2975720" display_order="999" owner="TSS" preferred_name="form_completion_year" procurement_status="Completed" restricted="true" source_system_identifier="1627997" tier="2" xsd_ver="2.2">2009</shared:year_of_form_completion>
+            </rx:drug>
+        </rx:drugs>
+        <rad:radiations>
+            <rad:radiation>
+                <rad:bcr_radiation_barcode owner="TSS" procurement_status="Completed" restricted="false" xsd_ver="1.15">TCGA-12-0827-R23724</rad:bcr_radiation_barcode>
+                <rad:bcr_radiation_uuid cde="" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" xsd_ver="2.3">cb8682fa-18ee-4b80-af48-b540437a1604</rad:bcr_radiation_uuid>
+                <rad:days_to_radiation_therapy_start cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">76</rad:days_to_radiation_therapy_start>
+                <rad:days_to_radiation_therapy_end cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="1.16">127</rad:days_to_radiation_therapy_end>
+                <rad:radiation_type cde="2842944" display_order="4" owner="TSS" preferred_name="radiation_therapy_type" procurement_status="Completed" restricted="false" source_system_identifier="1628023" tier="2" xsd_ver="1.8">EXTERNAL BEAM</rad:radiation_type>
+                <rad:radiation_type_notes cde="2195477" display_order="999" owner="TSS" preferred_name="radiation_type_other" procurement_status="Not Applicable" restricted="false" source_system_identifier="1628036" tier="2" xsd_ver="1.12"/>
+                <rad:radiation_dosage cde="2721441" display_order="6" owner="TSS" preferred_name="radiation_total_dose" procurement_status="Completed" restricted="false" source_system_identifier="1628031" tier="2" xsd_ver="1.8">5940</rad:radiation_dosage>
+                <rad:units cde="61446" display_order="7" owner="TSS" preferred_name="radiation_adjuvant_units" procurement_status="Completed" restricted="false" source_system_identifier="1628017" tier="2" xsd_ver="1.12">cGy</rad:units>
+                <rad:numfractions cde="61465" display_order="8" owner="TSS" preferred_name="radiation_adjuvant_fractions_total" procurement_status="Completed" restricted="false" source_system_identifier="1628021" tier="2" xsd_ver="1.8">33</rad:numfractions>
+                <rad:anatomic_treatment_site cde="2793522" display_order="5" owner="TSS" preferred_name="radiation_therapy_site" procurement_status="Completed" restricted="false" source_system_identifier="1628022" tier="2" xsd_ver="2.3">Primary Tumor Field</rad:anatomic_treatment_site>
+                <shared:regimen_indication cde="2793511" display_order="999" owner="TSS" preferred_name="therapy_regimen" procurement_status="Completed" restricted="false" source_system_identifier="1628019" tier="2" xsd_ver="1.12">ADJUVANT</shared:regimen_indication>
+                <shared:regimen_indication_notes cde="2793516" display_order="999" owner="TSS" preferred_name="therapy_regimen_other" procurement_status="Not Available" restricted="false" source_system_identifier="1628018" tier="2" xsd_ver="1.12"/>
+                <rad:radiation_treatment_ongoing cde="2842745" display_order="13" owner="TSS" preferred_name="radiation_therapy_ongoing_indicator" procurement_status="Completed" restricted="false" source_system_identifier="1628029" tier="2" xsd_ver="1.12">NO</rad:radiation_treatment_ongoing>
+                <rad:course_number cde="2732184" display_order="999" owner="TSS" preferred_name="course_number" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.2"/>
+                <shared:measure_of_response cde="2857291" display_order="17" owner="TSS" preferred_name="treatment_best_response" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:day_of_form_completion cde="2975716" display_order="999" owner="TSS" preferred_name="form_completion_day" procurement_status="Completed" restricted="true" source_system_identifier="1628034" tier="2" xsd_ver="2.2">27</shared:day_of_form_completion>
+                <shared:month_of_form_completion cde="2975718" display_order="999" owner="TSS" preferred_name="form_completion_month" procurement_status="Completed" restricted="true" source_system_identifier="1628030" tier="2" xsd_ver="2.2">5</shared:month_of_form_completion>
+                <shared:year_of_form_completion cde="2975720" display_order="999" owner="TSS" preferred_name="form_completion_year" procurement_status="Completed" restricted="true" source_system_identifier="1628025" tier="2" xsd_ver="2.2">2009</shared:year_of_form_completion>
+            </rad:radiation>
+        </rad:radiations>
+        <gbm:follow_ups>
+            <follow_up_v1.0:follow_up sequence="1" version="1.0">
+                <shared:bcr_followup_barcode cde="" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" xsd_ver="2.5">TCGA-12-0827-F23714</shared:bcr_followup_barcode>
+                <shared:bcr_followup_uuid cde="" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" xsd_ver="2.5">9f6ab77e-9cef-4e5c-92cd-6703c59f6444</shared:bcr_followup_uuid>
+                <shared:vital_status cde="5" display_order="23" owner="TSS" preferred_name="vital_status" procurement_status="Completed" restricted="false" source_system_identifier="1627795" tier="2" xsd_ver="2.6">Dead</shared:vital_status>
+                <shared:days_to_last_followup cde="" owner="TSS" precision="day" procurement_status="Completed" tier="1" xsd_ver="1.16">1179</shared:days_to_last_followup>
+                <shared:days_to_death cde="" owner="TSS" precision="day" procurement_status="Completed" tier="1" xsd_ver="1.16">1179</shared:days_to_death>
+                <nte:days_to_new_tumor_event_after_initial_treatment cde="" owner="TSS" procurement_status="Not Available" tier="1" xsd_ver="2.2"/>
+                <nte:additional_surgery_locoregional_procedure cde="3008755" display_order="57" owner="TSS" preferred_name="new_tumor_event_surgery" procurement_status="Completed" restricted="false" source_system_identifier="1627793" tier="2" xsd_ver="2.2">YES</nte:additional_surgery_locoregional_procedure>
+                <nte:days_to_additional_surgery_locoregional_procedure cde="" owner="TSS" precision="day" procurement_status="Completed" tier="2" xsd_ver="2.2">452</nte:days_to_additional_surgery_locoregional_procedure>
+                <shared:days_to_tumor_progression cde="" owner="TSS" procurement_status="Not Available" tier="2" xsd_ver="1.16"/>
+                <shared:days_to_tumor_recurrence cde="" owner="TSS" procurement_status="Not Available" tier="2" xsd_ver="1.16"/>
+                <shared:chemo_therapy cde="2756823" display_order="37" owner="TSS" preferred_name="adjuvant_pharmaceutical_treatment" procurement_status="Completed" restricted="false" source_system_identifier="1627817" tier="1" xsd_ver="1.9">YES</shared:chemo_therapy>
+                <shared:immuno_therapy cde="2756814" display_order="38" owner="TSS" preferred_name="immunotherapy_adjuvant" procurement_status="Completed" restricted="false" source_system_identifier="1627805" tier="1" xsd_ver="1.9">NO</shared:immuno_therapy>
+                <shared:hormonal_therapy cde="2199669" display_order="39" owner="TSS" preferred_name="hormone_tx_adjuvant" procurement_status="Completed" restricted="false" source_system_identifier="1627821" tier="1" xsd_ver="1.9">YES</shared:hormonal_therapy>
+                <shared:targeted_molecular_therapy cde="2785850" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" source_system_identifier="1627803" tier="2" xsd_ver="1.9">YES</shared:targeted_molecular_therapy>
+                <shared:radiation_therapy cde="2005312" display_order="36" owner="TSS" preferred_name="radiation_treatment_adjuvant" procurement_status="Completed" restricted="false" source_system_identifier="1627822" tier="1" xsd_ver="1.9">YES</shared:radiation_therapy>
+                <shared:person_neoplasm_cancer_status cde="2759550" display_order="32" owner="TSS" preferred_name="tumor_status" procurement_status="Completed" restricted="false" source_system_identifier="1627802" tier="2" xsd_ver="1.9">WITH TUMOR</shared:person_neoplasm_cancer_status>
+                <shared:additional_radiation_therapy cde="3008761" display_order="9999" owner="TSS" preferred_name="" procurement_status="Completed" restricted="false" source_system_identifier="1627812" tier="2" xsd_ver="2.2">NO</shared:additional_radiation_therapy>
+                <follow_up_v1.0:additional_chemo_therapy cde="2650626" display_order="68" owner="TSS" preferred_name="new_tumor_event_chemo_tx" procurement_status="Completed" restricted="false" source_system_identifier="1627820" tier="2" xsd_ver="1.9">NO</follow_up_v1.0:additional_chemo_therapy>
+                <follow_up_v1.0:additional_immuno_therapy cde="2759828" display_order="69" owner="TSS" preferred_name="new_tumor_event_immunotherapy" procurement_status="Completed" restricted="false" source_system_identifier="1627828" tier="2" xsd_ver="1.9">NO</follow_up_v1.0:additional_immuno_therapy>
+                <shared:additional_pharmaceutical_therapy cde="3427616" display_order="999" owner="TSS" preferred_name="new_tumor_event_pharmaceutical_tx" procurement_status="Completed" restricted="false" source_system_identifier="1627801" tier="2" xsd_ver="2.2">NO</shared:additional_pharmaceutical_therapy>
+                <follow_up_v1.0:additional_drug_therapy cde="2786150" display_order="71" owner="TSS" preferred_name="new_tumor_event_targeted_therapy" procurement_status="Completed" restricted="false" source_system_identifier="1627825" tier="2" xsd_ver="1.9">NO</follow_up_v1.0:additional_drug_therapy>
+                <nte:additional_surgery_metastatic_procedure cde="3008757" display_order="62" owner="TSS" preferred_name="new_tumor_event_surgery_met" procurement_status="Completed" restricted="false" source_system_identifier="1627794" tier="2" xsd_ver="2.2">NO</nte:additional_surgery_metastatic_procedure>
+                <nte:days_to_additional_surgery_metastatic_procedure cde="" owner="TSS" procurement_status="Not Available" tier="2" xsd_ver="2.2"/>
+                <shared:day_of_form_completion cde="2975716" display_order="999" owner="TSS" preferred_name="form_completion_day" procurement_status="Completed" restricted="true" source_system_identifier="1627811" tier="2" xsd_ver="2.2">27</shared:day_of_form_completion>
+                <shared:month_of_form_completion cde="2975718" display_order="999" owner="TSS" preferred_name="form_completion_month" procurement_status="Completed" restricted="true" source_system_identifier="1627791" tier="2" xsd_ver="2.2">5</shared:month_of_form_completion>
+                <shared:year_of_form_completion cde="2975720" display_order="999" owner="TSS" preferred_name="form_completion_year" procurement_status="Completed" restricted="true" source_system_identifier="1627807" tier="2" xsd_ver="2.2">2009</shared:year_of_form_completion>
+                <shared:followup_case_report_form_submission_reason cde="3233305" display_order="4" owner="TSS" preferred_name="followup_reason" procurement_status="Not Available" restricted="false" tier="2" xsd_ver="2.5"/>
+                <shared:karnofsky_performance_score cde="2003853" display_order="33" owner="TSS" preferred_name="karnofsky_score" procurement_status="Completed" restricted="false" source_system_identifier="1627819" tier="2" xsd_ver="1.8">100</shared:karnofsky_performance_score>
+                <shared:eastern_cancer_oncology_group cde="88" display_order="34" owner="TSS" preferred_name="ecog_score" procurement_status="Not Available" restricted="false" source_system_identifier="1627830" tier="2" xsd_ver="1.9"/>
+                <shared:performance_status_scale_timing cde="2792763" display_order="35" owner="TSS" preferred_name="performance_status_timing" procurement_status="Completed" restricted="false" source_system_identifier="1627798" tier="2" xsd_ver="1.9">Post-Adjuvant Therapy</shared:performance_status_scale_timing>
+            </follow_up_v1.0:follow_up>
+        </gbm:follow_ups>
+    </gbm:patient>
+</gbm:tcga_bcr>

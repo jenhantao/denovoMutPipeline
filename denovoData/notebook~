@@ -1,0 +1,20 @@
+# De Novo Project
+
+
+Notes:
+Some TCGA barcodes have more than 3 associated samples (see samplesByBarcode.txt)
+
+
+
+# Data preprocessing
+1) Created data/denovo/meta.txt from data/denovo/TCGA_samples_with_three_types.summary
+awk -F $'\t' 'BEGIN {OFS = FS} {print $2,$2,"https://cghub.ucsc.edu/cghub/data/analysis/download/"$17,$11,$8}' TCGA_samples_with_three_types.summary > meta.txt
+-> Edited column 2 to retain only tissue code
+01 - Primary solid tumor (TP)
+10 - Blood derived normal (NB)
+11 - Solid tissue normal (NT)
+
+
+2) Created pipeline calls
+tasks/callPipe -f data/denovo/meta.txt -d ~/mnt -p denovo > denovo.run
+

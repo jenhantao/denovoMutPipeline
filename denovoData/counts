@@ -1,0 +1,23 @@
+     25 BLCA Bladder (possibly viral)
+    156 BRCA Breast
+      9 CESC Cervical (viral)
+     18 COAD Colon
+    186 HNSC Head and Neck (often viral)
+     51 KIRC Kidney clear cell
+     55 KIRP Kidney papillary
+     81 LIHC Liver
+    206 LUAD Lung adenocarcinoma (strong association with smoking)
+    126 LUSC Lung squamous cell carcinoma (strong association with smoking)
+      6 PAAD Pancreatic
+    145 PRAD Prostate
+     12 SARC Sarcoma
+     72 STAD Stomach
+     90 THCA Thyroid
+     45 UCEC Uterine
+
+
+If there's a de novo event:
+ Hypothesis: Earlier age of onset
+ 
+Thoughts:
+ Viral origin or exposure to mutagen - de novo event may be harder to detect. Origin of tumor may be explained by exposure.
