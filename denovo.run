@@ -4,8 +4,6 @@ bash ./pipe_single.sh /home/moores/mnt/denovo/ff8a1291-0dac-45a5-a49a-f03d3c0af6
 bash ./pipe_grouped.sh denovo TCGA-34-7107
 bash ./pipe_mutect.sh denovo TCGA-34-7107 NB NT
 bash ./pipe_mutect.sh denovo TCGA-34-7107 NB TP
-bash ./pipe_mutect.sh denovo TCGA-34-7107 NT TP
-
 tasks/removeIntermediates.sh denovo TCGA-34-7107
 bash ./pipe_single.sh /home/moores/mnt/denovo/cbf83a02-543b-4b60-ad87-a209d5233507 denovo TCGA-43-3394 TP
 bash ./pipe_single.sh /home/moores/mnt/denovo/3309f754-b33a-44a6-906c-ddcb068a5c18 denovo TCGA-43-3394 NB
