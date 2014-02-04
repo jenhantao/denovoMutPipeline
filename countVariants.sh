@@ -6,11 +6,11 @@
 
 # calls to grep
 grep -v REJECT $1 > nb_nt_nonRejected.tsv
-grep -v REJECT $1 > nb_tp_nonRejected.tsv
-grep -v REJECT $1 > nt_tp_nonRejected.tsv
-
+grep -v REJECT $2 > nb_tp_nonRejected.tsv
+grep -v REJECT $3 > nt_tp_nonRejected.tsv
+sampleName=$4
 # calls to python script
-python variantCounter.py nb_nt_nonRejected.tsv nb_tp_nonRejected.tsv nt_tp_nonRejected.tsv
+python variantCounter.py nb_nt_nonRejected.tsv nb_tp_nonRejected.tsv nt_tp_nonRejected.tsv sampleName
 
 # remove extra tsv files
 rm nb_nt_nonRejected.tsv
