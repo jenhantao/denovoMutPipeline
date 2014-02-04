@@ -83,15 +83,15 @@ for line in nt_tp_data[1:]:
 # NB_NT, NB_TP, NT_TP
 allMutations = list(set(allMutations))
 # given a threeway comparison, there are 8 possible outcomes. the truth table is shown below, 1 denotes an equivalent state
-# NB NT TP
-# 1  1  1 # mutation doesn't show in any of the files
-# 1  1  0 # mutation shows in nb_tp, nt_tp, no match
-# 1  0  1 # mutation shows in nb_nt, nt_tp, no match
-# 1  0  0 # mutation appears in all files, no match
-# 0  1  1 # mutation appears in nb_nt, nb_tp, no match <- this is the interesting one
-# 0  1  0 # mutation appears in all files, no match
-# 0  0  1 # mutation appears in all files, no match
-# 0  0  0 # appears in all files, no matches
+# NB_NT NB_TP NT_TP
+# 1     1     1    # alt alleledoesn't show up
+# 1     1     0    # alt allele appears in NT_TP
+# 1     0     1    # alt allele appears in NB_TP
+# 1     0     0    # alt allele appears in NB_TP, NT_TP
+# 0     1     1    # alt allele appears in NB_NT
+# 0     1     0    # alt allele appears in NB_NT, NT_TP
+# 0     0     1    # alt allele appears in NB_NT, NB_TP
+# 0     0     0    # alt_allele appears in all 3 files
 
 triangleCounts = [0]*8 # gives the frequency of each type of comparison result in the order given in the truth table
 for mutation in allMutations:
@@ -114,14 +114,82 @@ for mutation in allMutations:
 	if mutation in nt_tp_mutations:
 		nt_tp = True
 		nt_tp_allele = nt_tp_mutations[mutation]["alt_allele"]
-	# mutation doesn't show in any of the files
-	if not nb_nt and not nb_tp and not nt_tp:
-		triangleCounts[0] += 1
-	# mutation shows in nb_tp, nt_tp, no match
-	elif not nb_nt and nb_tp and nt_tp
-		triangleCounts[1] += 1
-	
+	if nb_nt:
+		if nb_tp:
+			if nt_tp:
+				# mutation appears in all files
+				triangleCounts[7] += 1
+			else:
+				# mutation appears in nb_nt, nb_tp
+				triangleCounts[6] += 1
+		else:	
+			if nt_tp:
+				# alt allele appears in nb_tp, nt_tp
+				triangleCounts[5] += 1
+			else:
+				# alt allele appears in nb_nt
+				triangleCounts[4] += 1
+	else:
+		if nb_tp:
+			if nt_tp:
+				# alt allele appears in nb_tp, nt_tp
+				triangleCounts[3] += 1
+			else:
+				# alt allele appears in nb_tp, nt_tp
+				triangleCounts[2] += 1
+		else:	
+			if nt_tp:
+				alt allele appears in nt_tp
+				triangleCounts[1] += 1
+			else:
+				# alt_allele doesn't appear in any of the files
+				triangleCounts[0] += 1
+
 # find mutations of interest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
