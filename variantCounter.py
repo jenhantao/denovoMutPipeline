@@ -11,24 +11,19 @@ nb_nt_file = open(sys.argv[1])
 nb_nt_data = nb_nt_file.readlines()
 nb_nt_file.close()
 nb_nt_mutations = {}
-for line in nb_nt_data[1:]:
+for line in nb_nt_data[10:]:
 	tokens = line.split("\t")
-	# key mutations by contig_position, normal_name
+	# key mutations by CHROM_POS, normal_name
 	key = tokens[0] + "_" + tokens[1]
 	allMutations.append(key)
 	mutation = {}
-	mutation["contig"] = tokens[0]
-	mutation["position"] = tokens[1]
+	mutation["CHROM"] = tokens[0]
+	mutation["POS"] = tokens[1]
 	mutation["context"] = tokens[2]
-	mutation["ref_allele"] = tokens[3]
-	mutation["alt_allele"] = tokens[4]
-	mutation["dbsnp_site"] = tokens[8]
-	mutation["tumor_power"] = tokens[11]
-	mutation["normal_power"] = tokens[12]
-	mutation["t_lod_fstar"] = tokens[16] # t_lod_fstar (likelihood tumor event is real / likelihood event is sequencing error) is the core statistic
-	mutation["tumor_f"] = tokens[17]
-	mutation["contaminant_fraction"] = tokens[18]
-	mutation["contaminant_lod"] = tokens[19]
+	mutation["REF"] = tokens[3]
+	mutation["ALT"] = tokens[4]
+	mutation["QUAL"] = tokens[5]
+	mutation["FILTER"] = tokens[6]
 	nb_nt_mutations[key] = mutation	
 
 nb_tp_file = open(sys.argv[2])
@@ -37,22 +32,16 @@ nb_tp_file.close()
 nb_tp_mutations = {}
 for line in nb_tp_data[1:]:
 	tokens = line.split("\t")
-	# key mutations by contig_position, normal_name
+	# key mutations by CHROM_POS, normal_name
 	key = tokens[0] + "_" + tokens[1]
 	allMutations.append(key)
 	mutation = {}
-	mutation["contig"] = tokens[0]
-	mutation["position"] = tokens[1]
-	mutation["context"] = tokens[2]
-	mutation["ref_allele"] = tokens[3]
-	mutation["alt_allele"] = tokens[4]
-	mutation["dbsnp_site"] = tokens[8]
-	mutation["tumor_power"] = tokens[11]
-	mutation["normal_power"] = tokens[12]
-	mutation["t_lod_fstar"] = tokens[16] 
-	mutation["tumor_f"] = tokens[17]
-	mutation["contaminant_fraction"] = tokens[18]
-	mutation["contaminant_lod"] = tokens[19]
+	mutation["CHROM"] = tokens[0]
+	mutation["POS"] = tokens[1]
+	mutation["REF"] = tokens[3]
+	mutation["ALT"] = tokens[4]
+	mutation["QUAL"] = tokens[5]
+	mutation["FILTER"] = tokens[6]
 	nb_tp_mutations[key] = mutation
 
 nt_tp_file = open(sys.argv[3])
@@ -61,25 +50,19 @@ nt_tp_file.close()
 nt_tp_mutations = {}
 for line in nt_tp_data[1:]:
 	tokens = line.split("\t")
-	# key mutations by contig_position, normal_name
+	# key mutations by CHROM_POS, normal_name
 	key = tokens[0] + "_" + tokens[1]
 	allMutations.append(key)
 	mutation = {}
-	mutation["contig"] = tokens[0]
-	mutation["position"] = tokens[1]
-	mutation["context"] = tokens[2]
-	mutation["ref_allele"] = tokens[3]
-	mutation["alt_allele"] = tokens[4]
-	mutation["dbsnp_site"] = tokens[8]
-	mutation["tumor_power"] = tokens[11]
-	mutation["normal_power"] = tokens[12]
-	mutation["t_lod_fstar"] = tokens[16] 
-	mutation["tumor_f"] = tokens[17]
-	mutation["contaminant_fraction"] = tokens[18]
-	mutation["contaminant_lod"] = tokens[19]
+	mutation["CHROM"] = tokens[0]
+	mutation["POS"] = tokens[1]
+	mutation["REF"] = tokens[3]
+	mutation["ALT"] = tokens[4]
+	mutation["QUAL"] = tokens[5]
+	mutation["FILTER"] = tokens[6]
 	nt_tp_mutations[key] = mutation	
 	
-# sanity check all ref_alleles should be the same
+# sanity check all REFs should be the same
 # NB_NT, NB_TP, NT_TP
 allMutations = list(set(allMutations))
 # given a threeway comparison, there are 8 possible outcomes. the truth table is shown below, 1 denotes an equivalent state
@@ -91,12 +74,12 @@ allMutations = list(set(allMutations))
 # 0     1     1    # alt allele appears in NB_NT
 # 0     1     0    # alt allele appears in NB_NT, NT_TP
 # 0     0     1    # alt allele appears in NB_NT, NB_TP
-# 0     0     0    # alt_allele appears in all 3 files
+# 0     0     0    # ALT appears in all 3 files
 
 triangleCounts = [0]*8 # gives the frequency of each type of comparison result in the order given in the truth table
 for mutation in allMutations:
-	#print mutation,nb_nt_mutations[mutation]["ref_allele"] , nb_tp_mutations[mutation]["ref_allele"] ,nb_nt_mutations[mutation]["ref_allele"] , nt_tp_mutations[mutation]["ref_allele"]
-	if not (nb_nt_mutations[mutation]["ref_allele"] == nb_tp_mutations[mutation]["ref_allele"] and nb_nt_mutations[mutation]["ref_allele"] == nt_tp_mutations[mutation]["ref_allele"]):
+	#print mutation,nb_nt_mutations[mutation]["REF"] , nb_tp_mutations[mutation]["REF"] ,nb_nt_mutations[mutation]["REF"] , nt_tp_mutations[mutation]["REF"]
+	if not (nb_nt_mutations[mutation]["REF"] == nb_tp_mutations[mutation]["REF"] and nb_nt_mutations[mutation]["REF"] == nt_tp_mutations[mutation]["REF"]):
 		print "ref alleles don't match for: "+mutation 
 	# count triangles
 	nb_nt = False
@@ -107,13 +90,13 @@ for mutation in allMutations:
 	nt_tp_allele = "nt_tp"
 	if mutation in nb_nt_mutations:
 		nb_nt = True
-		nb_nt_allele = nb_nt_mutations[mutation]["alt_allele"]
+		nb_nt_allele = nb_nt_mutations[mutation]["ALT"]
 	if mutation in nb_tp_mutations:
 		nb_tp = True
-		nb_tp_allele = nb_tp_mutations[mutation]["alt_allele"]
+		nb_tp_allele = nb_tp_mutations[mutation]["ALT"]
 	if mutation in nt_tp_mutations:
 		nt_tp = True
-		nt_tp_allele = nt_tp_mutations[mutation]["alt_allele"]
+		nt_tp_allele = nt_tp_mutations[mutation]["ALT"]
 	if nb_nt:
 		if nb_tp:
 			if nt_tp:
@@ -142,7 +125,7 @@ for mutation in allMutations:
 				alt allele appears in nt_tp
 				triangleCounts[1] += 1
 			else:
-				# alt_allele doesn't appear in any of the files
+				# ALT doesn't appear in any of the files
 				triangleCounts[0] += 1
 
 # find mutations of interest
