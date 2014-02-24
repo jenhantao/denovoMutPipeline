@@ -19,7 +19,6 @@ for line in nb_nt_data[10:]:
 	mutation = {}
 	mutation["CHROM"] = tokens[0]
 	mutation["POS"] = tokens[1]
-	mutation["context"] = tokens[2]
 	mutation["REF"] = tokens[3]
 	mutation["ALT"] = tokens[4]
 	mutation["QUAL"] = tokens[5]
@@ -30,7 +29,7 @@ nb_tp_file = open(sys.argv[2])
 nb_tp_data = nb_tp_file.readlines()
 nb_tp_file.close()
 nb_tp_mutations = {}
-for line in nb_tp_data[1:]:
+for line in nb_tp_data[10:]:
 	tokens = line.split("\t")
 	# key mutations by CHROM_POS, normal_name
 	key = tokens[0] + "_" + tokens[1]
@@ -48,7 +47,7 @@ nt_tp_file = open(sys.argv[3])
 nt_tp_data = nt_tp_file.readlines()
 nt_tp_file.close()
 nt_tp_mutations = {}
-for line in nt_tp_data[1:]:
+for line in nt_tp_data[10:]:
 	tokens = line.split("\t")
 	# key mutations by CHROM_POS, normal_name
 	key = tokens[0] + "_" + tokens[1]
@@ -67,7 +66,7 @@ for line in nt_tp_data[1:]:
 allMutations = list(set(allMutations))
 # given a threeway comparison, there are 8 possible outcomes. the truth table is shown below, 1 denotes an equivalent state
 # NB_NT NB_TP NT_TP
-# 1     1     1    # alt alleledoesn't show up
+# 1     1     1    # alt allele doesn't show up
 # 1     1     0    # alt allele appears in NT_TP
 # 1     0     1    # alt allele appears in NB_TP
 # 1     0     0    # alt allele appears in NB_TP, NT_TP
@@ -76,61 +75,106 @@ allMutations = list(set(allMutations))
 # 0     0     1    # alt allele appears in NB_NT, NB_TP
 # 0     0     0    # ALT appears in all 3 files
 
-triangleCounts = [0]*8 # gives the frequency of each type of comparison result in the order given in the truth table
+triangleCountsAll = [0]*8 # gives the frequency of each type of comparison result in the order given in the truth table
+triangleCountsReject= [0]*8 # gives the frequency of each type of comparison result in the order given in the truth table
+triangleCountsKeep = [0]*8 # gives the frequency of each type of comparison result in the order given in the truth table
 for mutation in allMutations:
-	#print mutation,nb_nt_mutations[mutation]["REF"] , nb_tp_mutations[mutation]["REF"] ,nb_nt_mutations[mutation]["REF"] , nt_tp_mutations[mutation]["REF"]
-	if not (nb_nt_mutations[mutation]["REF"] == nb_tp_mutations[mutation]["REF"] and nb_nt_mutations[mutation]["REF"] == nt_tp_mutations[mutation]["REF"]):
-		print "ref alleles don't match for: "+mutation 
 	# count triangles
 	nb_nt = False
 	nb_tp = False
 	nt_tp = False
-	nb_nt_allele = "nb_nt"
-	nb_tp_allele = "nb_tp"
-	nt_tp_allele = "nt_tp"
+	nb_nt_keep = False
+	nb_tp_keep = False
+	nt_tp_keep = False
+	nb_nt_allele = None
+	nb_tp_allele = None
+	nt_tp_allele = None
 	if mutation in nb_nt_mutations:
 		nb_nt = True
 		nb_nt_allele = nb_nt_mutations[mutation]["ALT"]
+		if nb_nt_mutations[mutation]["FILTER"] == "KEEP":
+			nb_nt_keep = True
 	if mutation in nb_tp_mutations:
 		nb_tp = True
 		nb_tp_allele = nb_tp_mutations[mutation]["ALT"]
+		if nb_tp_mutations[mutation]["FILTER"] == "KEEP":
+			nb_tp_keep = True
 	if mutation in nt_tp_mutations:
 		nt_tp = True
 		nt_tp_allele = nt_tp_mutations[mutation]["ALT"]
+		if nt_tp_mutations[mutation]["FILTER"] == "KEEP":
+			nt_tp_keep = True
 	if nb_nt:
 		if nb_tp:
 			if nt_tp:
 				# mutation appears in all files
-				triangleCounts[7] += 1
+				triangleCountsAll[7] += 1
+				if nb_nt_keep and nb_tp_keep and nt_tp_keep:
+					triangleCountsKeep[7] += 1
+				if not nb_nt_keep and not nb_tp_keep and not nt_tp_keep:
+					triangleCountsReject[7] += 1
+					
 			else:
 				# mutation appears in nb_nt, nb_tp
-				triangleCounts[6] += 1
+				triangleCountsAll[6] += 1
+				if nb_nt_keep and nb_tp_keep:
+					triangleCountsKeep[6] += 1
+				if not nb_nt_keep and not nb_tp_keep:
+					triangleCountsReject[6] += 1
 		else:	
 			if nt_tp:
-				# alt allele appears in nb_tp, nt_tp
-				triangleCounts[5] += 1
+				# alt allele appears in nb_nt, nt_tp
+				triangleCountsAll[5] += 1
+				if nb_nt_keep and nt_tp_keep:
+					triangleCountsKeep[5] += 1
+				if not nb_nt_keep and not nt_tp_keep:
+					triangleCountsReject[5] += 1
 			else:
 				# alt allele appears in nb_nt
-				triangleCounts[4] += 1
+				triangleCountsAll[4] += 1
+				if nb_nt_keep:
+					triangleCountsKeep[4] += 1
+				if not nb_nt_keep:
+					triangleCountsReject[4] += 1
 	else:
 		if nb_tp:
 			if nt_tp:
 				# alt allele appears in nb_tp, nt_tp
-				triangleCounts[3] += 1
+				triangleCountsAll[3] += 1
+				if nb_tp_keep and nt_tp_keep:
+					triangleCountsKeep[3] += 1
+				if not nb_tp_keep and not nt_tp_keep:
+					triangleCountsReject[3] += 1
 			else:
-				# alt allele appears in nb_tp, nt_tp
-				triangleCounts[2] += 1
+				# alt allele appears in nb_tp
+				triangleCountsAll[2] += 1
+				if nb_tp_keep:
+					triangleCountsKeep[2] += 1
+				if not nb_tp_keep:
+					triangleCountsReject[2] += 1
 		else:	
 			if nt_tp:
-				alt allele appears in nt_tp
-				triangleCounts[1] += 1
+				#alt allele appears in nt_tp
+				triangleCountsAll[1] += 1
+				if nt_tp_keep:
+					triangleCountsKeep[1] += 1
+				if not nt_tp_keep:
+					triangleCountsReject[1] += 1
 			else:
 				# ALT doesn't appear in any of the files
-				triangleCounts[0] += 1
-
+				triangleCountsAll[0] += 1
+				triangleCountsKeep[0] += 1
+				triangleCountsReject[0] += 1
 # find mutations of interest
+print "all SNPs"
+print ''.join(["%15s" % cell for cell in triangleCountsAll])
+print "all KEEP SNPs"
+print ''.join(["%15s" % cell for cell in triangleCountsKeep])
+print "all REJECT SNPs"
+print ''.join(["%15s" % cell for cell in triangleCountsReject])
 
-
+#columns = ["%5s" % cell for cell in line]
+#    print ' '.join(columns)
 
 
 
