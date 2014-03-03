@@ -1,0 +1,6 @@
+#! /bin/bash
+
+# Coordinate sort recalibrated bam files and convert to mpileup format
+
+java -Xmx${heap}m -Djava.io.tmpdir\=${tmp_folder}_varscan -jar ${picard}/SortSam.jar INPUT=${output_dir}/${subjectID}.srt.bam OUTPUT=${output_dir}/${subjectID}.coordinate.srt.bam SORT_ORDER=coordinate VALIDATION_STRINGENCY=LENIENT 2> ${output_dir}/${subjectID}.srtsam.log
+${samtools} mpileup -f $REF ${output_dir}/${subjectID}.coordinate.srt.bam > ${output_dir}/${subjectID}.coordinate.srt.mpileup

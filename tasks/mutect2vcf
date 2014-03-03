@@ -1,0 +1,112 @@
+#! /usr/bin/env python
+
+import sys, os
+import math
+
+class MutectReader(object):
+
+   def __init__(self, filename):
+      self.fh = file(filename, 'r')
+      
+   def __iter__(self):
+      return self
+
+   def next(self):
+      while True:
+         line = self.fh.readline()
+         if line == "":
+            self.fh.close()
+            raise StopIteration
+         line = line[:-1]
+         if not line.startswith("#") and not line.startswith("contig"):
+            return SomaticVar(line.split("\t"))
+
+
+class SomaticVar(object):
+   
+   def __init__(self, row):   
+      self.contig = row[0]
+      self.position = row[1]
+      self.context = row[2]
+      self.ref_allele = row[3]
+      self.alt_allele = row[4]
+      self.tumor_name = row[5]
+      self.normal_name = row[6]
+      self.score = row[7]
+      self.dbsnp_site = row[8]
+      self.covered = row[9]
+      self.power = row[10]
+      self.tumor_power = row[11]
+      self.normal_power = row[12]
+      self.total_pairs = row[13]
+      self.improper_pairs = row[14]
+      self.map_Q0_reads = row[15]
+      self.t_lod_fstar = row[16]
+      self.tumor_f = row[17]
+      self.contaminant_fraction = row[18]
+      self.contaminant_lod = row[19]
+      self.t_ref_count = row[20]
+      self.t_alt_count = row[21]
+      self.t_ref_sum = row[22]
+      self.t_alt_sum = row[23]
+      self.t_ref_max_mapq = row[24]
+      self.t_alt_max_mapq = row[25]
+      self.t_ins_count = row[26]
+      self.t_del_count = row[27]
+      self.normal_best_gt = row[28]
+      self.init_n_lod = row[29]
+      self.n_ref_count = row[30]
+      self.n_alt_count = row[31]
+      self.n_ref_sum = row[32]
+      self.n_alt_sum = row[33]
+      self.judgement = row[34]
+      self.alt = None
+      self.phred = None
+      self.__process()
+
+   def __process(self):
+      """
+      Call zygosity based on read counts
+      FIXME: 0.90 is a pretty ad-hoc number for assuming homozygosity for the tumor 
+      """
+      if float(self.tumor_f) > 0.90:
+         self.alt = self.alt_allele+","+self.alt_allele
+      else:
+         self.alt = self.ref_allele+","+self.alt_allele
+      self.phred = int(-10 * math.log(1-float(self.power),10)) if float(self.power) != 1.0 else 100
+         
+   def printForSnpEff(self):
+      return "\t".join([self.contig,self.position,".",self.ref_allele,self.alt,str(self.phred),self.judgement,"SID="+self.tumor_name.split("_")[0]+";AFrac="+self.tumor_f+";NGT="+self.normal_best_gt])
+
+   def __repr__(self):
+      alt = list(set(self.alt.split(",")))
+      text = []
+      for allele in alt:
+         if allele == self.ref_allele:
+            continue
+         text.append("\t".join([self.contig,self.position,".",self.ref_allele,allele,str(self.phred),self.judgement,"SID="+self.tumor_name.split("_")[0]+";AFrac="+self.tumor_f+";NGT="+self.normal_best_gt]))
+      return "\n".join(text)
+      
+
+def main():
+
+   print "##fileformat=VCFv4.0"
+   print "##INFO=<ID=SID,Number=1,Type=String,Description=\"Tumor Sample Barcode\">"
+   print "##INFO=<ID=AFrac,Number=1,Type=Float,Description=\"Allelic fraction in tumor\">"
+   print "##INFO=<ID=NGT,Number=1,Type=String,Description=\"Most likely normal genotype\">"
+   print "##FILTER=<ID=REJECT, Description=\"Mutect Reject\">"
+   print "##FILTER=<ID=KEEP, Description=\"Mutect Keep\">"
+   print "#CHROM\tPOS\tID\tREF\tALT\tQUAL\tFILTER\tINFO"
+   if len(sys.argv) > 2:
+      if sys.argv[2] == "snpEff":
+         for var in MutectReader(sys.argv[1]):
+            vartext = var.printForSnpEff()
+            print vartext
+      else:
+         raise Exception("Second commandline arg not recognized. SnpEff expected.")
+   else:
+      for var in MutectReader(sys.argv[1]):
+         print var
+
+if __name__ == "__main__":
+   main()

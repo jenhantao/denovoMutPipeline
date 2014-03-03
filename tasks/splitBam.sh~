@@ -1,0 +1,7 @@
+#! /bin/bash
+
+java -Xmx${heap}m -jar $gatk \
+   -T SplitSam \
+   -I ${output_dir}/${subjectID}.realinged.recal.bam \
+   -R $REF \
+   -outputRoot ${output_dir}/

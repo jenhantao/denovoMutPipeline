@@ -1,0 +1,25 @@
+TaskId	TaskName	Type	Inputs	Outputs
+1	./tasks/checkBam.sh	basic	.bam	.bamcheck,.valid.bam
+2	./tasks/fastqc.sh	basic	.bam	.
+3	./tasks/picardBam2Fastq.sh	basic	.bam	_forward.fq,_reverse.fq
+4a	./tasks/bwaAlignMem.sh	basic	_forward.fq,_reverse.fq	srt.bam,.srt.stats
+4b	./tasks/bwaAlignPE.sh	basic	_forward.fq,_reverse.fq	srt.bam,.srt.stats
+4c	./tasks/snapAlignPE.sh	basic	_forward.fq,_reverse.fq	srt.bam,.srt.stats
+5	./tasks/fixmate.sh	basic	.srt.bam	.fxmt.bam,.fxmt.stats
+6	./tasks/checkBam2.sh	basic	.fxmt.bam	.fxmt.valid.bam,.bamcheck2
+7	./tasks/fixReadGroups.sh	basic	.fxmt.bam,.valid.bam,.bamcheck2	.fxmt.bam
+8	./tasks/filter.sh	basic	.fxmt.bam	.fxmt.flt.bam,.fxmt.flt.bam.bai,.fxmt.flt.stats
+9	./tasks/removeDups.sh	basic	.fxmt.flt.bam	.rmdup.bam,.rmdup.bai,.rmdup.stats
+10	./tasks/filterMapQ.sh	basic	.rmdup.bam	.mq.srt.bam,.mq.srt.stats
+11	./tasks/createIntervals.sh	basic	.mq.srt.bam	.forRealign.intervals
+12	./tasks/realign.sh	basic	.mg.srt.bam,.forRealign.intervals	.realigned.bam,.realigned.stats
+13	./tasks/recalibrate.sh	basic	.realigned.bam	.recaligned.recal.bam,.recal_data.grp,.recal2_data.grp
+14	./tasks/getCoverageDepth.sh	basic	.realigned.recal.bam	.coverage.depth
+15	./tasks/getGeneCoverage.sh	basic	.realigned.recal.bam	.depthofcoverage
+16	./tasks/hsMetrics.sh	basic	.realigned.recal.bam	.realigned.recal.hsmetrics
+17	./tasks/cleanup.sh	basic		
+18	./tasks/varCall.sh	basic	./realigned.recal.bam	.snps.PASS.vcf,.indels.PASS.vcf
+19	./tasks/getGenotype.sh	basic	.realigned.recal.bam	.snps.all.vcf,.snps.all.PASS.vcf
+20	./tasks/annSnpEff.sh	basic	.realigned.recal.bam	.snps.all.vcf,.snps.all.PASS.vcf
+21	./tasks/varScan.sh	somatic	.realigned.recal.bam	.snps.all.vcf,.snps.all.PASS.vcf
+22	./tasks/mutect.sh	somatic	.realigned.recal.bam	.snps.all.vcf,.snps.all.PASS.vcf

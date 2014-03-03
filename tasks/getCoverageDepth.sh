@@ -1,0 +1,21 @@
+#! /bin/bash
+
+mkdir -p ${tmp_folder}_dept 
+
+java -Xmx${heap}m -Djava.io.tmpdir\=${tmp_folder}_dept -jar ${gatk} \
+     -R ${REF} \
+     -T DepthOfCoverage \
+     -o ${output_dir}/$1.depthofcoverage \
+     -I ${output_dir}/$1.bam \
+     -geneList ${REFSEQ} \
+     -ct 6 -ct 8 -ct 10 -ct 20 \
+     -L ${ExonFile} \
+     -l INFO \
+     #-omitBaseOutput \
+     #-omitLocusTable
+
+rm -rf ${tmp_folder}_dept
+
+mkdir -p ${output_dir}/coverage
+
+mv ${output_dir}/$1.dept* ${output_dir}/coverage

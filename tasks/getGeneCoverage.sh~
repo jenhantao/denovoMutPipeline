@@ -1,0 +1,13 @@
+#! /bin/bash
+
+java -Xmx4g -jar ${gatk} \
+     -R ${REF} \
+     -T DepthOfCoverage \
+     -o ${output_dir}/${subjectID}.depthofcoverage \
+     -I ${output_dir}/${subjectID}.realigned.recal.bam \
+     -geneList ${REFSEQ} \
+     -ct 6 -ct 8 -ct 10 -ct 20 \
+     -L ${ExonFile} \
+     -omitBaseOutput \
+     -omitLocusTable
+

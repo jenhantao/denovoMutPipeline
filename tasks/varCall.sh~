@@ -1,0 +1,115 @@
+#! /bin/bash
+
+mkdir ${output_dir}/variants
+ 
+java -Xmx${heap}m  \
+    -jar $gatk \
+    -R $REF \
+    -T UnifiedGenotyper \
+    --dbsnp $DBSNP \
+    -I ${output_dir}/${subjectID}.realigned.recal.bam \
+    -o ${output_dir}/variants/${subjectID}.snps.raw.vcf \
+    -stand_call_conf 30.0 \
+    -stand_emit_conf 10.0 \
+    -out_mode EMIT_VARIANTS_ONLY \
+    -l INFO \
+    -dcov 200 \
+    -nt 1  \
+    -glm SNP  \
+    -L $ExonFile
+    #-A HaplotypeScore \
+    #-A InbreedingCoeff \
+
+ 
+rm -f ${output_dir}/variants/*.idx
+
+java -Xmx${heap}m  \
+    -jar $gatk \
+    -R $REF \
+    -T UnifiedGenotyper \
+    --dbsnp $DBSNP \
+    -I ${output_dir}/${subjectID}.realigned.recal.bam \
+    -o ${output_dir}/variants/${subjectID}.indels.raw.vcf \
+    -stand_call_conf 30.0 \
+    -stand_emit_conf 10.0 \
+    -out_mode EMIT_VARIANTS_ONLY \
+    -l INFO \
+    -dcov 200 \
+    -nt 1  \
+    -glm INDEL  \
+    -L $ExonFile
+    #-A HaplotypeScore \
+    #-A InbreedingCoeff \
+ 
+rm -f ${output_dir}/variants/*.idx
+
+
+java -Xmx${heap}m  \
+  -jar $gatk \
+  -l INFO -T VariantFiltration \
+  -R $REF \
+  -o ${output_dir}/variants/${subjectID}.indels.vcf \
+  -V:VCF ${output_dir}/variants/${subjectID}.indels.raw.vcf \
+  --filterExpression "QD < 2.0" \
+  --filterName "QDFilter" \
+  --filterExpression "ReadPosRankSum < -20.0" \
+  --filterName "ReadPosFilter" \
+  --filterExpression "FS > 200.0" \
+  --filterName "FSFilter" \
+  --filterExpression "MQ0 >= 4 && ((MQ0 / (1.0 * DP)) > 0.1)" \
+  --filterName "HARD_TO_VALIDATE" \
+  --filterExpression "QUAL < 30.0 || DP < 6 || DP > 5000 || HRun > 5" \
+  --filterName "QualFilter"
+ 
+mline2=`grep -n "#CHROM" ${output_dir}/variants/${subjectID}.indels.vcf | cut -d':' -f 1`
+head -n $mline2 ${output_dir}/variants/${subjectID}.indels.vcf > ${output_dir}/variants/headindels.vcf
+cat ${output_dir}/variants/${subjectID}.indels.vcf | grep PASS | cat ${output_dir}/variants/headindels.vcf - > ${output_dir}/variants/${subjectID}.indels.PASS.vcf
+ 
+rm -f ${output_dir}/variants/*.idx
+rm -f ${output_dir}/variants/headindels.vcf
+
+java -Xmx${heap}m  \
+  -jar $gatk \
+  -l OFF -T VariantFiltration \
+  -R $REF \
+  -o ${output_dir}/variants/${subjectID}.snps.vcf \
+  --variant ${output_dir}/variants/${subjectID}.snps.raw.vcf \
+  --mask ${output_dir}/variants/${subjectID}.indels.PASS.vcf \
+  --maskName InDel \
+  --clusterSize 3 \
+  --clusterWindowSize 10 \
+  --filterExpression "QD < 2.0" \
+  --filterName "QDFilter" \
+  --filterExpression "MQ < 40.0" \
+  --filterName "MQFilter" \
+  --filterExpression "FS > 60.0" \
+  --filterName "FSFilter" \
+  --filterExpression "HaplotypeScore > 13.0" \
+  --filterName "HaplotypeScoreFilter" \
+  --filterExpression "MQRankSum < -12.5" \
+  --filterName "MQRankSumFilter" \
+  --filterExpression "ReadPosRankSum < -8.0" \
+  --filterName "ReadPosRankSumFilter" \
+  --filterExpression "QUAL < 30.0 || DP < 6 || DP > 5000 || HRun > 5" \
+  --filterName "StandardFilters" \
+  --filterExpression "MQ0 >= 4 && ((MQ0 / (1.0 * DP)) > 0.1)" \
+  --filterName "HARD_TO_VALIDATE"
+  
+rm -f ${output_dir}/variants/*.idx
+
+ 
+mline=`grep -n "#CHROM" ${output_dir}/variants/${subjectID}.snps.vcf | cut -d':' -f 1`
+head -n $mline ${output_dir}/variants/${subjectID}.snps.vcf > ${output_dir}/variants/head.vcf
+cat ${output_dir}/variants/${subjectID}.snps.vcf | grep PASS | cat ${output_dir}/variants/head.vcf - > ${output_dir}/variants/${subjectID}.snps.PASS.vcf
+  
+rm -f ${output_dir}/variants/head.vcf
+
+java -Xmx${heap}m  \
+   -jar $gatk \
+   -T VariantEval \
+   --dbsnp $DBSNP \
+   -R $REF \
+   -eval ${output_dir}/variants/${subjectID}.snps.PASS.vcf \
+   -o ${output_dir}/variants/${subjectID}.snps.PASS.vcf.eval
+ 
+rm -f ${output_dir}/variants/*.idx

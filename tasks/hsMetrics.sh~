@@ -1,0 +1,9 @@
+#! /bin/bash
+
+$samtools view -H ${output_dir}/${subjectID}.realigned.recal.bam > header.txt
+
+java -Xmx${heap}m -jar ${picard}/CalculateHsMetrics.jar \
+    BAIT_INTERVALS\=$BaitFilePicard  \
+    TARGET_INTERVALS\=$ExonFilePicard   \
+    INPUT\=${output_dir}/${subjectID}.realigned.recal.bam  \
+    OUTPUT\=${output_dir}/${subjectID}.realigned.recal.hsmetrics
