@@ -1,0 +1,54 @@
+INFO  11:49:20,569 ArgumentTypeDescriptor - Dynamically determined type of /home/moores/projects/pipeline/files/gatk/2.5/hg19/refGene.hg19.exon.intervals.srt.bed to be BED 
+INFO  11:49:20,664 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:49:20,665 HelpFormatter - The Genome Analysis Toolkit (GATK) v2.2-25-g2a68eab, Compiled 2012/11/08 10:30:02 
+INFO  11:49:20,665 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:49:20,665 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:49:20,670 HelpFormatter - Program Args: --analysis_type MuTect --reference_sequence /home/moores/projects/pipeline/files/gatk/2.5/hg19/ucsc.hg19.fasta --cosmic /home/moores/projects/pipeline/files/gatk/2.5/hg19/hg19_cosmic_v54_120711.vcf --dbsnp /home/moores/projects/pipeline/files/gatk/2.5/hg19/dbsnp_137.hg19.vcf --intervals /home/moores/projects/pipeline/files/gatk/2.5/hg19/refGene.hg19.exon.intervals.srt.bed --input_file:normal /home/moores/projects/pipeline/runs/denovo/TCGA-DD-A114/TCGA-DD-A114_NB.bam --input_file:tumor /home/moores/projects/pipeline/runs/denovo/TCGA-DD-A114/TCGA-DD-A114_NT.bam --out /home/moores/projects/pipeline/runs/denovo/TCGA-DD-A114/TCGA-DD-A114_NB_NT.call_stats.out --coverage_file /home/moores/projects/pipeline/runs/denovo/TCGA-DD-A114/TCGA-DD-A114_NB_NT.coverage.wig.txt 
+INFO  11:49:20,671 HelpFormatter - Date/Time: 2014/03/04 11:49:20 
+INFO  11:49:20,671 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:49:20,671 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:49:20,718 ArgumentTypeDescriptor - Dynamically determined type of /home/moores/projects/pipeline/files/gatk/2.5/hg19/dbsnp_137.hg19.vcf to be VCF 
+INFO  11:49:20,730 ArgumentTypeDescriptor - Dynamically determined type of /home/moores/projects/pipeline/files/gatk/2.5/hg19/hg19_cosmic_v54_120711.vcf to be VCF 
+INFO  11:49:20,747 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:49:20,893 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE Target Coverage: 1000  
+INFO  11:49:20,903 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+INFO  11:49:22,082 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:49:26,524 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  11:49:26,526 HelpFormatter - The Genome Analysis Toolkit (GATK) v2.2-2-gf44cc4e, Compiled 2012/11/01 07:01:29 
+INFO  11:49:26,527 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:49:26,527 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:49:26,532 HelpFormatter - Program Args: -T SomaticIndelDetector -R /home/moores/projects/pipeline/files/gatk/2.5/hg19/ucsc.hg19.fasta -o /home/moores/projects/pipeline/runs/denovo/TCGA-DD-A114/TCGA-DD-A114_NB_NT.raw.indels.vcf -verbose /home/moores/projects/pipeline/runs/denovo/TCGA-DD-A114/TCGA-DD-A114_NB_NT.indels.txt -I:normal /home/moores/projects/pipeline/runs/denovo/TCGA-DD-A114/TCGA-DD-A114_NB.bam -I:tumor /home/moores/projects/pipeline/runs/denovo/TCGA-DD-A114/TCGA-DD-A114_NT.bam 
+INFO  11:49:26,532 HelpFormatter - Date/Time: 2014/03/04 11:49:26 
+INFO  11:49:26,532 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  11:49:26,533 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  11:49:26,565 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:49:26,780 GenomeAnalysisEngine - Downsampling Settings: No downsampling 
+INFO  11:49:26,789 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+INFO  11:49:28,006 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:50:06,733 ArgumentTypeDescriptor - Dynamically determined type of /home/moores/projects/pipeline/files/gatk/2.5/hg19/refGene.hg19.exon.intervals.srt.bed to be BED 
+INFO  11:50:06,838 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:50:06,839 HelpFormatter - The Genome Analysis Toolkit (GATK) v2.2-25-g2a68eab, Compiled 2012/11/08 10:30:02 
+INFO  11:50:06,839 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:50:06,839 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:50:06,844 HelpFormatter - Program Args: --analysis_type MuTect --reference_sequence /home/moores/projects/pipeline/files/gatk/2.5/hg19/ucsc.hg19.fasta --cosmic /home/moores/projects/pipeline/files/gatk/2.5/hg19/hg19_cosmic_v54_120711.vcf --dbsnp /home/moores/projects/pipeline/files/gatk/2.5/hg19/dbsnp_137.hg19.vcf --intervals /home/moores/projects/pipeline/files/gatk/2.5/hg19/refGene.hg19.exon.intervals.srt.bed --input_file:normal /home/moores/projects/pipeline/runs/denovo/TCGA-DD-A114/TCGA-DD-A114_NB.bam --input_file:tumor /home/moores/projects/pipeline/runs/denovo/TCGA-DD-A114/TCGA-DD-A114_TP.bam --out /home/moores/projects/pipeline/runs/denovo/TCGA-DD-A114/TCGA-DD-A114_NB_TP.call_stats.out --coverage_file /home/moores/projects/pipeline/runs/denovo/TCGA-DD-A114/TCGA-DD-A114_NB_TP.coverage.wig.txt 
+INFO  11:50:06,845 HelpFormatter - Date/Time: 2014/03/04 11:50:06 
+INFO  11:50:06,845 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:50:06,845 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  11:50:06,893 ArgumentTypeDescriptor - Dynamically determined type of /home/moores/projects/pipeline/files/gatk/2.5/hg19/dbsnp_137.hg19.vcf to be VCF 
+INFO  11:50:06,906 ArgumentTypeDescriptor - Dynamically determined type of /home/moores/projects/pipeline/files/gatk/2.5/hg19/hg19_cosmic_v54_120711.vcf to be VCF 
+INFO  11:50:06,923 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:50:07,078 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE Target Coverage: 1000  
+INFO  11:50:07,088 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+INFO  11:50:08,295 GATKRunReport - Uploaded run statistics report to AWS S3 
+INFO  11:50:12,635 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  11:50:12,638 HelpFormatter - The Genome Analysis Toolkit (GATK) v2.2-2-gf44cc4e, Compiled 2012/11/01 07:01:29 
+INFO  11:50:12,638 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  11:50:12,639 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  11:50:12,643 HelpFormatter - Program Args: -T SomaticIndelDetector -R /home/moores/projects/pipeline/files/gatk/2.5/hg19/ucsc.hg19.fasta -o /home/moores/projects/pipeline/runs/denovo/TCGA-DD-A114/TCGA-DD-A114_NB_TP.raw.indels.vcf -verbose /home/moores/projects/pipeline/runs/denovo/TCGA-DD-A114/TCGA-DD-A114_NB_TP.indels.txt -I:normal /home/moores/projects/pipeline/runs/denovo/TCGA-DD-A114/TCGA-DD-A114_NB.bam -I:tumor /home/moores/projects/pipeline/runs/denovo/TCGA-DD-A114/TCGA-DD-A114_TP.bam 
+INFO  11:50:12,643 HelpFormatter - Date/Time: 2014/03/04 11:50:12 
+INFO  11:50:12,644 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  11:50:12,644 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  11:50:12,674 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  11:50:12,867 GenomeAnalysisEngine - Downsampling Settings: No downsampling 
+INFO  11:50:12,875 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+INFO  11:50:14,119 GATKRunReport - Uploaded run statistics report to AWS S3 

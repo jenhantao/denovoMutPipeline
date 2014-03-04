@@ -1,5 +1,3 @@
-#! bin/bash
-
 # Basic pipeline for alignment to genome starting from a single bam containing paired end reads
 
 # Arg1 = path to bamfile
@@ -25,9 +23,12 @@ export subjectID=$3"_"$4
 mkdir ${runs_dir}/$2 2> /dev/null
 mkdir ${runs_dir}/$2/$3 2> /dev/null
 export output_dir=${runs_dir}/$2/$3
-#echo $output_dir
 
+output_dir=${runs_dir}/$2/$3
 
 # Mount bam file using gtfuse
 ./tasks/mountBam.sh $2 $(echo ${1##*/})
 export bamfilename=$(find $bampath/$bamfile -name "*.bam") 
+export bamFile_$4=$bamfilename 
+export unMount_$4=$(echo ${1##*/}) 
+./tasks/unmountBam.sh $2 $(echo ${1##*/})
