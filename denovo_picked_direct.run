@@ -1,0 +1,70 @@
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/ea0d44b0-3f65-457e-9ea7-5b56aa9abc5d denovo TCGA-DD-A114 TP
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/a9188f3b-6b6e-4b00-8aa6-0a7704479f4b denovo TCGA-DD-A114 NB
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/69305af6-f4b0-4eb4-8598-3868d0882b56 denovo TCGA-DD-A114 NT
+bash ./pipe_mutect.sh denovo TCGA-DD-A114 NB NT
+bash ./pipe_mutect.sh denovo TCGA-DD-A114 NB TP
+bash ./pipe_mutect.sh denovo TCGA-DD-A114 NT TP
+tasks/removeIntermediates.sh denovo TCGA-DD-A114
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/e3fc5f6f-8aef-4eb8-bea4-6f127f3ac7f7 denovo TCGA-DD-A115 TP
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/adbb8c08-f303-4cd0-932f-618c1ba7708d denovo TCGA-DD-A115 NB
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/841fd29a-34de-4521-b2fa-80adb517520c denovo TCGA-DD-A115 NT
+bash ./pipe_mutect.sh denovo TCGA-DD-A115 NB NT
+bash ./pipe_mutect.sh denovo TCGA-DD-A115 NB TP
+bash ./pipe_mutect.sh denovo TCGA-DD-A115 NT TP
+tasks/removeIntermediates.sh denovo TCGA-DD-A115
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/bbfc5a24-443d-4172-9dd6-8f5baf54b54b denovo TCGA-DD-A116 TP
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/ee9f13cf-230e-47aa-96a0-62a148d95f38 denovo TCGA-DD-A116 NB
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/b3ed2e1a-3ec1-4bd2-9a2d-580cf8a847e5 denovo TCGA-DD-A116 NT
+bash ./pipe_mutect.sh denovo TCGA-DD-A116 NB NT
+bash ./pipe_mutect.sh denovo TCGA-DD-A116 NB TP
+bash ./pipe_mutect.sh denovo TCGA-DD-A116 NT TP
+tasks/removeIntermediates.sh denovo TCGA-DD-A116
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/c08fbf76-724f-4aa2-bba9-f90c41f5dd93 denovo TCGA-DD-A11A TP
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/b0493c11-61ad-4539-a7be-4a9ede8074e0 denovo TCGA-DD-A11A NB
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/330e92b5-48b3-4d08-b2e7-ebc0c730e831 denovo TCGA-DD-A11A NT
+bash ./pipe_mutect.sh denovo TCGA-DD-A11A NB NT
+bash ./pipe_mutect.sh denovo TCGA-DD-A11A NB TP
+bash ./pipe_mutect.sh denovo TCGA-DD-A11A NT TP
+tasks/removeIntermediates.sh denovo TCGA-DD-A11A
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/2d5fae75-204e-4eb1-b9d9-2138ef17497d denovo TCGA-DD-A11B TP
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/21622c78-cf9d-4c8c-8ca8-c9d6907cef02 denovo TCGA-DD-A11B NB
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/4883e63d-d76d-48b5-b337-7cc39838a255 denovo TCGA-DD-A11B NT
+bash ./pipe_mutect.sh denovo TCGA-DD-A11B NB NT
+bash ./pipe_mutect.sh denovo TCGA-DD-A11B NB TP
+bash ./pipe_mutect.sh denovo TCGA-DD-A11B NT TP
+tasks/removeIntermediates.sh denovo TCGA-DD-A11B
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/d156ec6d-0481-425d-aee2-9fb8a3f2f2b1 denovo TCGA-EP-A26S TP
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/607fa4a2-7115-4343-915e-521d90242eee denovo TCGA-EP-A26S NB
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/5af47665-954b-459c-abf8-a20c26649674 denovo TCGA-EP-A26S NT
+bash ./pipe_mutect.sh denovo TCGA-EP-A26S NB NT
+bash ./pipe_mutect.sh denovo TCGA-EP-A26S NB TP
+bash ./pipe_mutect.sh denovo TCGA-EP-A26S NT TP
+tasks/removeIntermediates.sh denovo TCGA-EP-A26S
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/5b97f644-c4af-45d2-9ed5-85f8030a1aa8 denovo TCGA-EP-A3RK TP
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/b9fc6cb3-3390-4da0-bf81-aeff2b3e4db2 denovo TCGA-EP-A3RK NB
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/b583fd22-6b45-41e3-8c26-f81a93ae8998 denovo TCGA-EP-A3RK NT
+bash ./pipe_mutect.sh denovo TCGA-EP-A3RK NB NT
+bash ./pipe_mutect.sh denovo TCGA-EP-A3RK NB TP
+bash ./pipe_mutect.sh denovo TCGA-EP-A3RK NT TP
+tasks/removeIntermediates.sh denovo TCGA-EP-A3RK
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/4db1cde6-aa99-4ab8-8355-a772940ebc91 denovo TCGA-FX-A2QS TP
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/140c7d6e-2e43-468e-a09f-e8abfd9e7faa denovo TCGA-FX-A2QS NB
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/c16e0a05-d9ee-4dfb-b4c7-3036c9dabce1 denovo TCGA-FX-A2QS NT
+bash ./pipe_mutect.sh denovo TCGA-FX-A2QS NB NT
+bash ./pipe_mutect.sh denovo TCGA-FX-A2QS NB TP
+bash ./pipe_mutect.sh denovo TCGA-FX-A2QS NT TP
+tasks/removeIntermediates.sh denovo TCGA-FX-A2QS
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/4c1295be-29d9-4f20-b886-34b7f1cb81fe denovo TCGA-FX-A48G TP
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/c38533b9-3559-45fc-b395-b3203285f43f denovo TCGA-FX-A48G NB
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/a711f2ec-740c-4c26-93d3-f0ce684bd070 denovo TCGA-FX-A48G NT
+bash ./pipe_mutect.sh denovo TCGA-FX-A48G NB NT
+bash ./pipe_mutect.sh denovo TCGA-FX-A48G NB TP
+bash ./pipe_mutect.sh denovo TCGA-FX-A48G NT TP
+tasks/removeIntermediates.sh denovo TCGA-FX-A48G
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/974064c6-af3d-41c2-9b26-83bb5ac6e144 denovo TCGA-KF-A41W TP
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/60540e63-e894-4b7b-9aaa-65e09f8ce204 denovo TCGA-KF-A41W NB
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/9e4bc1e8-bca5-4e78-8da4-1533fb889515 denovo TCGA-KF-A41W NT
+bash ./pipe_mutect.sh denovo TCGA-KF-A41W NB NT
+bash ./pipe_mutect.sh denovo TCGA-KF-A41W NB TP
+bash ./pipe_mutect.sh denovo TCGA-KF-A41W NT TP
+tasks/removeIntermediates.sh denovo TCGA-KF-A41W

@@ -26,5 +26,6 @@ for field in allFieldsCount.keys():
     commonFields.append(field)
 commonFields.sort()
 print allFieldsCount
+print len(allFieldsCount.keys())
 for field in commonFields:
   print field
