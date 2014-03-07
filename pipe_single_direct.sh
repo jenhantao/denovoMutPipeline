@@ -9,7 +9,7 @@
 # Arg6 = library (WXS, WGS, etc)
 
 # Initialize environment variables from config file
-source config/ngs.conf
+source config/ngs_direct.conf
 
 # Get filename and filepath from arg1
 export bamfile=$(echo ${1##*/})
@@ -31,4 +31,7 @@ output_dir=${runs_dir}/$2/$3
 export bamfilename=$(find $bampath/$bamfile -name "*.bam") 
 export bamFile_$4=$bamfilename 
 export unMount_$4=$(echo ${1##*/}) 
-./tasks/unmountBam.sh $2 $(echo ${1##*/})
+
+echo $1/*/*bam >> ${runs_dir}/$2/$3/bamFiles.txt
+
+#./tasks/unmountBam.sh $2 $(echo ${1##*/})

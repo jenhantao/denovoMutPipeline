@@ -20,8 +20,15 @@ rm -rf ${output_dir}/*.bam
 rm -rf ${output_dir}/*.bai
 rm -rf ${output_dir}/coverage/*.depthofcoverage
 
-# unmount bam files
-./unmountBam.sh $1 $unMount_TP
-./unmountBam.sh $1 $unMount_NT
-./unmountBam.sh $1 $unMount_NB
+# read in file paths
+unMount_TP=$(echo sed -n '1p' < runs/$1/$2/bamFiles.txt)
+unMount_NB=$(echo sed -n '2p' < runs/$1/$2/bamFiles.txt)
+unMount_NT=$(echo sed -n '3p' < runs/$1/$2/bamFiles.txt)
 
+# unmount bam files
+/home/moores/projects/pipeline/tasks/unmountBam.sh $1 $unMount_TP
+/home/moores/projects/pipeline/tasks/unmountBam.sh $1 $unMount_NB
+/home/moores/projects/pipeline/tasks/unmountBam.sh $1 $unMount_NT
+#
+# remove file list
+rm runs/$1/$2/bamFiles.txt
