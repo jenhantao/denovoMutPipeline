@@ -1,71 +1,70 @@
 ./pipe_single_direct.sh /home/moores/mnt/denovo/ea0d44b0-3f65-457e-9ea7-5b56aa9abc5d denovo TCGA-DD-A114 TP >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/a9188f3b-6b6e-4b00-8aa6-0a7704479f4b denovo TCGA-DD-A114 NB >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/69305af6-f4b0-4eb4-8598-3868d0882b56 denovo TCGA-DD-A114 NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-DD-A114 $bamFile_NB $bamFile_NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-DD-A114 $bamFile_NB $bamFile_TP >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-DD-A114 $bamFile_NT $bamFile_TP >> jhtao_direct.log
-
+./pipe_mutect_direct.sh denovo TCGA-DD-A114 NB NT GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-DD-A114 NB TP GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-DD-A114 NT TP GRCh37-lite >> jhtao_direct.log
 tasks/removeIntermediates_direct.sh denovo TCGA-DD-A114 >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/e3fc5f6f-8aef-4eb8-bea4-6f127f3ac7f7 denovo TCGA-DD-A115 TP >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/adbb8c08-f303-4cd0-932f-618c1ba7708d denovo TCGA-DD-A115 NB >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/841fd29a-34de-4521-b2fa-80adb517520c denovo TCGA-DD-A115 NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-DD-A115 $bamFile_NB $bamFile_NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-DD-A115 $bamFile_NB $bamFile_TP >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-DD-A115 $bamFile_NT $bamFile_TP >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-DD-A115 NB NT GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-DD-A115 NB TP GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-DD-A115 NT TP GRCh37-lite >> jhtao_direct.log
 tasks/removeIntermediates_direct.sh denovo TCGA-DD-A115 >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/bbfc5a24-443d-4172-9dd6-8f5baf54b54b denovo TCGA-DD-A116 TP >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/ee9f13cf-230e-47aa-96a0-62a148d95f38 denovo TCGA-DD-A116 NB >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/b3ed2e1a-3ec1-4bd2-9a2d-580cf8a847e5 denovo TCGA-DD-A116 NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-DD-A116 $bamFile_NB $bamFile_NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-DD-A116 $bamFile_NB $bamFile_TP >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-DD-A116 $bamFile_NT $bamFile_TP >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-DD-A116 NB NT GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-DD-A116 NB TP GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-DD-A116 NT TP GRCh37-lite >> jhtao_direct.log
 tasks/removeIntermediates_direct.sh denovo TCGA-DD-A116 >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/c08fbf76-724f-4aa2-bba9-f90c41f5dd93 denovo TCGA-DD-A11A TP >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/b0493c11-61ad-4539-a7be-4a9ede8074e0 denovo TCGA-DD-A11A NB >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/330e92b5-48b3-4d08-b2e7-ebc0c730e831 denovo TCGA-DD-A11A NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-DD-A11A $bamFile_NB $bamFile_NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-DD-A11A $bamFile_NB $bamFile_TP >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-DD-A11A $bamFile_NT $bamFile_TP >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-DD-A11A NB NT GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-DD-A11A NB TP GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-DD-A11A NT TP GRCh37-lite >> jhtao_direct.log
 tasks/removeIntermediates_direct.sh denovo TCGA-DD-A11A >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/2d5fae75-204e-4eb1-b9d9-2138ef17497d denovo TCGA-DD-A11B TP >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/21622c78-cf9d-4c8c-8ca8-c9d6907cef02 denovo TCGA-DD-A11B NB >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/4883e63d-d76d-48b5-b337-7cc39838a255 denovo TCGA-DD-A11B NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-DD-A11B $bamFile_NB $bamFile_NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-DD-A11B $bamFile_NB $bamFile_TP >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-DD-A11B $bamFile_NT $bamFile_TP >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-DD-A11B NB NT GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-DD-A11B NB TP GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-DD-A11B NT TP GRCh37-lite >> jhtao_direct.log
 tasks/removeIntermediates_direct.sh denovo TCGA-DD-A11B >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/d156ec6d-0481-425d-aee2-9fb8a3f2f2b1 denovo TCGA-EP-A26S TP >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/607fa4a2-7115-4343-915e-521d90242eee denovo TCGA-EP-A26S NB >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/5af47665-954b-459c-abf8-a20c26649674 denovo TCGA-EP-A26S NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-EP-A26S $bamFile_NB $bamFile_NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-EP-A26S $bamFile_NB $bamFile_TP >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-EP-A26S $bamFile_NT $bamFile_TP >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-EP-A26S NB NT GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-EP-A26S NB TP GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-EP-A26S NT TP GRCh37-lite >> jhtao_direct.log
 tasks/removeIntermediates_direct.sh denovo TCGA-EP-A26S >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/5b97f644-c4af-45d2-9ed5-85f8030a1aa8 denovo TCGA-EP-A3RK TP >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/b9fc6cb3-3390-4da0-bf81-aeff2b3e4db2 denovo TCGA-EP-A3RK NB >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/b583fd22-6b45-41e3-8c26-f81a93ae8998 denovo TCGA-EP-A3RK NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-EP-A3RK $bamFile_NB $bamFile_NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-EP-A3RK $bamFile_NB $bamFile_TP >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-EP-A3RK $bamFile_NT $bamFile_TP >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-EP-A3RK NB NT GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-EP-A3RK NB TP GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-EP-A3RK NT TP GRCh37-lite >> jhtao_direct.log
 tasks/removeIntermediates_direct.sh denovo TCGA-EP-A3RK >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/4db1cde6-aa99-4ab8-8355-a772940ebc91 denovo TCGA-FX-A2QS TP >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/140c7d6e-2e43-468e-a09f-e8abfd9e7faa denovo TCGA-FX-A2QS NB >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/c16e0a05-d9ee-4dfb-b4c7-3036c9dabce1 denovo TCGA-FX-A2QS NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-FX-A2QS $bamFile_NB $bamFile_NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-FX-A2QS $bamFile_NB $bamFile_TP >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-FX-A2QS $bamFile_NT $bamFile_TP >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-FX-A2QS NB NT GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-FX-A2QS NB TP GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-FX-A2QS NT TP GRCh37-lite >> jhtao_direct.log
 tasks/removeIntermediates_direct.sh denovo TCGA-FX-A2QS >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/4c1295be-29d9-4f20-b886-34b7f1cb81fe denovo TCGA-FX-A48G TP >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/c38533b9-3559-45fc-b395-b3203285f43f denovo TCGA-FX-A48G NB >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/a711f2ec-740c-4c26-93d3-f0ce684bd070 denovo TCGA-FX-A48G NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-FX-A48G $bamFile_NB $bamFile_NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-FX-A48G $bamFile_NB $bamFile_TP >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-FX-A48G $bamFile_NT $bamFile_TP >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-FX-A48G NB NT GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-FX-A48G NB TP GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-FX-A48G NT TP GRCh37-lite >> jhtao_direct.log
 tasks/removeIntermediates_direct.sh denovo TCGA-FX-A48G >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/974064c6-af3d-41c2-9b26-83bb5ac6e144 denovo TCGA-KF-A41W TP >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/60540e63-e894-4b7b-9aaa-65e09f8ce204 denovo TCGA-KF-A41W NB >> jhtao_direct.log
 ./pipe_single_direct.sh /home/moores/mnt/denovo/9e4bc1e8-bca5-4e78-8da4-1533fb889515 denovo TCGA-KF-A41W NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-KF-A41W $bamFile_NB $bamFile_NT >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-KF-A41W $bamFile_NB $bamFile_TP >> jhtao_direct.log
-./pipe_mutect_direct.sh denovo TCGA-KF-A41W $bamFile_NT $bamFile_TP >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-KF-A41W NB NT GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-KF-A41W NB TP GRCh37-lite >> jhtao_direct.log
+./pipe_mutect_direct.sh denovo TCGA-KF-A41W NT TP GRCh37-lite >> jhtao_direct.log
 tasks/removeIntermediates_direct.sh denovo TCGA-KF-A41W >> jhtao_direct.log
