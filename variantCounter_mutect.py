@@ -15,16 +15,16 @@ nb_nt_file.close()
 nb_nt_mutations = {}
 for line in nb_nt_data[1:]:
 	tokens = line.split("\t")
-	# key mutations by CHROM_POS, normal_name
+	# key mutations by contig_position, normal_name
 	key = tokens[0] + "_" + tokens[1]
 	allMutations.append(key)
 	mutation = {}
-	mutation["CHROM"] = tokens[0]
-	mutation["POS"] = tokens[1]
-	mutation["REF"] = tokens[3]
-	mutation["ALT"] = tokens[4]
-	mutation["QUAL"] = tokens[5]
-	mutation["FILTER"] = tokens[6]
+	mutation["contig"] = tokens[0]
+	mutation["position"] = tokens[1]
+	mutation["ref_allele"] = tokens[3]
+	mutation["alt_allele"] = tokens[4]
+	mutation["t_lod_fstar"] = tokens[5]
+	mutation["judgement"] = tokens[6]
 	nb_nt_mutations[key] = mutation	
 
 #nb_tp_file = open(sys.argv[2])
@@ -34,16 +34,16 @@ nb_tp_file.close()
 nb_tp_mutations = {}
 for line in nb_tp_data[1:]:
 	tokens = line.split("\t")
-	# key mutations by CHROM_POS, normal_name
+	# key mutations by contig_position, normal_name
 	key = tokens[0] + "_" + tokens[1]
 	allMutations.append(key)
 	mutation = {}
-	mutation["CHROM"] = tokens[0]
-	mutation["POS"] = tokens[1]
-	mutation["REF"] = tokens[3]
-	mutation["ALT"] = tokens[4]
-	mutation["QUAL"] = tokens[5]
-	mutation["FILTER"] = tokens[6]
+	mutation["contig"] = tokens[0]
+	mutation["position"] = tokens[1]
+	mutation["ref_allele"] = tokens[3]
+	mutation["alt_allele"] = tokens[4]
+	mutation["t_lod_fstar"] = tokens[5]
+	mutation["judgement"] = tokens[6]
 	nb_tp_mutations[key] = mutation
 
 #nt_tp_file = open(sys.argv[3])
@@ -52,20 +52,25 @@ nt_tp_data = nt_tp_file.readlines()
 nt_tp_file.close()
 nt_tp_mutations = {}
 for line in nt_tp_data[1:]:
-	tokens = line.split("\t")
-	# key mutations by CHROM_POS, normal_name
+	tokens = line.strip().split("\t")
+	# key mutations by contig_position, normal_name
 	key = tokens[0] + "_" + tokens[1]
 	allMutations.append(key)
 	mutation = {}
-	mutation["CHROM"] = tokens[0]
-	mutation["POS"] = tokens[1]
-	mutation["REF"] = tokens[3]
-	mutation["ALT"] = tokens[4]
-	mutation["QUAL"] = tokens[5]
-	mutation["FILTER"] = tokens[6]
+	mutation["contig"] = tokens[0]
+	mutation["position"] = tokens[1]
+	mutation["ref_allele"] = tokens[3]
+	mutation["alt_allele"] = tokens[4]
+	mutation["t_lod_fstar"] = tokens[18]
+	mutation["t_ref_count"] = tokens[25]
+	mutation["t_alt_count"] = tokens[26]
+	mutation["n_ref_count"] = tokens[37]
+	mutation["n_alt_count"] = tokens[38]
+	mutation["normal_best_gt"] = tokens[33]
+	mutation["reasons"] = tokens[49]
+	mutation["judgement"] = tokens[50]
 	nt_tp_mutations[key] = mutation	
 	
-# sanity check all REFs should be the same
 # NB_NT, NB_TP, NT_TP
 allMutations = list(set(allMutations))
 # given a threeway comparison, there are 8 possible outcomes. the truth table is shown below, 1 denotes an equivalent state
@@ -77,7 +82,7 @@ allMutations = list(set(allMutations))
 # 0     1     1    # alt allele appears in NB_NT
 # 0     1     0    # alt allele appears in NB_NT, NT_TP
 # 0     0     1    # alt allele appears in NB_NT, NB_TP
-# 0     0     0    # ALT appears in all 3 files
+# 0     0     0    # alt_allele appears in all 3 files
 
 triangleCountsAll = [0]*8 # gives the frequency of each type of comparison result in the order given in the truth table
 triangleCountsReject= [0]*8 # gives the frequency of each type of comparison result in the order given in the truth table
@@ -95,18 +100,18 @@ for mutation in allMutations:
 	nt_tp_allele = None
 	if mutation in nb_nt_mutations:
 		nb_nt = True
-		nb_nt_allele = nb_nt_mutations[mutation]["ALT"]
-		if nb_nt_mutations[mutation]["FILTER"] == "KEEP":
+		nb_nt_allele = nb_nt_mutations[mutation]["alt_allele"]
+		if nb_nt_mutations[mutation]["judgement"] == "KEEP":
 			nb_nt_keep = True
 	if mutation in nb_tp_mutations:
 		nb_tp = True
-		nb_tp_allele = nb_tp_mutations[mutation]["ALT"]
-		if nb_tp_mutations[mutation]["FILTER"] == "KEEP":
+		nb_tp_allele = nb_tp_mutations[mutation]["alt_allele"]
+		if nb_tp_mutations[mutation]["judgement"] == "KEEP":
 			nb_tp_keep = True
 	if mutation in nt_tp_mutations:
 		nt_tp = True
-		nt_tp_allele = nt_tp_mutations[mutation]["ALT"]
-		if nt_tp_mutations[mutation]["FILTER"] == "KEEP":
+		nt_tp_allele = nt_tp_mutations[mutation]["alt_allele"]
+		if nt_tp_mutations[mutation]["judgement"] == "KEEP":
 			nt_tp_keep = True
 	if nb_nt:
 		if nb_tp:
@@ -167,7 +172,7 @@ for mutation in allMutations:
 				if not nt_tp_keep:
 					triangleCountsReject[1] += 1
 			else:
-				# ALT doesn't appear in any of the files
+				# alt_allele doesn't appear in any of the files
 				triangleCountsAll[0] += 1
 				triangleCountsKeep[0] += 1
 				triangleCountsReject[0] += 1
