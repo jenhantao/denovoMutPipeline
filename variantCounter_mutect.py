@@ -201,29 +201,40 @@ for mutation in allMutations:
 				triangleCountsKeep[0].append(mutation)
 				triangleCountsReject[0].append(mutation)
 # find mutations of interest
-print "all SNPs"
-print ''.join(["%15s" % len(cell) for cell in triangleCountsAll])
-print "all KEEP SNPs"
-print ''.join(["%15s" % len(cell) for cell in triangleCountsKeep])
-print "all REJECT SNPs"
-print ''.join(["%15s" % len(cell) for cell in triangleCountsReject])
+
+countsFile = open(sampleName+"_counts.tsv","w")
+countsFile.write("all SNPs"+"\n")
+countsFile.write('\t'.join(map(str,[ len(cell) for cell in triangleCountsAll]))+"\n")
+countsFile.write("all KEEP SNPs"+"\n")
+countsFile.write('\t'.join(map(str,[len(cell) for cell in triangleCountsKeep]))+"\n")
+countsFile.write("all REJECT SNPs"+"\n")
+countsFile.write('\t'.join(map(str,[len(cell) for cell in triangleCountsReject]))+"\n")
 
 #columns = ["%5s" % cell for cell in line]
 #    print ' '.join(columns)
 
+# print mutations out in a csv
+outputFile = open(sampleName+"_summary.tsv","w")
+outputFile.write("position\tref_allele\talt_allele\tt_lod_fstart\tt_ref_count\tt_alt_count\tn_ref_count\tn_alt_count\tnormal_best_gt\treasons\tjudgement\n")
 for mut in triangleCountsAll[6]:
-	print mut, allMutationsHash[mut]
+	currentMutations = allMutationsHash[mut]
+	outputFile.write(mut+"\t"+currentMutations[0]["ref_allele"]+"\t"+currentMutations[0]["alt_allele"]+"\t"+currentMutations[0]["t_lod_fstar"]+"\t"+currentMutations[0]["t_ref_count"]+"\t"+currentMutations[0]["t_alt_count"]+"\t"+currentMutations[0]["n_ref_count"]+"\t"+currentMutations[0]["n_alt_count"]+"\t"+currentMutations[0]["normal_best_gt"]+"\t"+currentMutations[0]["reasons"]+"\t"+currentMutations[0]["judgement"]+"\n")
+	for mutation in currentMutations[1:]:
+		outputFile.write("\t"+mutation["ref_allele"]+"\t"+mutation["alt_allele"]+"\t"+mutation["t_lod_fstar"]+"\t"+mutation["t_ref_count"]+"\t"+mutation["t_alt_count"]+"\t"+mutation["n_ref_count"]+"\t"+mutation["n_alt_count"]+"\t"+mutation["normal_best_gt"]+"\t"+mutation["reasons"]+"\t"+mutation["judgement"]+"\n")
 
 
 
-
-
-
-
-
-
-
-
+#	mutation["ref_allele"] = tokens[3]
+#	mutation["alt_allele"] = tokens[4]
+#	mutation["t_lod_fstar"] = tokens[18]
+#	mutation["t_ref_count"] = tokens[25]
+#	mutation["t_alt_count"] = tokens[26]
+#	mutation["n_ref_count"] = tokens[37]
+#	mutation["n_alt_count"] = tokens[38]
+#	mutation["normal_best_gt"] = tokens[33]
+#	mutation["reasons"] = tokens[49]
+#	mutation["judgement"] = tokens[50]
+#
 
 
 

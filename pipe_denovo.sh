@@ -10,7 +10,7 @@
 # Arg6 = tumor sample type 2 NT or TP
 
 # Initialize environment variables from config file
-source config/ngs.conf
+source config/ngs_direct.conf
 
 # Check to make sure data dir exists
 if [ ! -d ${data_dir} ]
@@ -39,7 +39,7 @@ fi
 # Make sample output directory
 if [ ! -d ${final_dir}/$3/$4 ]
 then
-    mkdir ${final_dir}/$3/$
+    mkdir ${final_dir}/$3/$4
 fi
 
 # Get filename and filepath from arg1 and arg2
@@ -71,8 +71,16 @@ export tumorFile=$(find ${data_dir}/$3/$(echo ${2##*/}) -name "*.bam")
 echo $normalFile
 echo $tumorFile
 
+export sname=$4_$5_$6
+
 # Run Mutect
 ./tasks/mutect_direct.sh
 
+# process mutect calls into vcf files
+./tasks/mutect2vcf ${output_dir}/${sname}.call_stats.out > ${output_dir}/${sname}.raw.snvs.vcf
+./tasks/mutect2vcf ${output_dir}/${sname}.call_stats.out snpEff > ${output_dir}/${sname}.forSnpEff.snvs.vcf
+
 # Write to cellar
-mv -r ${output_dir}/ ${final_dir}/$3/
+#mv -r ${output_dir}/ ${final_dir}/$3/
+cp -r --parents ${output_dir}/ ${final_dir}/$3/
+#rm -r ${output_dir}/ ${final_dir}/$3/
