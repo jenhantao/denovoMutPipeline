@@ -1,3 +1,3 @@
-position	ref_allele	alt_allele	power	t_lod_fstart	t_ref_count	t_alt_count	n_ref_count	n_alt_count	normal_best_gt	reasons	judgement
-chr19:111016	T	G	0	6.735529	5	2	830	97	GT	normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0,poor_mapping_region_alternate_allele_mapq	REJECT
-	T	G	0	10.555384	4	3	829	99	GT	normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0,poor_mapping_region_alternate_allele_mapq	REJECT
+position	ref_allele	alt_allele	NB fractions (A,C,G,T)	NT fractions (A,C,G,T)	TP fractions (A,C,G,T)	power	t_lod_fstart	t_ref_count	t_alt_count	n_ref_count	n_alt_count	normal_best_gt	reasons	judgement
+chr19:111016	T	G	2,0,291,2820	1,0,240,2371	1,2,219,1581	0	6.735529	5	2	830	97	GT	normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0,poor_mapping_region_alternate_allele_mapq	REJECT
+	T	G				0	10.555384	4	3	829	99	GT	normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0,poor_mapping_region_alternate_allele_mapq	REJECT

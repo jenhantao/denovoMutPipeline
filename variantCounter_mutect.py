@@ -221,12 +221,12 @@ for directory in directories:
 
 	# print mutations out in a csv
 	outputFile = open(sampleName+"_summary.tsv","w")
-	outputFile.write("position\tref_allele\talt_allele\tpower\tt_lod_fstart\tt_ref_count\tt_alt_count\tn_ref_count\tn_alt_count\tnormal_best_gt\treasons\tjudgement\n")
+	outputFile.write("position\tref_allele\talt_allele\tNB fractions (A,C,G,T)\tNT fractions (A,C,G,T)\tTP fractions (A,C,G,T)\tpower\tt_lod_fstart\tt_ref_count\tt_alt_count\tn_ref_count\tn_alt_count\tnormal_best_gt\treasons\tjudgement\n")
 	for mut in triangleCountsAll[6]:
 		currentMutations = allMutationsHash[mut]
-		outputFile.write(mut+"\t"+currentMutations[0]["ref_allele"]+"\t"+currentMutations[0]["alt_allele"]+"\t"+currentMutations[0]["power"]+"\t"+currentMutations[0]["t_lod_fstar"]+"\t"+currentMutations[0]["t_ref_count"]+"\t"+currentMutations[0]["t_alt_count"]+"\t"+currentMutations[0]["n_ref_count"]+"\t"+currentMutations[0]["n_alt_count"]+"\t"+currentMutations[0]["normal_best_gt"]+"\t"+currentMutations[0]["reasons"]+"\t"+currentMutations[0]["judgement"]+"\n")
+		outputFile.write(mut+"\t"+currentMutations[0]["ref_allele"]+"\t"+currentMutations[0]["alt_allele"]+"\t\t\t\t"+currentMutations[0]["power"]+"\t"+currentMutations[0]["t_lod_fstar"]+"\t"+currentMutations[0]["t_ref_count"]+"\t"+currentMutations[0]["t_alt_count"]+"\t"+currentMutations[0]["n_ref_count"]+"\t"+currentMutations[0]["n_alt_count"]+"\t"+currentMutations[0]["normal_best_gt"]+"\t"+currentMutations[0]["reasons"]+"\t"+currentMutations[0]["judgement"]+"\n")
 		for mutation in currentMutations[1:]:
-			outputFile.write("\t"+mutation["ref_allele"]+"\t"+mutation["alt_allele"]+"\t"+mutation["power"]+"\t"+mutation["t_lod_fstar"]+"\t"+mutation["t_ref_count"]+"\t"+mutation["t_alt_count"]+"\t"+mutation["n_ref_count"]+"\t"+mutation["n_alt_count"]+"\t"+mutation["normal_best_gt"]+"\t"+mutation["reasons"]+"\t"+mutation["judgement"]+"\n")
+			outputFile.write("\t"+mutation["ref_allele"]+"\t"+mutation["alt_allele"]+"\t\t\t\t"+mutation["power"]+"\t"+mutation["t_lod_fstar"]+"\t"+mutation["t_ref_count"]+"\t"+mutation["t_alt_count"]+"\t"+mutation["n_ref_count"]+"\t"+mutation["n_alt_count"]+"\t"+mutation["normal_best_gt"]+"\t"+mutation["reasons"]+"\t"+mutation["judgement"]+"\n")
 
 
 
