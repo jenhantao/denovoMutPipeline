@@ -1,0 +1,5 @@
+position	ref_allele	alt_allele	power	t_lod_fstart	t_ref_count	t_alt_count	n_ref_count	n_alt_count	normal_best_gt	reasons	judgement
+chr11:1017708	G	A	1	0	701	0	914	9	GG	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+	G	A	1	0.05808	862	2	919	7	GG	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+chr11:1017740	T	C	1	0.853532	649	1	941	8	TT	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+	T	C	1	2.500178	803	2	941	10	TT	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
