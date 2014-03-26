@@ -1,0 +1,11 @@
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/99e3e134-fa66-4658-a731-9fb6e282c244 denovo TCGA-BR-6710 TP 
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/d62570d9-2f92-473a-8c4b-c894f16e266f denovo TCGA-BR-6710 NB 
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/7fce939a-db4f-48be-bc09-fa76c6c1fe3a denovo TCGA-BR-6710 NT 
+
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/6f874ce2-3722-4094-9e15-08ae6c74cac4 denovo TCGA-BR-6564 TP 
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/05ac6ae1-a90f-4f86-a407-a58b265c07e5 denovo TCGA-BR-6564 NB 
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/bd176892-8fb4-4730-8c34-1102b18a96d6 denovo TCGA-BR-6564 NT 
+
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/8ed74ed1-26c4-49a8-8e5c-97e767be7f99 denovo TCGA-IN-7806 TP 
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/8c60cf60-9164-4b21-aeb8-18918719c36d denovo TCGA-IN-7806 NB 
+bash ./pipe_single_direct.sh /home/moores/mnt/denovo/8654fca0-7d78-4468-a568-644cba9bf90d denovo TCGA-IN-7806 NT 
