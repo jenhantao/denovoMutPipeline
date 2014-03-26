@@ -1,0 +1,108 @@
+TCGA-BR-6564	chr11:1017015	T	G				1	0	738	0	936	14	TT	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-BR-6564		T	G				1	0	711	0	936	12	TT	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-BR-6564	chr11:1017468	G	C				1	0	631	0	945	6	GG	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-BR-6564		G	C				1	0	661	0	946	6	GG	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-BR-6564	chr1:152188847	A	G				0.999957	5.694293	27	2	855	116	AG	fstar_tumor_lod,possible_contamination,normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-BR-6564		A	G				0.999988	5.544158	20	2	864	111	AG	fstar_tumor_lod,possible_contamination,normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-BR-6564	chr1:152189263	A	G				0	6.096061	4	2	746	211	AG	fstar_tumor_lod,possible_contamination,normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-BR-6564		A	G				0	10.137726	5	3	753	211	AG	normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0	REJECT
+TCGA-BR-6564	chr20:29623219	A	G				1	4.628476	518	3	898	5	AA	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-BR-6564		A	G				1	5.155692	546	3	901	9	AA	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A114	chr11:1016773	G	T	0,0,2939,9	1,1,2755,34	0,1,3210,24	1	0	572	0	937	6	GG	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A114		G	T				1	0	571	0	926	9	GG	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A114	chr11:1016990	G	T	0,1,1222,7	0,0,1343,18	1,0,1505,10	1	1.046747	635	2	816	4	GG	fstar_tumor_lod,nearby_gap_events,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A114		G	T				1	0	604	0	822	2	GG	fstar_tumor_lod,nearby_gap_events,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A114	chr11:1017032	G	A	9,0,1640,1	27,0,1688,0	20,0,1930,1	1	0	436	0	908	4	GG	fstar_tumor_lod,nearby_gap_events,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A114		G	A				1	0	396	0	905	4	GG	fstar_tumor_lod,nearby_gap_events,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A114	chr11:1017945	A	G	1416,0,36,0	1509,1,31,0	1729,0,24,0	1	0	442	0	878	9	AA	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A114		A	G				1	0	405	0	880	10	AA	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A114	chr12:49522312	T	G	10,6,298,786	10,5,292,744	19,7,303,916	1	6.888263	161	23	526	55	TT	possible_contamination,alt_allele_in_normal,strand_artifact,poor_mapping_region_mapq0	REJECT
+TCGA-DD-A114		T	G				1	6.794229	165	19	514	58	TT	possible_contamination,alt_allele_in_normal,strand_artifact,poor_mapping_region_mapq0	REJECT
+TCGA-DD-A114	chr14:106805636	G	A	5,2,1412,1	13,1,1283,0	10,0,1394,2	1	0.540403	709	1	840	5	GG	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A114		G	A				1	0	640	0	837	4	GG	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A114	chr15:22062317	T	C	0,3,1,1870	0,6,0,1934	0,8,0,1474	1	4.56938	781	4	898	2	TT	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A114		T	C				1	4.3776	761	5	915	2	TT	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A114	chr18:14513675	T	C	1,18,0,1464	0,17,0,1554	0,7,0,1626	1	14.950983	889	9	837	14	TT	possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A114		T	C				1	3.770175	868	3	837	13	TT	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A114	chr1:104117866	T	C	1,4,3,1050	2,7,1,997	1,7,5,1093	1	6.389081	785	6	750	3	TT	possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A114		T	C				1	4.037529	785	6	752	3	TT	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A114	chr1:152187609	A	G	946,2,19,1	940,2,22,0	1564,0,21,2,	1	4.337292	709	4	765	6	AA	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A114		A	G				1	2.17627	846	4	765	6	AA	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A114	chr1:152760551	T	C	1,19,0,758	1,24,2,921	0,37,0,1158	1	39.572821	818	18	670	17	TT	nearby_gap_events,possible_contamination,alt_allele_in_normal,clustered_read_position	REJECT
+TCGA-DD-A114		T	C				1	7.321822	840	5	670	17	TT	nearby_gap_events,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A114	chr1:248458357	A	T	968,1,3,18	963,0,2,18	1026,0,4,20	1	14.219731	735	11	788	11	AA	nearby_gap_events,possible_contamination,alt_allele_in_normal,clustered_read_position	REJECT
+TCGA-DD-A114		A	T				1	8.661899	710	5	786	11	AA	nearby_gap_events,possible_contamination,alt_allele_in_normal,clustered_read_position	REJECT
+TCGA-DD-A114	chr1:248458358	A	G	918,1,10,0	955,2,13,0	1020,16,1,0	1	10.1685	724	7	789	6	AA	nearby_gap_events,possible_contamination,alt_allele_in_normal,clustered_read_position	REJECT
+TCGA-DD-A114		A	G				1	2.797105	710	2	788	6	AA	fstar_tumor_lod,nearby_gap_events,possible_contamination,alt_allele_in_normal,clustered_read_position	REJECT
+TCGA-DD-A114	chr1:248525398	G	C	0,21,1156,6	2,42,1292,3	1,34,1433,4	1	0	838	0	814	10	GG	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A114		G	C				1	0	836	0	815	10	GG	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A114	chr1:248525404	C	T	0,1178,2,19	1,1297,1,33	0,1446,1,26	1	0	845	0	820	9	CC	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A114		C	T				1	0	853	0	817	7	CC	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A114	chr2:109367834	A	G	5019,5,21,0	4871,12,35,2	4572,7,39,4	1	1.002621	904	1	932	3	AA	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A114		A	G				1	2.112405	896	2	930	4	AA	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A114	chr3:97851834	A	G	1232,1,1,3	1436,0,8,2	1296,1,7,0	1	5.744133	922	4	897	1	AA	fstar_tumor_lod,possible_contamination	REJECT
+TCGA-DD-A114		A	G				1	2.407953	891	2	900	0	AA	fstar_tumor_lod,possible_contamination	REJECT
+TCGA-DD-A114	chr6:31996297	G	A	30,0,1882,0	28,1,1969,0	41,0,2819,3	1	11.55871	899	7	874	16	GG	possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A114		G	A				1	5.654354	876	5	873	18	GG	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A114	chr7:102016744	T	G	1,1,279,989	2,4,216,833	5,4,182,891	1	11.940921	394	43	667	115	TT	alt_allele_in_normal,strand_artifact	REJECT
+TCGA-DD-A114		T	G				1	5.080493	353	30	656	116	TT	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,strand_artifact	REJECT
+TCGA-DD-A114	chr7:72685542	G	A	14,1,1070,2	12,0,912,1	13,2,1175,1	1	9.163298	820	6	841	6	GG	possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A114		G	A				1	4.258645	843	4	836	7	GG	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A114	chr9:90534211	A	T	904,0,0,21	814,0,1,26	861,0,3,20	1	0.47877	525	1	797	2	AA	fstar_tumor_lod,nearby_gap_events,possible_contamination,alt_allele_in_normal,clustered_read_position	REJECT
+TCGA-DD-A114		A	T				1	0.552473	546	1	798	0	AA	fstar_tumor_lod,nearby_gap_events,possible_contamination,clustered_read_position	REJECT
+TCGA-DD-A114	chr9:99962846	T	C	0,3,1,1267	0,6,0,1459	0,7,1,1436	1	5.837757	921	5	852	2	TT	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A114		T	C				1	7.992952	884	5	849	2	TT	possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A114	chrX:80370275	T	C	0,3,2,912	0,6,1,963	0,5,0,1099	1	2.265683	839	2	723	2	TT	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A114		T	C				1	2.444852	853	2	723	2	TT	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A115	chr19:111016	T	G	2,0,291,2820	1,0,240,2371	1,2,219,1581	0	6.735529	5	2	830	97	GT	normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A115		T	G				0	10.555384	4	3	829	99	GT	normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A116	chr11:1016830	T	C	0,3,0,197	4,26,34,4084	1,28,28,3276	1	0	418	0	196	3	TT	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A116		T	C				1	3.169437	460	2	196	3	TT	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A116	chr14:19553434	T	G	0,35,138,0	1,328,1150,0	1,1,275,1269	0	8.034683	234	30	114	9	TT	nearby_gap_events,possible_contamination,alt_allele_in_normal,poor_mapping_region_mapq0	REJECT
+TCGA-DD-A116		T	G				0	2.107964	254	16	114	9	TT	fstar_tumor_lod,nearby_gap_events,possible_contamination,alt_allele_in_normal,poor_mapping_region_mapq0	REJECT
+TCGA-DD-A116	chr15:32716905	A	C	174,1,0,0	12182,21,1,8	2297,14,2,2	0.999997	14.542111	270	8	174	1	AA	possible_contamination,strand_artifact,poor_mapping_region_mapq0	REJECT
+TCGA-DD-A116		A	C				0.999997	4.501794	289	4	174	1	AA	fstar_tumor_lod,possible_contamination,poor_mapping_region_mapq0	REJECT
+TCGA-DD-A116	chr16:14970218	A	G	195,0,0,0	199,3,10,1	2065,2,11,0	1	5.815662	868	5	195	0	AA	fstar_tumor_lod,possible_contamination	REJECT
+TCGA-DD-A116		A	G				1	7.05249	833	5	195	0	AA	possible_contamination	REJECT
+TCGA-DD-A116	chr17:44409926	A	G	153,0,2,0	1512,0,8,1	1607,3,6,3	1	6.317841	441	4	152	2	AA	possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A116		A	G				1	4.747722	405	3	152	2	AA	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_mapq0	REJECT
+TCGA-DD-A116	chr17:60637441	G	A	0,0,177,0	18,1,1088,0	10,3,1301,1	1	25.095323	786	12	176	0	GG	possible_contamination,strand_artifact	REJECT
+TCGA-DD-A116		G	A				1	8.758411	779	5	176	0	GG	possible_contamination	REJECT
+TCGA-DD-A116	chr1:144053567	C	T	0,135,0,58	2,1645,2,564	2,1440,1,54	0	23.651677	234	10	138	58	CT	normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0	REJECT
+TCGA-DD-A116		C	T				0	5.385303	228	3	138	58	CT	fstar_tumor_lod,possible_contamination,normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0	REJECT
+TCGA-DD-A116	chr3:69167952	G	T	2,0,117,23	1,4,783,184	1,1,917,223	1	0.779575	494	3	101	6	GG	fstar_tumor_lod,nearby_gap_events,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A116		G	T				1	2.855544	625	4	101	6	GG	fstar_tumor_lod,nearby_gap_events,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A116	chr6:167591943	T	C	0,0,0,200	1,26,8,2754	2,15,6,2911	1	4.353085	728	4	200	0	TT	fstar_tumor_lod,possible_contamination	REJECT
+TCGA-DD-A116		T	C				1	4.139511	758	4	200	0	TT	fstar_tumor_lod,possible_contamination	REJECT
+TCGA-DD-A116	chr7:105254864	A	G	167,0,5,0	1036,8,42,7	1094,3,32,5	1	5.215218	728	4	153	0	AA	fstar_tumor_lod,possible_contamination	REJECT
+TCGA-DD-A116		A	G				1	5.606787	710	6	153	0	AA	fstar_tumor_lod,possible_contamination	REJECT
+TCGA-DD-A11A	chr17:62864602	T	C	0,0,0,190	1,7,1,2423	0,4,0,1437	1	6.304253	645	5	190	0	TT	possible_contamination	REJECT
+TCGA-DD-A11A		T	C				1	4.915902	563	3	190	0	TT	fstar_tumor_lod,possible_contamination	REJECT
+TCGA-DD-A11A	chr1:120572547	T	C	0,27,0,171	5,621,3,6042	1,377,0,3234	0	28.397711	48	9	171	27	CT	normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0	REJECT
+TCGA-DD-A11A		T	C				0	5.630979	18	2	171	27	CT	fstar_tumor_lod,possible_contamination,normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A11A	chr1:144053567	C	T	0,141,0,58	3,1651,1,598	4,918,432,0	0	9.628088	285	5	142	58	CT	possible_contamination,normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0	REJECT
+TCGA-DD-A11A		C	T				0	4.066324	162	2	142	58	CT	fstar_tumor_lod,possible_contamination,normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A11A	chr2:131995773	T	C	0,2,1,197	8,24,0,4852	3,7,0,2560	1	7.378153	936	8	197	2	TT	possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A11A		T	C				1	7.697139	845	5	197	2	TT	possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A11A	chr4:190947548	C	A	1,191,0,0	18,2365,1,2	8,1223,0,0	1	0	558	0	190	1	CC	fstar_tumor_lod,possible_contamination,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A11A		C	A				1	0	575	0	190	1	CC	fstar_tumor_lod,possible_contamination,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A11A	chr7:74301190	A	G	200,0,0,0	2314,3,9,1	1861,0,8,3	0.999859	4.306406	571	3	200	0	AA	fstar_tumor_lod,possible_contamination,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A11A		A	G				0.999859	5.008405	524	3	200	0	AA	fstar_tumor_lod,possible_contamination,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A11B	chr11:1017708	G	A	28,0,2515	19,0,2593,1	5,1,1267,2	1	0	701	0	914	9	GG	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-DD-A11B		G	A				1	0.05808	862	2	919	7	GG	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A11B	chr11:1017740	T	C	0,34,2,2698	0,29,0,2696	1,8,0,1353	1	0.853532	649	1	941	8	TT	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-DD-A11B		T	C				1	2.500178	803	2	941	10	TT	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-FX-A2QS	chr1:146398425	C	A	23,218,0,0	14,150,0,0	5,1086,0,0	1	0	99	0	194	23	AC	fstar_tumor_lod,possible_contamination,normal_lod,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-FX-A2QS		C	A				1	0	790	0	194	23	AC	fstar_tumor_lod,possible_contamination,normal_lod,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-FX-A2QS	chr1:16894523	G	A	49,0,903,0	47,14,150,0,0	29,0,1434,0	1	5.543926	501	4	855	46	GG	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-FX-A2QS		G	A				1	6.042589	620	5	855	46	GG	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-IN-7806	chr11:1016845	C	G				1	0	661	0	954	3	CC	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-IN-7806		C	G				1	0	675	0	957	2	CC	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-IN-7806	chr11:1017074	A	G				1	0	671	0	894	3	AA	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-IN-7806		A	G				1	0	725	0	893	3	AA	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-IN-7806	chr1:152128186	A	G				1	6.568061	823	5	852	5	AA	possible_contamination,alt_allele_in_normal	REJECT
+TCGA-IN-7806		A	G				1	0.926931	861	1	850	3	AA	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+TCGA-IN-7806	chr2:905789	C	G				1	0.740891	539	1	800	50	CC	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-IN-7806		C	G				1	1.54515	562	2	805	53	CC	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+TCGA-IN-7806	chr2:905828	G	T				1	5.688151	504	4	854	15	GG	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,clustered_read_position	REJECT
+TCGA-IN-7806		G	T				1	6.978313	514	5	853	11	GG	possible_contamination,alt_allele_in_normal,clustered_read_position	REJECT

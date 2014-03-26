@@ -1,0 +1,11 @@
+position	ref_allele	alt_allele	NB fractions (A,C,G,T)	NT fractions (A,C,G,T)	TP fractions (A,C,G,T)	power	t_lod_fstart	t_ref_count	t_alt_count	n_ref_count	n_alt_count	normal_best_gt	reasons	judgement
+chr20:29623219	A	G				1	4.628476	518	3	898	5	AA	fstar_tumor_lod,possible_contamination,alt_allele_in_normal	REJECT
+	A	G				1	5.155692	546	3	901	9	AA	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+chr11:1017015	T	G				1	0	738	0	936	14	TT	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+	T	G				1	0	711	0	936	12	TT	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+chr1:152189263	A	G				0	6.096061	4	2	746	211	AG	fstar_tumor_lod,possible_contamination,normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0,poor_mapping_region_alternate_allele_mapq	REJECT
+	A	G				0	10.137726	5	3	753	211	AG	normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0	REJECT
+chr1:152188847	A	G				0.999957	5.694293	27	2	855	116	AG	fstar_tumor_lod,possible_contamination,normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0,poor_mapping_region_alternate_allele_mapq	REJECT
+	A	G				0.999988	5.544158	20	2	864	111	AG	fstar_tumor_lod,possible_contamination,normal_lod,alt_allele_in_normal,poor_mapping_region_mapq0,poor_mapping_region_alternate_allele_mapq	REJECT
+chr11:1017468	G	C				1	0	631	0	945	6	GG	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
+	G	C				1	0	661	0	946	6	GG	fstar_tumor_lod,possible_contamination,alt_allele_in_normal,poor_mapping_region_alternate_allele_mapq	REJECT
