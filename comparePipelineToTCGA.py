@@ -15,12 +15,20 @@ for line in data[1:]:
 	#print chromosome+ "_" + position
 	tcgaCalls.add(chromosome+"_"+position)
 # read in mutect  output file
-with open(sys.argv[2]) as f:
+# path to mutect output files
+folderPath = sys.argv[2]
+sampleName = folderPath.split("/")[-2]
+with open(folderPath+sampleName+"_NB_TP.call_stats.out") as f:
 	data = f.readlines()
-for line in data[1]:
+for line in data[1:]:
 	tokens = line.split("\t")
-	if "chr" in tokens[0]:
-		print tokens[0].replace("chr","").replace(":","_")
+	chromosome = tokens[0]
+	position = tokens[1]
+	judgement = tokens[5]
+	key = chromosome+ "_" + position
+	key = key.lower()
+	mutect_nb_tp_calls.add(key)
+	if 
 
 # compare keeps
 
